@@ -1,3 +1,13 @@
-# Services offered
+# Services we can provide
 
-*this will include the table we've generated of the various services/roles*
+Our team has over eight years of experience in designing and hosting hackweeks for various communities. 
+
+| Role                          | Responsibility                                                                                                                                                                                                                                                   |
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| General coordination          | Guide the development of a hackweek planning team; act as main point of contact with hackweek leads; manage eScience team contributions to the event.                                                                                                            |
+| Administrative Assistant      | Coordinating event planning, logistics and budgets; assist in setting up virtual technologies; act as main logistical point of contact for participants; attend the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms).   |
+| Facilitator                   | Lead the design and delivery of virtual facilitation methods to co-create positive learning environments; provide guidance in creating a diverse and inclusive event; guide a post-event debriefing process.                                                     |
+| Project (hacking) Coordinator | Explain expectations for the hacking projects to participants; guide the formation of project teams; help teams get clear on scoping their projects; be available during the event to support team collaboration and communication.                              |
+| Cloud Computing Specialist    | Assist in deploying centralized computing networks that support learning in a user-friendly, consistent environment.                                                                                                                                             |
+| Tutorial Lead                 | Create interactive Jupyter Notebooks to teach core data science and/or domain-specific content; deliver tutorials during the event; be available for office hours or question/answer periods.                                                                    |
+| Technical Specialist          | Assist in setting up GitHub organizations, websites, wiki pages and Google forms that support event planning and delivery. Scheduling, daily updates and postings.                                                                                               |

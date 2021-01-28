@@ -3,9 +3,10 @@
 #
 - file: intro
 - file: overview
-- file: expectations
-- file: services
+- file: hosting
+  sections:
+    - file: expectations
+    - file: services
 - file: application
 - file: resources
 - file: acknolwedgements
-
