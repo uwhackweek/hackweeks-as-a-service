@@ -6,9 +6,11 @@ Hackweeks are unique from many other types of scientific gatherings and they req
 
 ## Hackweek Core Values
 
-We are interested in working with organizations and communities who share our core values that have motivated the development of our existing hackweek model. As hackweek organizers we strive to be:
+* **Community**: We believe that coming together to share resources and collaborate can unleash innovation in scientific research. We value the importance of social connections in building networks of emotional support and resilience.
+* **Empowering one other**: We meet people where they are and invite participants to share in decisions and in co-creating learning outcomes.
+* **Inclusion**: We seek to cultivate space that can hold the unique perspectives, identities and skills that each individual brings to our communities. We aim to foster a sense of belonging for everyone who attends our events.
+* **Gratitude**: We practice asking others whenever we would like to adopt or build on ideas or creative output of our colleagues. We know there are many ways to recognize these contributions that go beyond traditional academic reward systems, and we consistently seek out ways to express this gratitude.  
 
-*suggest we work through [this exercise](https://zenodo.org/record/3906620#.YBHpYvtKhH5) to generate our list of core values*
 
 ## How Can a Hackweek Serve my Community?
 
