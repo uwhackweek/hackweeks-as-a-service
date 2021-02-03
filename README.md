@@ -2,7 +2,16 @@
 
 This repository hosts a website with information describing the UW eScience Institute's hackweeks as a service model. It uses [Jupyter-book](https://jupyterbook.org/) and the website is hosted on the gh-pages branch.
 
-## Deployment
+
+## Local Deployment
+
+From the `docs\` directory type:
+
+```
+jb build ./
+```
+
+## GitHub Deployment
 
 Locally from the docs directory, run:
 
