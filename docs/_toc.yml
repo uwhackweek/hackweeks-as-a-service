@@ -8,5 +8,7 @@
     - file: expectations
     - file: services
 - file: application
+  sections:
+    - file: selection
 - file: resources
 - file: acknolwedgements
