@@ -10,5 +10,6 @@
 - file: application
   sections:
     - file: selection
+- file: tutorials
 - file: resources
 - file: acknolwedgements
