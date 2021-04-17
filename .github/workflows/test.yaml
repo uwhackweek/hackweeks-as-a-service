@@ -2,32 +2,49 @@ name: Test
 
 on:
   pull_request:
+    paths:
+      - 'docs/**'
+      - '.github/workflows/test.yaml'
+      - 'environment.yml'
     branches:
       - main
 
 jobs:
-  deploy-example-book:
+  build-and-test:
     runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash -l {0}
 
     steps:
     - uses: actions/checkout@v2
 
-    - name: Setup Miniconda
+    - name: Cache conda
+      uses: actions/cache@v2
+      env:
+        # Increase this value to reset cache if environment.yml has not changed
+        CACHE_NUMBER: 0
+      with:
+        path: ~/conda_pkgs_dir
+        key:
+          ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('environment.yml') }}
+
+    - name: Setup Conda Environment
       uses: conda-incubator/setup-miniconda@v2
       with:
-        auto-update-conda: true
-        auto-activate-base: false
-        miniconda-version: 'latest'
-        python-version: 3.8
+        miniforge-version: latest
         environment-file: environment.yml
         activate-environment: hackweek
+        use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+
+    - name: List conda packages
+      run: |
+        conda list
 
     - name: Build JupyterBook
-      shell: bash -l {0}
       run: |
         jupyter-book build docs/
 
     - name: Check External Links
-      shell: bash -l {0}
       run: |
         jupyter-book build docs/ --builder linkcheck
