@@ -1,0 +1,33 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deploy-example-book:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Miniconda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        auto-update-conda: true
+        auto-activate-base: false
+        miniconda-version: 'latest'
+        python-version: 3.8
+        environment-file: environment.yml
+        activate-environment: hackweek
+
+    - name: Build JupyterBook
+      shell: bash -l {0}
+      run: |
+        jupyter-book build docs/
+
+    - name: Check External Links
+      shell: bash -l {0}
+      run: |
+        jupyter-book build book --builder linkcheck

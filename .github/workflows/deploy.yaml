@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-example-book:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Pull SnowEX Docker Image
+      run: |
+        docker pull uwhackweek/snowex:latest
+        docker images
+
+    - name: Build JupyterBook
+      run: |
+        docker run -u root -v ${{ github.workspace }}:/home/jovyan:rw uwhackweek/snowex:latest jb build book
+
+    - name: Publish to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GH_PAT }}
+        publish_dir: book/_build/html
+        publish_branch: gh-pages
