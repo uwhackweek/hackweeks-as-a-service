@@ -1,0 +1,35 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-example-book:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Miniconda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        auto-update-conda: true
+        auto-activate-base: false
+        miniconda-version: 'latest'
+        python-version: 3.8
+        environment-file: environment.yml
+        activate-environment: hackweek
+
+    - name: Build book
+      shell: bash -l {0}
+      run: |
+        jupyter-book build docs/
+
+    - name: Publish to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GH_PAT }}
+        publish_dir: docs/_build/html
+        publish_branch: gh-pages

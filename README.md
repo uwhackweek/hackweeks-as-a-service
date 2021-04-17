@@ -1,27 +1,24 @@
 # hackweeks-as-a-service
+[![Deploy](https://github.com/uwhackweek/hackweeks-as-a-service/actions/workflows/deploy.yaml/badge.svg)](https://github.com/uwhackweek/hackweeks-as-a-service/actions/workflows/deploy.yaml)
 
-This repository hosts a website with information describing the UW eScience Institute's hackweeks as a service model. It uses [Jupyter-book](https://jupyterbook.org/) and the website is hosted on the gh-pages branch.
-
-
-## Local Deployment
-
-From the `docs\` directory type:
-
-```
-jb build ./
-```
+This repository hosts a website with information describing the [UW eScience Institute's](https://escience.washington.edu) hackweeks as a service model. It uses [Jupyter-book](https://jupyterbook.org/) and the website is hosted on the gh-pages branch.
 
 ## GitHub Deployment
+This repository is configured with [GitHub Actions](./.github/workflows/deploy.yaml) to automatically build and publish HTML to the gh-pages branch. Just commit to the main branch and the website will be automatically updated.
 
-Locally from the docs directory, run:
-
+## Local Deployment
 ```
-ghp-import -n -p -f _build/html
+git clone https://github.com/uwhackweek/hackweeks-as-a-service.git
+cd hackweeks-as-a-service
+conda env create -f environent.yml
+conda activate hackweek
+jb build docs
 ```
 
 ## Contact
 
 * [Anthony Arendt](mailto:arendta@uw.edu)
+* [Scott Henderson](mailto:scottyh@uw.edu)
 
 ## License
 
