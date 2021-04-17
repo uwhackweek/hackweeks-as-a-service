@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-  deploy-example-book:
+  build-and-test:
     runs-on: ubuntu-20.04
     defaults:
       run:
