@@ -12,18 +12,24 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Pull SnowEX Docker Image
-      run: |
-        docker pull uwhackweek/snowex:latest
-        docker images
+    - name: Setup Miniconda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        auto-update-conda: true
+        auto-activate-base: false
+        miniconda-version: 'latest'
+        python-version: 3.8
+        environment-file: environment.yml
+        activate-environment: hackweek
 
-    - name: Build JupyterBook
+    - name: Build book
+      shell: bash -l {0}
       run: |
-        docker run -u root -v ${{ github.workspace }}:/home/jovyan:rw uwhackweek/snowex:latest jb build book
+        jupyter-book build docs/
 
     - name: Publish to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.GH_PAT }}
-        publish_dir: book/_build/html
+        publish_dir: docs/_build/html
         publish_branch: gh-pages

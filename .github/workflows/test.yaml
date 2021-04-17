@@ -30,4 +30,4 @@ jobs:
     - name: Check External Links
       shell: bash -l {0}
       run: |
-        jupyter-book build book --builder linkcheck
+        jupyter-book build docs/ --builder linkcheck
