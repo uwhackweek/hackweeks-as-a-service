@@ -5,10 +5,9 @@ title: University of Washington eScience Institute
 author: eScience Institute, University of Washington
 logo: logo.png
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
-execute:
-  execute_notebooks: force
+# No notebooks in this book
+#execute:
+#  execute_notebooks: force
 
 # Define the name of the latex output file for PDF builds
 latex:
