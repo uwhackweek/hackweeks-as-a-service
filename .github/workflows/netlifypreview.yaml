@@ -1,0 +1,62 @@
+name: NetlifyPreview
+
+on:
+  pull_request_target:
+    paths:
+      - 'docs/**'
+      - 'environment.yml'
+    branches:
+      - main
+
+jobs:
+  add-preview:
+    runs-on: ubuntu-latest
+    # This workflow accesses secrets and checks out a PR, so only run if labelled
+    # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
+    if: contains(github.event.pull_request.labels.*.name, 'preview')
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Cache conda
+      uses: actions/cache@v2
+      env:
+        # Increase this value to reset cache if environment.yml has not changed
+        CACHE_NUMBER: 0
+      with:
+        path: ~/conda_pkgs_dir
+        key:
+          ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('environment.yml') }}
+
+    - name: Setup Conda Environment
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        miniforge-version: latest
+        environment-file: environment.yml
+        activate-environment: hackweek
+        use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+
+    - name: List conda packages
+      run: |
+        conda list
+
+    - name: Build book
+      shell: bash -l {0}
+      run: |
+        jupyter-book build docs/
+
+    - name: Deploy Website Preview
+      uses: nwtgck/actions-netlify@v1.1
+      with:
+        publish-dir: './docs/_build/html'
+        production-deploy: false
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        deploy-message: "Deploy from GitHub Actions"
+        enable-commit-comment: false
+        enable-pull-request-comment: true
+        overwrites-pull-request-comment: true
+        alias: deploy-preview-${{ github.event.number }}
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      timeout-minutes: 1
