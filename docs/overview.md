@@ -1,6 +1,6 @@
 # Hackweek Overview
 
-[Hackweeks](https://www.pnas.org/content/115/36/8872.short) are participant driven events that have been designed, evaluated and modified over the past eight years to meet the needs of emerging data science communities {cite}`Huppenkothen2018`. Hackweeks were originally conceived within the [Moore/Sloan Data Science Environment](http://msdse.org/), and borrow ideas from [The Carpentries](https://carpentries.org/). 
+[Hackweeks](https://www.pnas.org/content/115/36/8872.short) are participant driven events that have been designed, evaluated and modified over the past eight years to meet the needs of emerging data science communities {cite:p}`Huppenkothen2018`. Hackweeks were originally conceived within the [Moore/Sloan Data Science Environment](http://msdse.org/), and borrow ideas from [The Carpentries](https://carpentries.org/). 
 
 Hackweeks are unique from many other types of scientific gatherings and they require time and resources to be implemented in ways that align with our core values.
 
