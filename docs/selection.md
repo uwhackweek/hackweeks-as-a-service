@@ -2,9 +2,9 @@
 
 We will use the following rubrics for motivation and contribution for this hackweek:
 
-## Motivational Assessment: 
+## Motivational Assessment:
 
-Data used in this assessment include only the particiant response to the application question "Please state why you want to participate in the program, including how participation would contribute to your long term goals."
+Data used in this assessment include only the participant response to the application question "Please state why you want to participate in the program, including how participation would contribute to your long term goals."
 
 <br>
 
