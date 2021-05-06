@@ -2,6 +2,7 @@ name: NetlifyPreview
 
 on:
   pull_request_target:
+    types: [labeled]
     paths:
       - 'docs/**'
       - 'environment.yml'
