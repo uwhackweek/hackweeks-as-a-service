@@ -47,7 +47,6 @@ jobs:
       with:
         check_filenames: true
         check_hidden: true
-        only_warn: true
 
     - name: Build JupyterBook
       run: |
