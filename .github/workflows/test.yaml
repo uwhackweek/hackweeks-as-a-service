@@ -41,6 +41,14 @@ jobs:
       run: |
         conda list
 
+    # NOTE: this isn't a comprehensive spellcheck, just common typos
+    - name: Spellcheck
+      uses: codespell-project/actions-codespell@master
+      with:
+        check_filenames: true
+        check_hidden: true
+        only_warn: true
+
     - name: Build JupyterBook
       run: |
         jupyter-book build docs/
