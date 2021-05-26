@@ -3,6 +3,7 @@
 #
 - file: intro
 - file: overview
+- file: team
 - file: hosting
   sections:
     - file: expectations
