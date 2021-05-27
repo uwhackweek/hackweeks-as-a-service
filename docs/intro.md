@@ -12,7 +12,7 @@ In this website you will:
 {fa}`check,text-success mr-1` [Learn more about the hackweek model](overview)
 : We will describe the vision and purpose of our events and provide a roadmap for deciding if the hackweek model is a good fit for your community.
 
-{fa}`check,text-success mr-1` [Review a list of minimum requirements for hosting a hackweek](expectations)
+{fa}`check,text-success mr-1` [Review a list of minimum requirements for hosting a hackweek](hosting_expectations)
 : We will list the resources and time commitments necessary for partnering in designing and implementing a hackweek.
 
 {fa}`check,text-success mr-1` [Browse the services we can provide](services)

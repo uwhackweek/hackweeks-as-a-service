@@ -6,12 +6,14 @@
 - file: team
 - file: hosting
   sections:
-    - file: expectations
+    - file: hosting_expectations
     - file: services
 - file: application
   sections:
     - file: selection
 - file: tutorials
-- file: resources
+  sections:
+    - file: tutorials_expectations
+    - file: resources
 - file: bibliography
 - file: acknowledgements
