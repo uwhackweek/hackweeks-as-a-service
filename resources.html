@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>List of Resources &#8212; University of Washington eScience Institute</title>
+    <title>Resources for Tutorial Design &#8212; University of Washington eScience Institute</title>
     
   <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -55,7 +55,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Bibliography" href="bibliography.html" />
-    <link rel="prev" title="Tutorials" href="tutorials.html" />
+    <link rel="prev" title="Expectations of Tutorial Leads" href="tutorials_expectations.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -109,7 +109,7 @@
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="expectations.html">
+    <a class="reference internal" href="hosting_expectations.html">
      Things you will need
     </a>
    </li>
@@ -136,15 +136,24 @@
   <i class="fas fa-chevron-down">
   </i>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="tutorials.html">
    Tutorials
   </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   List of Resources
-  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="tutorials_expectations.html">
+     Expectations of Tutorial Leads
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Resources for Tutorial Design
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="bibliography.html">
@@ -239,6 +248,26 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#curriculum-development">
+   Curriculum Development
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technical-resources">
+   Technical Resources
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
         </div>
     </div>
 </div>
@@ -247,8 +276,31 @@
         
               <div>
                 
-  <div class="section" id="list-of-resources">
-<h1>List of Resources<a class="headerlink" href="#list-of-resources" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="resources-for-tutorial-design">
+<h1>Resources for Tutorial Design<a class="headerlink" href="#resources-for-tutorial-design" title="Permalink to this headline">¶</a></h1>
+<p>Preparing a tutorial for a hackweek can feel like a daunting task. We are here to help guide you through the process. Here are some general principles that we have found work well in past hackweeks:</p>
+<ul class="simple">
+<li><p>try for content that is broad in scope and gives an initial picture of what might be possible when applying a particular data science tool. Save detailed explanations on a narrow topic for a later breakout session.</p></li>
+<li><p>start with simple explanations that attend to people who are seeing this content for the first time, AND keep advanced participants engaged by inviting them to assist others, or to explore more advanced concepts through individual study.</p></li>
+<li><p>make your tutorials interactive through live coding challenges, working through a Juypter Notebook together, or interactive discussions. Leave some space when you are not talking for people to work through examples and ask questions.</p></li>
+<li><p>prepare your tutorials well in advance and practice them in front of a sample audience. We are available to help review your tutorials and provide advice on content and delivery.</p></li>
+<li><p>take a bit of time to review tutorials offered at our previous hackweeks. <a class="reference external" href="https://www.youtube.com/watch?v=VMJ1ZO48cwU">Here</a> is an example of a particularly well-crafted tutorial by Catherine Kuhn at our 2018 geohackweek.</p></li>
+</ul>
+<p>To dig a bit deeper on some general guidance on how to build effective tutorials, we recommend this excellent resource from the <a class="reference external" href="https://diataxis.fr/tutorials/">The Diátaxis framework</a>.</p>
+<div class="section" id="curriculum-development">
+<h2>Curriculum Development<a class="headerlink" href="#curriculum-development" title="Permalink to this headline">¶</a></h2>
+<p>We recommend following the <a class="reference external" href="https://carpentries.github.io/curriculum-development/">Software Carpentry Curriculum Development</a> model for building hackweek tutorials. The core components of this “Backward Design” approach includes:</p>
+<ul class="simple">
+<li><p>starting by identifying key learning outcomes</p></li>
+<li><p>identifying the practical skills that would guide participants to these outcomes</p></li>
+<li><p>build challenges that give learners practice in integrating new skills</p></li>
+<li><p>identify teaching components needed for learners to acquire skills</p></li>
+</ul>
+</div>
+<div class="section" id="technical-resources">
+<h2>Technical Resources<a class="headerlink" href="#technical-resources" title="Permalink to this headline">¶</a></h2>
+<p>We use <a class="reference external" href="https://jupyterbook.org">Jupyter Books</a> to host learning tools for each hackweek. We have created a <a class="reference external" href="https://github.com/snowex-hackweek/website/blob/main/tutorial_guide.md">guide for preparing hackweek tutorials</a> that describes our recommended approach for creating standardized notebooks for each event.</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -276,7 +328,7 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="tutorials.html" title="previous page">Tutorials</a>
+    <a class='left-prev' id="prev-link" href="tutorials_expectations.html" title="previous page">Expectations of Tutorial Leads</a>
     <a class='right-next' id="next-link" href="bibliography.html" title="next page">Bibliography</a>
 
         </div>

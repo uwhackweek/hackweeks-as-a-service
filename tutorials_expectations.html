@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search &#8212; University of Washington eScience Institute</title>
+    <title>Expectations of Tutorial Leads &#8212; University of Washington eScience Institute</title>
     
   <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -36,7 +36,6 @@
     
   <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
 
-    
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
@@ -53,16 +52,13 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
-  <script src="searchindex.js" defer></script>
-  
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Resources for Tutorial Design" href="resources.html" />
+    <link rel="prev" title="Tutorials" href="tutorials.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
 
 
 
@@ -84,7 +80,7 @@
   <h1 class="site-logo" id="site-title">University of Washington eScience Institute</h1>
   
 </a>
-</div><form class="bd-search d-flex align-items-center" action="#" method="get">
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
@@ -96,7 +92,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="overview.html">
    Hackweek Overview
@@ -140,13 +136,13 @@
   <i class="fas fa-chevron-down">
   </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="tutorials.html">
    Tutorials
   </a>
-  <ul class="collapse-ul">
-   <li class="toctree-l2">
-    <a class="reference internal" href="tutorials_expectations.html">
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Expectations of Tutorial Leads
     </a>
    </li>
@@ -201,6 +197,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/tutorials_expectations.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -212,10 +225,12 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fsearch.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Ftutorials_expectations.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
+        <a class="edit-button" href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/tutorials_expectations.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
 </div>
 
@@ -233,6 +248,31 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#time-commitment">
+   Time Commitment
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-can-i-expect-to-gain-from-this-experience">
+   What can I expect to gain from this experience?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#additional-resources">
+   Additional Resources
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
         </div>
     </div>
 </div>
@@ -241,33 +281,59 @@
         
               <div>
                 
-  <h1 id="search-documentation">Search</h1>
-  <div id="fallback" class="admonition warning">
-  <script>$('#fallback').hide();</script>
-  <p>
-    Please activate JavaScript to enable the search
-    functionality.
-  </p>
-  </div>
-  <p>
-    Searching for multiple words only shows matches that contain
-    all words.
-  </p>
-  <form action="" method="get">
-    <input type="text" name="q" aria-labelledby="search-documentation" value="" />
-    <input type="submit" value="search" />
-    <span id="search-progress" style="padding-left: 10px"></span>
-  </form>
-  
-  <div id="search-results">
-  
-  </div>
+  <div class="section" id="expectations-of-tutorial-leads">
+<h1>Expectations of Tutorial Leads<a class="headerlink" href="#expectations-of-tutorial-leads" title="Permalink to this headline">¶</a></h1>
+<p>Hackweek tutorials provide a forum for everyone to learn new things in an interactive and welcoming environment. As tutorial leads, we have unique opportunities to create positive learning spaces, to share our knowledge and to learn from each other.</p>
+<p><img alt="participants working" src="_images/participants-1.png" /></p>
+<p>The most important role of a tutorial lead is to exemplify the <a class="reference internal" href="overview.html"><span class="doc std std-doc">core values</span></a> of the hackweek model. How might these values be expressed during your tutorial work? Here are a few examples:</p>
+<ul class="simple">
+<li><p>We can <em>Empower one another</em> by meeting participants where they are and embracing the idea that each of us is on a lifelong journey of learning</p></li>
+<li><p>We can express <em>gratitude</em> by offering appropriate feedback and explicitly acknowledging participant’s efforts</p></li>
+<li><p>We can build <em>community</em> by actively facilitating a positive and trustworthy learning space, and enforcing Code of Conduct violations</p></li>
+<li><p>We can by <em>inclusive</em> by welcoming all learners and offering content in a variety of formats</p></li>
+</ul>
+<p>For more information on deepening your skills and awareness as a data science instructor please visit the <a class="reference external" href="https://carpentries.github.io/instructor-training/">Software Carpentry Instructor Training</a> page.</p>
+<div class="section" id="time-commitment">
+<h2>Time Commitment<a class="headerlink" href="#time-commitment" title="Permalink to this headline">¶</a></h2>
+<p>We will work with you to build a tutorial design team in the months preceding your event. This usually involves a series of 8 - 10 one hour biweekly planning calls where we will work with you to get clear on learning outcomes, tutorial design and the technical aspects of tutorial building. This is in addition to any time you spend during the hackweek to teach material.</p>
+</div>
+<div class="section" id="what-can-i-expect-to-gain-from-this-experience">
+<h2>What can I expect to gain from this experience?<a class="headerlink" href="#what-can-i-expect-to-gain-from-this-experience" title="Permalink to this headline">¶</a></h2>
+<p>Hackweeks have traditionally been very dynamic events at which knowledge is exchanged in multiple directions across different levels of career position and backgrounds. We hope you will have an opportunity to learn a lot of new things by engaging in this experience. Past tutorial leads have used these events to gain teaching experience and as a way to round out their teaching profile. Like other participants you can also expect to build new contacts in the community, recruit students and generate new project ideas.</p>
+</div>
+<div class="section" id="additional-resources">
+<h2>Additional Resources<a class="headerlink" href="#additional-resources" title="Permalink to this headline">¶</a></h2>
+<p>Ready to become a tutorial lead? Next we provide a detailed <a class="reference internal" href="resources.html"><span class="doc std std-doc">list of resouces</span></a> to guide you through the process!</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
         
         <div class='prev-next-bottom'>
             
+    <a class='left-prev' id="prev-link" href="tutorials.html" title="previous page">Tutorials</a>
+    <a class='right-next' id="next-link" href="resources.html" title="next page">Resources for Tutorial Design</a>
 
         </div>
         
