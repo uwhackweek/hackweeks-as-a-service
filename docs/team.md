@@ -56,15 +56,6 @@ Our team consists of Research / Data Scientists and the Executive Director of th
 
 ---
 
-**Landung "Don" Setiawan**
-
-^^^
-<img src="https://avatars.githubusercontent.com/u/17802172?v=4?s=100" alt="picture of Landung Setiawan" width="200" height="200">
-+++
-*Roles:* Education and technical specialist
-
----
-
 **Nicoleta Cristea**
 
 ^^^
