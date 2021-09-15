@@ -26,7 +26,7 @@ Our team consists of Research / Data Scientists and the Executive Director of th
 
 **Charley Haley**
 ^^^
-<img src="https://media-exp1.licdn.com/dms/image/C5603AQHRrrm4VJcfBA/profile-displayphoto-shrink_200_200/0/1596141577546?e=1627516800&v=beta&t=6DcmnBLHb3UTflF-vzMBzxv5nN2g0J78MkX7KK6A0KE" alt="picture of Charley Haley" width="200" height="200">
+<img src="https://media-exp1.licdn.com/dms/image/C5603AQHRrrm4VJcfBA/profile-displayphoto-shrink_200_200/0/1596141577546?e=1631750400&v=beta&t=0qoepteS1Git0uS5ObyTB5W38iyHbQZQbX2M7EUdjCU" alt="picture of Charley Haley" width="200" height="200">
 +++
 *Roles:* Hackweek design and facilitation
 
@@ -80,6 +80,15 @@ Our team consists of Research / Data Scientists and the Executive Director of th
 <img src="https://i0.wp.com/communitysnowobs.org/wp-content/uploads/2020/12/mayorga.jpg?resize=300%2C300&ssl=1" alt="picture of Emilio Mayorga" width="200" height="200">
 +++
 *Roles:* Education and technical specialist
+
+---
+
+**Jessica Scheick**
+
+^^^
+<img src="https://avatars.githubusercontent.com/u/11756442?v=4" alt="picture of Jessica Scheick" width="200" height="200">
++++
+*Roles:* Education, administrative and technical specialist
 
 ---
 
