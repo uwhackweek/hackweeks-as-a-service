@@ -1,6 +1,6 @@
 # Our Team
 
-Our team consists of Research / Data Scientists and the Executive Director of the University of Washington's eScience Institute. Our team also includes affiliates of eScience who have been actively engaged in hackweek programs over the past several years. 
+Our team consists of Research / Data Scientists and the Executive Director of the University of Washington's eScience Institute. Our team also includes affiliates of eScience who have been actively engaged in hackweek programs over the past several yaers. 
 
 ````{panels}
 :container: full-width
@@ -36,7 +36,7 @@ Our team consists of Research / Data Scientists and the Executive Director of th
 ^^^
 <img src="https://icesat-2hackweek.github.io/assets/images/JaneKoh.jpg" alt="picture of Jane Koh" width="175" height="200">
 +++
-*Roles:* Hackweek logistics, administrative support
+*Roles:* Hackweek logistics, adminstrative support
 
 ---
 
