@@ -1,20 +1,91 @@
 # Hackweek Overview
 
-[Hackweeks](https://www.pnas.org/content/115/36/8872.short) are participant driven events that have been designed, evaluated and modified over the past eight years to meet the needs of emerging data science communities {cite:p}`Huppenkothen2018`. Hackweeks were originally conceived within the [Moore/Sloan Data Science Environment](http://msdse.org/), and borrow ideas from [The Carpentries](https://carpentries.org/).
+[Hackweeks](https://www.pnas.org/content/115/36/8872.short) are participant driven events that create welcoming spaces for people to learn new things, network and practice working in small teams. {cite:p}`Huppenkothen2018`. Hackweeks were originally conceived within the [Moore/Sloan Data Science Environment](http://msdse.org/), and borrow ideas from [The Carpentries](https://carpentries.org/).
 
-Hackweeks are unique from many other types of scientific gatherings and they require time and resources to be implemented in ways that align with our core values.
+## Hackweek Core Principles
 
-## Hackweek Core Values
+````{panels}
+:container: full-width
+:column: text-center col-6 col-lg-4
+:footer: text-left
+:card: +my-2
 
-* **Community**: We believe that coming together to share resources and collaborate can unleash innovation in scientific research. We value the importance of social connections in building networks of emotional support and resilience.
-* **Empowering one other**: We meet people where they are and invite participants to share in decisions and in co-creating learning outcomes.
-* **Inclusion**: We seek to cultivate space that can hold the unique perspectives, identities and skills that each individual brings to our communities. We aim to foster a sense of belonging for everyone who attends our events.
-* **Gratitude**: We practice asking others whenever we would like to adopt or build on ideas or creative output of our colleagues. We know there are many ways to recognize these contributions that go beyond traditional academic reward systems, and we consistently seek out ways to express this gratitude.  
+**Belonging**
+^^^
+```{image} images/belonging.png
+:alt: belonging
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
++++
+We foster a welcoming, diverse and inclusive environment.
+---
 
+**Education**
+^^^
+```{image} images/education.png
+:alt: belonging
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
++++
+We gain experience in conducting data-intensive research.
+---
+
+**Interactivity**
+^^^
+```{image} images/interactivity.png
+:alt: belonging
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
++++
+We encourage immersive, interactive and collaborative learning.
+---
+
+**Co-creation**
+^^^
+```{image} images/co-creation.png
+:alt: belonging
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
++++
+We incorporate elements of co-creation with participants.
+---
+
+
+**Networking**
+^^^
+```{image} images/networking.png
+:alt: belonging
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
++++
+We provide opportunities for people to build their networks.
+---
+
+**Code of Conduct**
+^^^
+```{image} images/CoC.png
+:alt: belonging
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
++++
+We adhere to and enforce a shared Code of Conduct.
+````
 
 ## How Can a Hackweek Serve my Community?
 
-Hackweeks have had the following positive impacts on existing communities. These may offer ideas for deciding whether to explore designing a hackweek for your community.
+Hackweeks have had many positive community impacts! These may offer ideas for deciding whether to explore designing a hackweek for your community.
 
 ### Providing education in data science tools
 
@@ -38,7 +109,7 @@ Hackweeks often include participants at all different levels of academic career 
 
 ## Alternatives to the Hackweek
 
-Hackweeks are a significant undertaking and may not be the best fit for everyone:
+Hackweeks are a significant undertaking and may not be the best fit for everyone!
 
 * **Is your goal primarily to learn things from experts in your field in a lecture-style format?** Hackweeks fundamentally rely on the exchange of knowledge across all levels of expertise and background, so a summer school or traditional scientific conference may be a better fit.
 * **Would you like to gather together people with common interests and leave participants to self-organize around topics?** Although hackweeks are participant driven, they require planning and structure to facilitate interactions and maximize the potential for creating positive learning spaces. You might consider an unconference as an alternative.
