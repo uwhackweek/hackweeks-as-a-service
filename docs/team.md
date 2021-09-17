@@ -92,4 +92,9 @@ Our team consists of Research / Data Scientists and the Executive Director of th
 
 ---
 
+**Joachim Meyer**
+^^^
+<img src="https://avatars.githubusercontent.com/u/178649?v=4" alt="picture of Joachim Meyer" width="200" height="200">
++++
+*Roles:* Technical specialist
 ````
