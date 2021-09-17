@@ -23,4 +23,4 @@ Hackweeks have traditionally been very dynamic events at which knowledge is exch
 
 ## Additional Resources
 
-Ready to become a tutorial lead? Next we provide a detailed [list of resouces](resources.md) to guide you through the process!
+Ready to become a tutorial lead? Next we provide a detailed [list of resources](resources.md) to guide you through the process!
