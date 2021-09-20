@@ -26,7 +26,12 @@ Our team consists of Research / Data Scientists and the Executive Director of th
 
 **Charley Haley**
 ^^^
-<img src="https://media-exp1.licdn.com/dms/image/C5603AQHRrrm4VJcfBA/profile-displayphoto-shrink_200_200/0/1596141577546?e=1631750400&v=beta&t=0qoepteS1Git0uS5ObyTB5W38iyHbQZQbX2M7EUdjCU" alt="picture of Charley Haley" width="200" height="200">
+```{image} images/Charley.jpeg
+:alt: projects
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
 +++
 *Roles:* Hackweek design and facilitation
 
