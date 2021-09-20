@@ -121,7 +121,7 @@ We help you to create collaborative spaces for participants to work on projects 
 
 :::{admonition} Lead Project Coordinator
 :class: tip, dropdown
-The Lead Project Coordinator guides the organizing team in choosing the mode of project work (from pre-defined hacking projects to fully open-ended teamwork). They hel explain expectations to participants, guide the formation of project teams, help teams get clear on scoping their projects and are available during the event to support team collaboration and communication.   
+The Lead Project Coordinator guides the organizing team in choosing the mode of project work (from pre-defined hacking projects to fully open-ended teamwork). They help explain expectations to participants, guide the formation of project teams, help teams get clear on scoping their projects and are available during the event to support team collaboration and communication.   
 :::
 ---
 
