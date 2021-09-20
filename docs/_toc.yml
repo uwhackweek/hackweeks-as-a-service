@@ -2,18 +2,27 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
 - file: intro
-- file: overview
-- file: team
-- file: hosting
-  sections:
-    - file: hosting_expectations
-    - file: services
-- file: application
-  sections:
-    - file: selection
-- file: tutorials
-  sections:
-    - file: tutorials_expectations
-    - file: resources
-- file: bibliography
-- file: acknowledgements
+- part: Overview
+  chapters: 
+  - file: mission
+  - file: team
+- part: Hackweek Services
+  chapters:
+  - file: client
+  - file: services
+  - file: application
+- part: Resources for Organizers
+  chapters:
+  - file: tutorials
+  - file: teaching-resources
+#  - file: selection # needs work
+- part: Gallery
+  chapters: 
+    - file: gallery/index
+      sections:
+      - file: gallery/ICESat-2hackweek
+      - file: gallery/SnowExhackweek
+- part: Reference
+  chapters:  
+  - file: bibliography
+  - file: acknowledgements
