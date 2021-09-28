@@ -1,8 +1,7 @@
 # Hackweek Mission
 
 ````{panels}
-:container: full-width
-:column: text-center col-6 col-lg-4
+:column: text-center col-4 col-lg-4
 :footer: text-left
 :card: +my-2
 
