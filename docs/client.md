@@ -14,7 +14,7 @@ We look for spaces that offer fast internet connections, opportunities for rando
 
 We use a variety of platforms including Zoom, wonder.me, Slack and JupyterHub to create accessible and interactive virtual spaces.
 
-### Hybrid of in-person and virtual
+### Hybrid of In-person and Virtual
 
 We are just beginning to explore the combination of virtual and in person spaces.
 
