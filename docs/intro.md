@@ -1,5 +1,5 @@
-Hackweeks As A Service
-======================
+Hosting a Hackweek with UW eScience Support 
+===========================================
 
 <font size="4"> Hackweeks are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science {cite:p}`Huppenkothen2018`</font>
 
