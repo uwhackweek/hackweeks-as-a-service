@@ -1,25 +1,46 @@
-Hackweek Guidebook
-==================
+Hosting a Hackweek with UW eScience Support 
+===========================================
 
-Hackweeks are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science.
+<font size="4"> Hackweeks are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science {cite:p}`Huppenkothen2018`</font>
 
-The University of Washington's eScience Institute is interested in partnering with organizations to offer administrative, technical and educational support to facilitate hackweeks for your community.
+<font size="4"> The University of Washington's [eScience Institute](https://escience.washington.edu/) is interested in partnering with your organization to offer our hackweek model as a service. We can provide administrative, technical and educational support to facilitate hackweeks for your community.</font>
 
-![hackweek image](images/hackweeks.png)
+## Here are a few links to get you started!
 
-In this website you will:
+:::{panels}
+:container: +full-width
+:column: col-lg-4 px-2 py-2
+---
+:header: bg-jb-one
+**<span style='color:white'>What is a hackweek?</span>**
+^^^
+Learn more about the hackweek model at our [Hackweek Mission](mission) page.
 
-{fa}`check,text-success mr-1` [Learn more about the hackweek model](overview)
-: We will describe the vision and purpose of our events and provide a roadmap for deciding if the hackweek model is a good fit for your community.
+Get to know [our team](team) of hackweek designers and supports.
 
-{fa}`check,text-success mr-1` [Review a list of minimum requirements for hosting a hackweek](hosting_expectations)
-: We will list the resources and time commitments necessary for partnering in designing and implementing a hackweek.
+Browse the [services](services) we can provide.
+---
+:header: bg-jb-one
 
-{fa}`check,text-success mr-1` [Browse the services we can provide](services)
-: Our team will be available to offer various levels of administrative, technical and facilitation support based on your needs and funding availability.
+**<span style='color:white'>Application Procedure</span>**
+^^^
+Are you interested in working with us? Review a list of [minimum requirements](client) for hosting a hackweek.
 
-{fa}`check,text-success mr-1` [Learn how to submit an application](application)
-: We will describe the process of applying to our program and outline steps for building a budget and submitting requests for funding to various agencies.
+Next, [submit an application](application)! 
+---
+:header: bg-jb-one
 
-{fa}`check,text-success mr-1` [Additional Resources](resources)
-: We provide links to additional resources that may be helpful in developing a hackweek for your community.
+**<span style='color:white'>Be inspired</span>**
+^^^
+Visit our [Gallery](gallery/index) of past supported hackweeks.
+:::
+
+
+````{div} full-width
+```{image} images/hackweeks.png
+:alt: Moore Foundation logo
+:class: bg-primary mb-1
+:width: 2500px
+:align: center
+```
+````
