@@ -1,11 +1,6 @@
 # Tutorial Leads
 
-The most important role of a tutorial lead is to exemplify the overall [mission](mission) of the hackweek model. How might this be expressed during your tutorial work? Here are a few examples:
-
-* We can _empower one another_ by meeting participants where they are and embracing the idea that each of us is on a lifelong journey of learning
-* We can _express gratitude_ by offering appropriate feedback and explicitly acknowledging participant's efforts 
-* We can _build community_ by actively facilitating a positive and trustworthy learning space, and enforcing Code of Conduct violations
-* We can by _inclusive_ by welcoming all learners and offering content in a variety of formats
+Our work in designing and delivering tutorial content is informed by our overall [mission](mission). We strive to create a sense of belonging by meeting participants where they are and embracing the idea that each of us is on a lifelong journey of learning. 
 
 For more information on deepening your skills and awareness as a data science instructor please visit the [Software Carpentry Instructor Training](https://carpentries.github.io/instructor-training/) page. 
 
