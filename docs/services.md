@@ -61,7 +61,7 @@ The eScience Lead Coordinator oversees the activity of the planning teams and ac
 :card: + my-2
 :header: bg-client
 
-**Lead Hackweek Coordinator (communuity)**
+**Lead Hackweek Coordinator (community)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Community Lead Coordinator oversees activities of the community event planning team.
@@ -238,10 +238,10 @@ Software Engineers provide specific guidance to any projects working to craft so
 :card: + my-2
 :header: + bg-client
 
-**Technical Specialst**
+**Technical Specialist**
 ^^^^^^^^^^^^^^
 
-Technical Specialists are available to troubleshoot technical challenges and teach organizers how to use various tools. They assist in setting up GitHub organizations, websites and other techology that supports event planning and delivery. 
+Technical Specialists are available to troubleshoot technical challenges and teach organizers how to use various tools. They assist in setting up GitHub organizations, websites and other technology that supports event planning and delivery. 
 
 ````
 `````
