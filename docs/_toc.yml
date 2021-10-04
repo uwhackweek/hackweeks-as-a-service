@@ -1,29 +1,27 @@
-# Table of content
-# Learn more at https://jupyterbook.org/customize/toc.html
-#
-- file: intro
-- part: Overview
-  chapters: 
+format: jb-book
+root: intro
+parts:
+- caption: Overview
+  chapters:
   - file: mission
   - file: team
-- part: Hackweek Services
+- caption: Hackweek Services
   chapters:
   - file: client
   - file: services
   - file: application
-- part: Resources for Organizers
+- caption: Resources for Organizers
   chapters:
   - file: tutorials
   - file: teaching-resources
-#  - file: selection # needs work
-- part: Gallery
-  chapters: 
-    - file: gallery/index
-      sections:
-      - file: gallery/ICESat-2hackweek
-      - file: gallery/SnowExhackweek
-      - file: gallery/geohackweek
-- part: Reference
-  chapters:  
+- caption: Gallery
+  chapters:
+  - file: gallery/index
+    sections:
+    - file: gallery/ICESat-2hackweek
+    - file: gallery/SnowExhackweek
+    - file: gallery/geohackweek
+- caption: Reference
+  chapters:
   - file: bibliography
   - file: acknowledgements
