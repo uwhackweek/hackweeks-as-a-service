@@ -1,6 +1,6 @@
 # Roles and Services
 
-The panels below describe the various services and roles in a typical hackweek. Here is the legend for reviewing these roles:
+The panels below describe the various services and roles in a typical hackweek. We use color coding to signify how the work is usually distributed:
 
 ````{panels}
 :column: col-lg-4 px-2 py-2
@@ -21,16 +21,16 @@ These roles are usually filled by members of our team. Not all hackweeks require
 **Combined Roles**
 ^^^^^^^^^^^^^^^
 
-These roles can be filled by people on the client team and/or by our group. 
+These roles can be filled by people the community team and/or by our group. 
 
 ---
 :card: + my-2
 :header: + bg-client
 
-**Client Roles**
+**Community Roles**
 ^^^^^^^^^^^^^^^
 
-These are roles typically filled by our clients and represent the minimum levels of engagement needed for success.
+These are roles typically filled by our community partners.
 
 ````
 
@@ -50,10 +50,21 @@ These are roles typically filled by our clients and represent the minimum levels
 :card: + my-2
 :header: bg-uw
 
-**<span style='color:white'>Lead Hackweek Facilitator</span>**
+**<span style='color:white'>Lead Hackweek Coordinator (eScience)</span>**
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Lead Hackweek Facilitator oversee the activity of the planning teams and acts as the main point of contact between the various groups involved.
+The eScience Lead Coordinator oversees the activity of the planning teams and acts as the main point of contact between the various groups involved.
+
+
+---
+:column: col-lg-12 p-3
+:card: + my-2
+:header: bg-client
+
+**Lead Hackweek Coordinator (community)**
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Community Lead Coordinator oversees activities of the community event planning team.
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
@@ -103,10 +114,10 @@ The Collaboration Architect lead the design and delivery of facilitation methods
 :card: + my-2
 :header: bg-both
 
-**Lead Education Coordinators**
+**Lead Education Coordinator**
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Lead Education Coordinators are responsible for managing the Educational Team. They lead planning meetings aimed at defining learning outcomes and they help the team to design and deliver content that is within the scope of the hackweek. 
+The Lead Education Coordinator is responsible for managing the Educational Team. They lead planning meetings aimed at defining learning outcomes and they help the team to design and deliver content that is within the scope of the hackweek. 
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
@@ -116,27 +127,17 @@ The Lead Education Coordinators are responsible for managing the Educational Tea
 **<span style='color:white'>Education Consultant</span>**
 ^^^^^^^^^^^^^^^
 
-Education Consultants are well versed in methods of adult learning and the teaching of data science tools in an interactive setting. The Education Consultant helps to train others on the Education team in designing and delivering content.
+Education Consultants are well versed in pedagogy and the teaching of data science tools in an interactive setting. The Education Consultant helps to train others on the Education team in designing and delivering content.
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
 :card: + my-2
 :header: + bg-both
 
-**Education Architect**
+**Tutorial Leads**
 ^^^^^^^^^^^^^^
 
-Education Architects work with their respective communities to assess learning needs. They then design content (tutorials, online modules) for teaching to these needs.
-
----
-:column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
-:card: + my-2
-:header: + bg-client
-
-**Tutorial Teacher**
-^^^^^^^^^^^^^^
-
-Tutorial Teachers are the people who deliver the content designed by the Education Architects. They design interactive learning tools to ensure particpants stay engaged, and they employ best practices in delivering data science education. 
+Tutorial Leads work with their respective communities to assess learning needs. They then design content (tutorials, online modules) and deliver tutorials during the hackweek.
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
@@ -178,7 +179,7 @@ The Lead Project Coordinator guides the organizing team in choosing the mode of 
 **<span style='color:white'>Collaboration Consultant</span>**
 ^^^^^^^^^^^^^^^
 
-The Collaboration Consultant trains the organizing team in methods for facilitating healthy group interactions. They are available during an event to advise project leads and to resolve conflicts.
+The Collaboration Consultant trains the organizing team in methods for facilitating positive group interactions. They are available during an event to advise project leads and to resolve conflicts.
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
@@ -188,7 +189,7 @@ The Collaboration Consultant trains the organizing team in methods for facilitat
 **Project Team Lead**
 ^^^^^^^^^^^^^^
 
-The Project Team Lead guides the project work and helps to ensure everyone in the team is engaged.
+Each project will have a Project Team Lead who guides the project work and helps to ensure everyone in the team is engaged.
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
@@ -225,16 +226,6 @@ The Lead of Technology works with the organizing team to map out technology need
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
 :card: + my-2
-:header: + bg-uw
-
-**<span style='color:white'>Technical Education Specialist</span>**
-^^^^^^^^^^^^^^
-
-Technical Education Specialists have expertise in a range of technical tools and are available to teach organizers and participants.
-
----
-:column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
-:card: + my-2
 :header: + bg-both
 
 **Software Engineer**
@@ -247,10 +238,10 @@ Software Engineers provide specific guidance to any projects working to craft so
 :card: + my-2
 :header: + bg-client
 
-**Technical Helper**
+**Technical Specialist**
 ^^^^^^^^^^^^^^
 
-Technical Helpers are available to troubleshoot technical challenges as they arise. They may also assist in setting up GitHub organizations, websites, wiki pages and Google forms that support event planning and delivery. 
+Technical Specialists are available to troubleshoot technical challenges and teach organizers how to use various tools. They assist in setting up GitHub organizations, websites and other technology that supports event planning and delivery. 
 
 ````
 `````
