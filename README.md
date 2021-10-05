@@ -10,7 +10,7 @@ This repository is configured with [GitHub Actions](./.github/workflows/deploy.y
 ```
 git clone https://github.com/uwhackweek/hackweeks-as-a-service.git
 cd hackweeks-as-a-service
-conda env create -f environment.yml
+conda env create
 conda activate hackweek
 jb build docs
 ```
