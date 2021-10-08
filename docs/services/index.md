@@ -1,6 +1,6 @@
-# Roles and Services
+# Roles and Responsibilities
 
-The panels below describe the various services and roles in a typical hackweek. We use color coding to signify how the work is usually distributed:
+UW eScience staff work directly with members of your community to host an event. The schematic and color-coding legend below illustrates how roles are typically distributed.
 
 ````{panels}
 :column: col-lg-4 px-2 py-2
@@ -9,7 +9,7 @@ The panels below describe the various services and roles in a typical hackweek. 
 :card: + my-2
 :header: + bg-uw
 
-**<span style='color:white'>Services eScience usually provide</span>**
+**<span style='color:white'>UW eScience Roles</span>**
 ^^^^^^^^^^^^^^^
 
 These roles are usually filled by members of the eScience team, including staff and affiliates of the UW eScience Institute. Not all hackweeks require every role we offer.
@@ -34,8 +34,6 @@ These are roles typically filled by our clients and community partners intereste
 
 ````
 
-## Summary of Hackweek Roles
-
 ```{image} ../images/roles-graphic.png
 :alt: graphic of hackweek roles
 :class: bg-primary mb-1
@@ -44,6 +42,8 @@ These are roles typically filled by our clients and community partners intereste
 ```
 
 ## List of Roles 
+
+Click on a category below to see short summaries for specific roles:
 
 `````{dropdown} **Administration**
 :animate: fade-in-slide-down
@@ -62,7 +62,7 @@ These are roles typically filled by our clients and community partners intereste
 **<span style='color:white'>Lead Hackweek Coordinator (eScience)</span>**
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The eScience Lead Coordinator oversees the activity of the planning teams and acts as the main point of contact between the various groups involved. [(details)](roles-details.html#lead-hackweek-coordinator-for-escience)
+The eScience Lead Coordinator oversees the activity of the planning teams and acts as the main point of contact between the various groups involved. [(details)](./roles-details.md#lead-hackweek-coordinator-for-escience)
 
 ---
 :column: col-lg-12 p-3
@@ -72,7 +72,7 @@ The eScience Lead Coordinator oversees the activity of the planning teams and ac
 **Lead Hackweek Coordinator (community)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Community Lead Coordinator oversees activities of the community event planning team. [(details)](roles-details.html#lead-hackweek-coordinator-for-community)
+The Community Lead Coordinator oversees activities of the community event planning team. [(details)](./roles-details.md#lead-hackweek-coordinator-for-community)
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
