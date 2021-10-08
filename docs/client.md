@@ -20,7 +20,7 @@ We are just beginning to explore the combination of virtual and in person spaces
 
 ## Organizing Team
 
-Every hackweek involves the assembly of a planning team to prepare content and design how the event will be conducted. We will initially work with you to build a small (3-5 person) core team who initiate the defining of hackweek goals, timing and duration. This team will then build out a larger group that designs tutorials and conducts the event. Visit our [roles and responsibilities](services/index) page to learn more details about the composition of a planning team.
+Every hackweek involves the assembly of a planning team to prepare content and design how the event will be conducted. We will initially work with you to build a small (3-5 person) core team who initiate the defining of hackweek goals, timing and duration. This team will then build out a larger group that designs tutorials and conducts the event. Visit our [roles and services](services) page to learn more details about the composition of a planning team.
 
 ## Scheduling and Time Commitment
 

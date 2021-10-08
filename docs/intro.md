@@ -18,7 +18,7 @@ Learn more about the hackweek model at our [Hackweek Mission](mission) page.
 
 Get to know [our team](team) of hackweek designers and supports.
 
-Browse the [services](services/index) we can provide.
+Browse the [services](services) we can provide.
 ---
 :header: bg-jb-one
 

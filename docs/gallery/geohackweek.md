@@ -1,6 +1,10 @@
 # Geohackweek
 
-We hosted 4 [geohackweek](https://geohackweek.github.io) events during 2016 to 2019. 
+![Geohackweek Logo](../images/geohackweek-2019.png)
 
-This page is under construction.
+## Website
+
+## Projects
+
+## Outcomes
 

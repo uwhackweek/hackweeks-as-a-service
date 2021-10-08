@@ -7,9 +7,9 @@
 
 ![SnowExHackweek logo](https://snow.nasa.gov/sites/default/files/snowex-logo.png)
 
-```{link-button} SnowExhackweek
+```{link-button} https://snowex-hackweek.github.io/website/intro.html
 :text: SnowEx Hackweek
-:type: ref
+:type: url
 :classes: stretched-link
 ```
 
@@ -17,9 +17,9 @@
 
 ![ICESat-2 hackweek logo](http://www.nasa.gov/sites/default/files/thumbnails/image/icesat2-logo_0.jpg)
 
-```{link-button} ICESat-2hackweek
+```{link-button} https://icesat-2hackweek.github.io/
 :text: ICESat-2 Hackweek
-:type: ref
+:type: url
 :classes: stretched-link
 ```
 
@@ -27,9 +27,9 @@
 
 ![Geohackweek Logo](../images/geohackweek-2019.png)
 
-```{link-button} geohackweek
+```{link-button} http://geohackweek.github.io/
 :text: Geohackweek
-:type: ref
+:type: url
 :classes: stretched-link
 ```
 
