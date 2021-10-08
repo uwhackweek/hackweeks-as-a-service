@@ -62,7 +62,7 @@ Click on a category below to see short summaries for specific roles:
 **<span style='color:white'>Lead Hackweek Coordinator (eScience)</span>**
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The eScience Lead Coordinator oversees the activity of the planning teams and acts as the main point of contact between the various groups involved. [(details)](./roles-details.md#lead-hackweek-coordinator-for-escience)
+The eScience Lead Coordinator oversees the activity of the planning teams and acts as the main point of contact between the various groups involved. [(details)](./roles-details.html#lead-hackweek-coordinator-for-escience)
 
 ---
 :column: col-lg-12 p-3
@@ -72,7 +72,7 @@ The eScience Lead Coordinator oversees the activity of the planning teams and ac
 **Lead Hackweek Coordinator (community)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Community Lead Coordinator oversees activities of the community event planning team. [(details)](./roles-details.md#lead-hackweek-coordinator-for-community)
+The Community Lead Coordinator oversees activities of the community event planning team. [(details)](./roles-details.html#lead-hackweek-coordinator-for-community)
 
 ---
 :column: col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2
