@@ -8,7 +8,9 @@ parts:
 - caption: Hackweek Services
   chapters:
   - file: client
-  - file: services
+  - file: services/index
+    sections:
+    - file: services/roles-details
   - file: application
 - caption: Resources for Organizers
   chapters:
