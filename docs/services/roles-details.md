@@ -94,3 +94,39 @@ The Lead Hackweek Coordinator for Community is usually the person who contacted 
 ```
 ````
 `````
+
+## Lead Education Coordinator
+
+The Lead Education Coordinator guides the tutorial development team in building curriculum for the hackweek. They will typically:
+
+* lead the team in building a reasonable schedule balancing breadth and depth of content
+* help each tutorial developer get clear on learning outcomes and tutorial design
+* recruit for tutorial leads and helpers across the community
+* ensure that everyone developing tutorials is clear on their roles and timelines for developing content
+* act as a point of contact between tutorial developers and the leadership and technical teams
+
+
+## Education Consultant
+
+The Education Consultant offers advice and training to the education team about best practices for creating positive and productive learning spaces. Their activities might include:
+
+* hosting "train-the-trainer" workshops for tutorial leads and helpers prior to a hackweek
+* sharing evidence-based resources on how to build interactive tutorial content
+
+## Tutorial Leads
+
+Each hackweek tutorial will be led by one or several Tutorial Leads. Their role is to:
+
+* defining learning outcomes that are tailored to the needs of their community
+* create Jupyter Notebooks that can be used during both synchronous and asynchronous training
+* work with the technology team to ensure that their notebooks run within the shared computing environment
+* create tutorial content that includes interactive content
+* practice their tutorial with a peer group and iterate to incorporate improvements
+* deliver the tutorial during the hackweek
+
+## Tutorial Helper
+
+Tutorial Helpers play an important role in sharing tutorial content with the community. Their activities include:
+
+* becoming familiar with the tutorial content and being prepared to answer questions
+* attend the hackweek and be available to answer questions in real time (on slack or in person) and/or during office hours after the event
