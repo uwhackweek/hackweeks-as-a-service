@@ -87,13 +87,55 @@ The Lead Hackweek Coordinator for Community is usually the person who contacted 
 :align: center
 ```
 
-```{link-button} ../team
+```{link-button} https://www.boisestate.edu/earth/staff-members/hans-peter-marshall/
 :text: HP Marshall
-:type: ref
+:type: url
 :classes: stretched-link
 ```
 ````
 `````
+
+## Program Manager
+
+The Program Manger coordinates event planning, logistics and budgets, assists in setting up virtual technologies, acts as main logistical point of contact for participants and attends the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms). 
+
+`````{dropdown} **People With Experience in this Role**
+:open:
+
+````{panels}
+:container: pb-3
+:card: shadow
+:header: border-0
+:footer: border-0
+
+---
+:column: text-center col-6 col-lg-4
+:card: + my-2
+
+```{image} https://icesat-2hackweek.github.io/assets/images/JaneKoh.jpg
+:alt: Jane Koh
+:class: bg-primary mb-1
+:width: 100px
+:align: center
+```
+
+```{link-button} https://escience.washington.edu/people/jane-koh/
+:text: Jane Koh
+:type: url
+:classes: stretched-link
+```
+````
+`````
+## Budget Manager
+
+The Budget Manager guides the budgeting discussions, helping the teams get clarity on the scope of work for a given budget amount. They will work closely with the funding agency supporting the event to coordinate funding allocations for team members. 
+
+## Collaboration Architect
+
+The Collaboration Architect helps to create the conditions for the organizing team and participants to function well together in teams. Tasks typically include:
+
+* designing agendas and meeting structures to support tutorial ideation and hackweek planning 
+* creating and leading facilitation approaches to guide project formation, team building and collaboation, conflict resolution and generating random connections through social interactions 
 
 ## Lead Education Coordinator
 
@@ -130,3 +172,49 @@ Tutorial Helpers play an important role in sharing tutorial content with the com
 
 * becoming familiar with the tutorial content and being prepared to answer questions
 * attend the hackweek and be available to answer questions in real time (on slack or in person) and/or during office hours after the event
+
+
+## Lead Project Coordinator
+
+The Lead Project Coordinator will help the organizing team get clear on the overall objectives of the project work, to assess what projects are possible and to align projects with programmatic objectives if applicable. They will be active on communication platforms such as Slack to encourage participants to pitch ideas before the hackweek, and to communicate the process, roles and responsibilities of working in collaborative teams. During the event they might facilitate project team formation and embed with teams to guide collaborations, resolve conflicts and define what is possible within the allotted time. 
+
+## Project Team Lead
+
+The role of Project Team Lead is to guide the collaborative project work before, during and sometimes after the hackweek. Specific tasks could include:
+
+* pitching an idea for a project
+* gathering together a team and helping each person get clear on their individual goals during the project work 
+* facilitating relationship-building and development of collaborative structures among the team
+* helping everyone design project work that is within the scope of the hackweek  
+
+## Project Helper
+
+Each project might have one or several Project Helpers. Their role is often to:
+
+* offer technical guidance on a specific data science tool or topic in which they have expertise
+* help team members navigate collaboration technologies like JupyterHub and GitHub
+* offer a deeper-dive on content touched on during tutorials
+
+## Lead of Technology
+
+The Lead of Technology is responsible for establishing and maintaining the technical tools needed during the hackweek. Specific tasks include:
+
+* setting up a shared computational environment such as JupyterHub, either on premises or via a contract with an independent provider
+* create a roadmap of the suite of technologies to be used during the planning and implementation of the hackweek
+* coordinate the activities of the technology team in assisting organizers and participants as they learn and use tools such as GitHub, JupyterBook and Python libraries
+
+## Software Engineer
+
+Software Engineers offer their skills in building and maintaining tools that are needed to plan and implement the hackweek. Their roles could be:
+
+* deploying JupyterHub computational tools using infrastructure-as-code platforms
+* deploying and managing cloud computing environments that support the hackweek
+* managing issues and pull requests associated with community code libraries
+
+## Technical Specialist
+
+Technical Specialists assist in a variety of technical tasks that might include:
+
+* deploying and managing GitHub organiziations and repositories
+* designing and updating websites containing hackweek tutorials and project repositories
+* helping organizers and participants navigate specific technical challenges
