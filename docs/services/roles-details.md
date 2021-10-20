@@ -2,7 +2,11 @@
 
 Here we provide additional details on the various roles responsibilities coming together to make a hackweek run smoothly!
 
-## Lead Hackweek Coordinator for eScience
+## Administration
+
+The Administration Team is responsible for the overall planning and execution of the event.
+This includes budgeting, 
+### Lead Hackweek Coordinator for eScience
 
 The Lead Hackweek Coordinator provides oversight and direction to the eScience Team to ensure all components of the hackweek come together. This person will typically:
 
@@ -41,7 +45,7 @@ The Lead Hackweek Coordinator provides oversight and direction to the eScience T
 ````
 `````
 
-## Lead Hackweek Coordinator for Community
+### Lead Hackweek Coordinator for Community
 
 The Lead Hackweek Coordinator for Community is usually the person who contacted eScience with an intention to host a hackweek. This person will typically:
 
@@ -95,7 +99,7 @@ The Lead Hackweek Coordinator for Community is usually the person who contacted 
 ````
 `````
 
-## Program Manager
+### Program Manager
 
 The Program Manger coordinates event planning, logistics and budgets, assists in setting up virtual technologies, acts as main logistical point of contact for participants and attends the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms). 
 
@@ -126,36 +130,40 @@ The Program Manger coordinates event planning, logistics and budgets, assists in
 ```
 ````
 `````
-## Budget Manager
+### Budget Manager
 
 The Budget Manager guides the budgeting discussions, helping the teams get clarity on the scope of work for a given budget amount. They will work closely with the funding agency supporting the event to coordinate funding allocations for team members. 
 
-## Collaboration Architect
+### Collaboration Architect
 
 The Collaboration Architect helps to create the conditions for the organizing team and participants to function well together in teams. Tasks typically include:
 
 * designing agendas and meeting structures to support tutorial ideation and hackweek planning 
 * creating and leading facilitation approaches to guide project formation, team building and collaboation, conflict resolution and generating random connections through social interactions 
 
-## Lead Education Coordinator
+## Education
+
+### Lead Education Coordinator
 
 The Lead Education Coordinator guides the tutorial development team in building curriculum for the hackweek. They will typically:
 
-* lead the team in building a reasonable schedule balancing breadth and depth of content
-* help each tutorial developer get clear on learning outcomes and tutorial design
+* lead the education team in assessing community learning needs and then build a reasonable schedule balancing breadth and depth of content
 * recruit for tutorial leads and helpers across the community
 * ensure that everyone developing tutorials is clear on their roles and timelines for developing content
-* act as a point of contact between tutorial developers and the leadership and technical teams
+* help each tutorial developer get clear on learning outcomes and tutorial design
+* act as a point of contact between tutorial leads and the administrative/leadership and technical teams
+* **Anticipated Time Commitment** three hours/week
+* **Professional Development Opportunity** [![PM](https://img.shields.io/static/v1?label=<>&message=<project management>&color=<orange>)](https://) [![event](https://img.shields.io/static/v1?label=<>&message=<event coordination>&color=<orange>)](https://) teaching, curriculum develompent, collaborative development
 
 
-## Education Consultant
+### Education Consultant
 
 The Education Consultant offers advice and training to the education team about best practices for creating positive and productive learning spaces. Their activities might include:
 
 * hosting "train-the-trainer" workshops for tutorial leads and helpers prior to a hackweek
 * sharing evidence-based resources on how to build interactive tutorial content
 
-## Tutorial Leads
+### Tutorial Leads
 
 Each hackweek tutorial will be led by one or several Tutorial Leads. Their role is to:
 
@@ -166,7 +174,7 @@ Each hackweek tutorial will be led by one or several Tutorial Leads. Their role 
 * practice their tutorial with a peer group and iterate to incorporate improvements
 * deliver the tutorial during the hackweek
 
-## Tutorial Helper
+### Tutorial Helper
 
 Tutorial Helpers play an important role in sharing tutorial content with the community. Their activities include:
 
@@ -174,11 +182,13 @@ Tutorial Helpers play an important role in sharing tutorial content with the com
 * attend the hackweek and be available to answer questions in real time (on slack or in person) and/or during office hours after the event
 
 
-## Lead Project Coordinator
+## Projects
+
+### Lead Project Coordinator
 
 The Lead Project Coordinator will help the organizing team get clear on the overall objectives of the project work, to assess what projects are possible and to align projects with programmatic objectives if applicable. They will be active on communication platforms such as Slack to encourage participants to pitch ideas before the hackweek, and to communicate the process, roles and responsibilities of working in collaborative teams. During the event they might facilitate project team formation and embed with teams to guide collaborations, resolve conflicts and define what is possible within the allotted time. 
 
-## Project Team Lead
+### Project Team Lead
 
 The role of Project Team Lead is to guide the collaborative project work before, during and sometimes after the hackweek. Specific tasks could include:
 
@@ -187,7 +197,7 @@ The role of Project Team Lead is to guide the collaborative project work before,
 * facilitating relationship-building and development of collaborative structures among the team
 * helping everyone design project work that is within the scope of the hackweek  
 
-## Project Helper
+### Project Helper
 
 Each project might have one or several Project Helpers. Their role is often to:
 
@@ -195,7 +205,9 @@ Each project might have one or several Project Helpers. Their role is often to:
 * help team members navigate collaboration technologies like JupyterHub and GitHub
 * offer a deeper-dive on content touched on during tutorials
 
-## Lead of Technology
+## Technology Team
+
+### Lead of Technology
 
 The Lead of Technology is responsible for establishing and maintaining the technical tools needed during the hackweek. Specific tasks include:
 
@@ -203,7 +215,7 @@ The Lead of Technology is responsible for establishing and maintaining the techn
 * create a roadmap of the suite of technologies to be used during the planning and implementation of the hackweek
 * coordinate the activities of the technology team in assisting organizers and participants as they learn and use tools such as GitHub, JupyterBook and Python libraries
 
-## Software Engineer
+### Software Engineer
 
 Software Engineers offer their skills in building and maintaining tools that are needed to plan and implement the hackweek. Their roles could be:
 
@@ -211,10 +223,14 @@ Software Engineers offer their skills in building and maintaining tools that are
 * deploying and managing cloud computing environments that support the hackweek
 * managing issues and pull requests associated with community code libraries
 
-## Technical Specialist
+### Technical Specialist
 
 Technical Specialists assist in a variety of technical tasks that might include:
 
-* deploying and managing GitHub organiziations and repositories
-* designing and updating websites containing hackweek tutorials and project repositories
+* deploy and maintain GitHub organizations and repositories
+* design and update websites containing hackweek tutorials and project repositories
+* set up and manage technical infrastructure in support of event planning and delivery
 * helping organizers and participants navigate specific technical challenges
+
+* **Anticipated Time Commitment** one hour/week
+* **Professional Development Opportunity** [![GH](https://img.shields.io/static/v1?label=<>&message=<GitHub>&color=<orange>)](https://) [![collaborative dev](https://img.shields.io/static/v1?label=<>&message=<collaborative development>&color=<orange>)](https://) automated workflows, computing infrastructure, web development
