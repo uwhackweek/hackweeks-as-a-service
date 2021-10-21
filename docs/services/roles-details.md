@@ -233,7 +233,9 @@ Technical Specialists assist in a variety of technical tasks that might include:
 * helping organizers and participants navigate specific technical challenges
 
 * **Anticipated Time Commitment** one hour/week
-* **Professional Development Opportunity** [![GH](https://img.shields.io/static/v1?label=&message=GitHub&color=orange)](https://) [![collaborative dev](https://img.shields.io/static/v1?message=<collaborative development>&color=<orange>)](https://) automated workflows, computing infrastructure, web development
-
-[https://img.shields.io/static/v1?label=&message=words%20here&color=orange]()
-[https://img.shields.io/static/v1?label=&message=badgetest&color=orange](https://)
+* **Professional Development Opportunity**
+[![GH](https://img.shields.io/static/v1?label=&message=GitHub&color=orange)](https://)
+[![collab dev](https://img.shields.io/static/v1?label=&message=collaborative development&color=orange)](https://)
+[![auto](https://img.shields.io/static/v1?label=&message=automated workflows&color=orange)](https://)
+[![infrastructure](https://img.shields.io/static/v1?label=&message=computing infrastructure&color=orange)](https://)
+[![web](https://img.shields.io/static/v1?label=&message=web development&color=orange)](https://)
