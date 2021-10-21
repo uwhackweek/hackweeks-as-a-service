@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+      google.charts.load('current', {'packages':['timeline']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var container = document.getElementById('timeline');
+        var chart = new google.visualization.Timeline(container);
+        var dataTable = new google.visualization.DataTable();
+
+        dataTable.addColumn({ type: 'string', id: 'Event' });
+        dataTable.addColumn({ type: 'string', id: 'Stage' });
+        dataTable.addColumn({ type: 'date', id: 'Start' });
+        dataTable.addColumn({ type: 'date', id: 'End' });
+        dataTable.addRows([
+          [ 'Time', 'Finished these!', new Date(2021, 1, 1), new Date() ],
+          [ 'Time', 'Working on these!', new Date(), new Date(2023, 3, 31) ],  
+          [ 'SnowEx', 'pre', new Date(2021, 3, 11), new Date(2021, 7, 9) ],
+          [ 'SnowEx','event',new Date(2021, 7, 12),  new Date(2021, 7, 16) ],
+          [ 'SnowEx', 'post',  new Date(2021, 7, 19),  new Date(2021, 8, 12) ],
+          [ 'ICESat-2', 'pre', new Date(2021, 10, 1), new Date(2022, 3, 18) ],
+          [ 'ICESat-2','event',new Date(2022, 3, 21),  new Date(2022, 3, 25) ],
+          [ 'ICESat-2', 'post',  new Date(2022, 3, 28),  new Date(2022, 4, 30) ],
+          [ 'SnowEx', 'pre', new Date(2022, 2, 1), new Date(2022, 6, 10) ],
+          [ 'SnowEx', 'event', new Date(2022, 6, 13), new Date(2022, 6, 17) ],
+          [ 'SnowEx', 'post', new Date(2022, 6, 21), new Date(2022, 7, 31) ],
+          [ 'Water', 'pre', new Date(2022, 5, 1), new Date(2022, 8, 26) ],
+          [ 'Water', 'event', new Date(2022, 8, 29), new Date(2022, 9, 2) ],
+          [ 'Water', 'post', new Date(2022, 9, 6), new Date(2022, 10, 1) ],      
+          [ 'GeoSmart', 'pre', new Date(2022, 7, 12), new Date(2022, 11, 11) ],
+          [ 'GeoSmart', 'event', new Date(2022, 11, 14), new Date(2022, 11, 18) ],
+          [ 'GeoSmart', 'post', new Date(2022, 11, 21), new Date(2022, 12, 16) ],
+          [ 'Dog Aging', 'pre', new Date(2022, 6, 18), new Date(2022, 10, 14) ],
+          [ 'Dog Aging', 'event', new Date(2022, 10, 18), new Date(2022, 10, 21) ],
+          [ 'Dog Aging', 'post', new Date(2022, 10, 24), new Date(2022, 11, 16) ],
+          [ 'Anthro', 'tentative', new Date(2022, 4,1), new Date(2022, 10, 1)],
+          [ 'Weill neurohub', 'tentative', new Date(2022, 4,1), new Date(2022, 10, 1)],
+          [ 'Lead (eScience) - Anthony', 'ICESat-2 (1 month)',  new Date(2022, 3, 1),  new Date(2022, 4, 1) ],
+          [ 'Lead (eScience) - Anthony', 'SnowEx (1 month)',  new Date(2022, 6, 1),  new Date(2022, 7, 1) ],
+          [ 'Lead (eScience) - Anthony', 'Water (1 month)',  new Date(2022, 8, 1),  new Date(2022, 9, 1) ],
+          [ 'Lead (eScience) - Anthony', 'DAP (0.5 month)',  new Date(2022, 9, 1),  new Date(2022, 9, 15) ],
+          [ 'Lead (Community) - Jessica', 'ICESat-2 (3 months)',  new Date(2022, 1, 1),  new Date(2022, 4, 1) ], 
+          [ 'Lead Technology (eScience) - Scott', 'ICESat-2 (2 months)',  new Date(2022, 2, 1),  new Date(2022, 4, 1) ],
+          [ 'Lead Technology (eScience) - Scott', 'SnowEx (1 month)',  new Date(2022, 6, 1),  new Date(2022, 7, 1) ],
+          [ 'Lead of Projects (Community) - Axel', 'ICESat-2 (1 months)',  new Date(2022, 3, 1),  new Date(2022, 4, 1) ],
+          [ 'Lead of Education (Community) - TBD', 'ICESat-2 (1 months)',  new Date(2022, 3, 1),  new Date(2022, 4, 1) ]       
+        ]);
+
+        var options = {
+            timeline: { groupByRowLabel: false },
+        };
+
+        chart.draw(dataTable);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="timeline" style="height: 600px;"></div>
+
+    <center><a href = 'index.html'>Return to home</a></center>
+    
+  </body>
+</html>
