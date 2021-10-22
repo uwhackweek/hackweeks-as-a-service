@@ -240,4 +240,5 @@ Technical Specialists assist in a variety of technical tasks that might include:
 [![infrastructure](https://img.shields.io/static/v1?label=&message=computing&nbsp;infrastructure&color=orange)](https://)
 [![web](https://img.shields.io/static/v1?label=&message=web&nbsp;development&color=orange)](https://)
 
-:xref:`Sphinx External Links`
+{xref}`Sphinx External Links`
+{xref}`No link badge`
