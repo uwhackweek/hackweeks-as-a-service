@@ -3,7 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - extlinks
   - jupyter-book=0.12
   # NOTE: can remove below when executablebooks/sphinx-book-theme v0.1.7 released
   - pip
