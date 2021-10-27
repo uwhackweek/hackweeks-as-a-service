@@ -101,7 +101,7 @@ The Lead Hackweek Coordinator for Community is usually the person who contacted 
 
 ### Program Manager
 
-The Program Manger coordinates event planning, logistics and budgets, assists in setting up virtual technologies, acts as main logistical point of contact for participants and attends the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms). 
+The Program Manager coordinates event planning, logistics and budgets, assists in setting up virtual technologies, acts as main logistical point of contact for participants and attends the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms). 
 
 `````{dropdown} **People With Experience in this Role**
 :open:
