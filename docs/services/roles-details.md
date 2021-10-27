@@ -134,12 +134,70 @@ The Program Manger coordinates event planning, logistics and budgets, assists in
 
 The Budget Manager guides the budgeting discussions, helping the teams get clarity on the scope of work for a given budget amount. They will work closely with the funding agency supporting the event to coordinate funding allocations for team members. 
 
+
+`````{dropdown} **People With Experience in this Role**
+:open:
+
+````{panels}
+:container: pb-3
+:card: shadow
+:header: border-0
+:footer: border-0
+
+---
+:column: text-center col-6 col-lg-4
+:card: + my-2
+
+```{image} https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg
+:alt: picture of Ann Nykamp
+:class: bg-primary mb-1
+:width: 100px
+:align: center
+```
+
+```{link-button} ../team
+:text: Ann Nykamp
+:type: ref
+:classes: stretched-link
+```
+````
+`````
+
 ### Collaboration Architect
 
 The Collaboration Architect helps to create the conditions for the organizing team and participants to function well together in teams. Tasks typically include:
 
 * designing agendas and meeting structures to support tutorial ideation and hackweek planning 
 * creating and leading facilitation approaches to guide project formation, team building and collaboation, conflict resolution and generating random connections through social interactions 
+
+
+`````{dropdown} **People With Experience in this Role**
+:open:
+
+````{panels}
+:container: pb-3
+:card: shadow
+:header: border-0
+:footer: border-0
+
+---
+:column: text-center col-6 col-lg-4
+:card: + my-2
+
+```{image} ../images/Charley.jpeg
+:alt: picture of Charley Haley
+:class: bg-primary mb-1
+:width: 100px
+:align: center
+```
+
+```{link-button} https://www.linkedin.com/in/pamhaley/
+:text: Charley Haley
+:type: url
+:classes: stretched-link
+```
+````
+`````
 
 ## Education
 
@@ -153,7 +211,10 @@ The Lead Education Coordinator guides the tutorial development team in building 
 * help each tutorial developer get clear on learning outcomes and tutorial design
 * act as a point of contact between tutorial leads and the administrative/leadership and technical teams
 * **Anticipated Time Commitment** three hours/week
-* **Professional Development Opportunity** [![PM](https://img.shields.io/static/v1?label=<>&message=<project management>&color=<orange>)](https://) [![event](https://img.shields.io/static/v1?label=<>&message=<event coordination>&color=<orange>)](https://) teaching, curriculum develompent, collaborative development
+* **Professional Development Opportunity** 
+[![teaching](https://img.shields.io/static/v1?label=&message=teaching&color=orange)](https://)
+[![collab dev](https://img.shields.io/static/v1?label=&message=collaborative&nbsp;development&color=orange)](https://)
+[![curriculum development](https://img.shields.io/static/v1?label=&message=automated&nbsp;curriculum&nbsp;development&color=orange)](https://)
 
 
 ### Education Consultant
@@ -162,6 +223,35 @@ The Education Consultant offers advice and training to the education team about 
 
 * hosting "train-the-trainer" workshops for tutorial leads and helpers prior to a hackweek
 * sharing evidence-based resources on how to build interactive tutorial content
+
+
+`````{dropdown} **People With Experience in this Role**
+:open:
+
+````{panels}
+:container: pb-3
+:card: shadow
+:header: border-0
+:footer: border-0
+
+---
+:column: text-center col-6 col-lg-4
+:card: + my-2
+
+```{image} https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg
+:alt: picture of Naomi Alterman
+:class: bg-primary mb-1
+:width: 100px
+:align: center
+```
+
+```{link-button} https://www.nlalterman.com/index.html
+:text: Naomi Alterman
+:type: url
+:classes: stretched-link
+```
+````
+`````
 
 ### Tutorial Leads
 
@@ -173,6 +263,54 @@ Each hackweek tutorial will be led by one or several Tutorial Leads. Their role 
 * create tutorial content that includes interactive content
 * practice their tutorial with a peer group and iterate to incorporate improvements
 * deliver the tutorial during the hackweek
+
+
+
+`````{dropdown} **People With Experience in this Role**
+:open:
+
+````{panels}
+:container: pb-3
+:card: shadow
+:header: border-0
+:footer: border-0
+
+---
+:column: text-center col-6 col-lg-4
+:card: + my-2
+
+```{image} https://avatars.githubusercontent.com/u/1103530?v=4
+:alt: picture of David Shean
+:class: bg-primary mb-1
+:width: 100px
+:align: center
+```
+
+```{link-button} https://dshean.github.io/
+:text: David Shean
+:type: url
+:classes: stretched-link
+```
+
+---
+:column: text-center col-6 col-lg-4
+:card: + my-2
+
+```{image} https://avatars.githubusercontent.com/u/178649?v=4
+:alt: picture of Joachim Meyer
+:class: bg-primary mb-1
+:width: 100px
+:align: center
+```
+
+```{link-button} https://github.com/jomey
+:text: Joachim Meyer
+:type: url
+:classes: stretched-link
+```
+````
+`````
+
 
 ### Tutorial Helper
 
@@ -214,6 +352,36 @@ The Lead of Technology is responsible for establishing and maintaining the techn
 * setting up a shared computational environment such as JupyterHub, either on premises or via a contract with an independent provider
 * create a roadmap of the suite of technologies to be used during the planning and implementation of the hackweek
 * coordinate the activities of the technology team in assisting organizers and participants as they learn and use tools such as GitHub, JupyterBook and Python libraries
+
+
+`````{dropdown} **People With Experience in this Role**
+:open:
+
+````{panels}
+:container: pb-3
+:card: shadow
+:header: border-0
+:footer: border-0
+
+---
+:column: text-center col-6 col-lg-4
+:card: + my-2
+
+```{image} https://avatars.githubusercontent.com/u/3924836?v=4
+:alt: picture of Scott Henderson
+:class: bg-primary mb-1
+:width: 100px
+:align: center
+```
+
+```{link-button} https://scottyhq.github.io/index.html
+:text: Scott Henderson
+:type: url
+:classes: stretched-link
+```
+````
+`````
+
 
 ### Software Engineer
 
