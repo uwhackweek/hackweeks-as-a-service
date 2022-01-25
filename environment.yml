@@ -2,9 +2,5 @@ name: hackweek
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   - jupyter-book=0.12
-  # NOTE: can remove below when executablebooks/sphinx-book-theme v0.1.7 released
-  - pip
-  - pip:
-    - git+https://github.com/executablebooks/sphinx-book-theme.git@master

@@ -33,5 +33,6 @@ jobs:
         jupyter-book build docs/
 
     - name: Check External Links
+      continue-on-error: true
       run: |
         jupyter-book build docs/ --builder linkcheck
