@@ -55,7 +55,7 @@ Spend a bit of time looking at these examples from past events:
 
 | Description | Links |
 | - | - |
-| SnowEx 2021 Thermal IR | (rendered)[https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html], (raw)[https://github.com/snowex-hackweek/website/raw/main/book/tutorials/thermal-ir/thermal-ir-tutorial.ipynb] |
+| SnowEx 2021 Thermal IR | [rendered](https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html), [download](https://github.com/snowex-hackweek/website/raw/main/book/tutorials/thermal-ir/thermal-ir-tutorial.ipynb) |
 
 
 ## Delivering a tutorial
@@ -63,17 +63,19 @@ Spend a bit of time looking at these examples from past events:
 Prepare your tutorials well in advance and practice it in front of a small audience for feedback. This helps ensure you have enough time to cover your full tutorial, can be an opportunity for feedback, and will give you confidence when presenting during the hackweek.
 
 ### Examples of presenting
-Take a bit of time to review tutorials recorded at our previous hackweeks:
+Take a bit of time to review these excellent tutorials recorded at our previous hackweeks:
 
-- [Thermal Infrared Remote Sensing](https://www.youtube.com/watch?v=dkI0pVYclt0) at 2021 SnowEx Hackweek by Steven Pestana
-- [ICESat-2 Land Ice Applications](https://www.youtube.com/watch?v=qtkVd2xc-U8) at 2020 ICESat-2 Hackweek by Ben Smith
-- [Google Earth Engine](https://www.youtube.com/watch?v=VMJ1ZO48cwU) at 2018 GeoHackweek by Catherine Kuhn
+| Description | Event | Recording |
+| - | - | - |
+| Thermal Infrared Remote Sensing | 2021 SnowEx Hackweek by Steven Pestana | [link](https://www.youtube.com/watch?v=dkI0pVYclt0) |
+| ICESat-2 Land Ice Applications | 2020 ICESat-2 Hackweek by Ben Smith | [link](https://www.youtube.com/watch?v=qtkVd2xc-U8) |
+| Google Earth Engine | 2018 GeoHackweek by Catherine Kuhn | [link](https://www.youtube.com/watch?v=VMJ1ZO48cwU) |
 
 
 ## References
 
-To dig a bit deeper on some general guidance on creating technical content for a hackweek, we recommend this excellent resource from the [The Diátaxis framework](https://diataxis.fr).
+To dig a bit deeper on some general guidance on creating technical content for a hackweek, we recommend reviewing [The Diátaxis Framework](https://diataxis.fr) for documentation.
 
 ```{note}
-While we've advocated for *learning-oriented* tutorials based on the Diátaxis framework during a hackweek, keep in mind alternative approaches that might be a good fit depending on your goals: [*understanding-oriented*](https://diataxis.fr/explanation), [*reference-oriented*](https://diataxis.fr/reference), and [*goal-oriented*](https://diataxis.fr/how-to-guides).
+While we've advocated for *learning-oriented* tutorials based on the Diátaxis Framework during a hackweek, keep in mind alternative approaches that might be a good fit depending on your goals: [*understanding-oriented*](https://diataxis.fr/explanation), [*reference-oriented*](https://diataxis.fr/reference), and [*goal-oriented*](https://diataxis.fr/how-to-guides).
 ```
