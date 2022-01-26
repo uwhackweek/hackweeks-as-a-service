@@ -1,9 +1,9 @@
-# Resources for Tutorial Design
+# Resources for tutorial design
 
 Preparing a tutorial for a hackweek can feel like a daunting task. We are here to help guide you through the process! This page summarizes our recommendations for [Tutorial Leads](../services/roles-details.html#tutorial-leads).
 
 
-## Curriculum Development
+## Curriculum development
 
 ```{important}
 A hackweek tutorial is *learning-oriented* and should guide participants through a step-wise process with a meaningful outcome.
@@ -49,7 +49,7 @@ We recommend that all notebooks make use of sections with the following minimal 
 For convenience you can start with a copy of our [template notebook](https://uwhackweek.github.io/jupyterbook-template/tutorials/example/tutorial-notebook.html), which you can download [here](https://github.com/uwhackweek/jupyterbook-template/raw/main/book/tutorials/example/tutorial-notebook.ipynb).
 
 
-#### Examples
+#### Examples of formatting
 
 Spend a bit of time looking at these examples from past events:
 
@@ -62,7 +62,7 @@ Spend a bit of time looking at these examples from past events:
 
 Prepare your tutorials well in advance and practice it in front of a small audience for feedback. This helps ensure you have enough time to cover your full tutorial, can be an opportunity for feedback, and will give you confidence when presenting during the hackweek.
 
-### Examples
+### Examples of presenting
 Take a bit of time to review tutorials recorded at our previous hackweeks:
 
 - [Thermal Infrared Remote Sensing](https://www.youtube.com/watch?v=dkI0pVYclt0) at 2021 SnowEx Hackweek by Steven Pestana
