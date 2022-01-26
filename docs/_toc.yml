@@ -3,27 +3,29 @@ root: intro
 parts:
 - caption: Overview
   chapters:
-  - file: mission
-  - file: team
+    - file: mission
+    - file: team
 - caption: Hackweek Services
   chapters:
-  - file: client
-  - file: services/index
-    sections:
-    - file: services/roles-details
-  - file: application
+    - file: client
+    - file: services/index
+      sections:
+        - file: services/roles-details
+    - file: application
 - caption: Resources for Organizers
   chapters:
-  - file: tutorials
-  - file: teaching-resources
+  - file: resources/tutorials
+    sections:
+      - file: resources/tutorial-resources
+      - file: resources/data-management
 - caption: Gallery
   chapters:
   - file: gallery/index
     sections:
-    - file: gallery/ICESat-2hackweek
-    - file: gallery/SnowExhackweek
-    - file: gallery/geohackweek
+      - file: gallery/ICESat-2hackweek
+      - file: gallery/SnowExhackweek
+      - file: gallery/geohackweek
 - caption: Reference
   chapters:
-  - file: bibliography
-  - file: acknowledgements
+    - file: bibliography
+    - file: acknowledgements
