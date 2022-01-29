@@ -2,10 +2,11 @@
 
 ````{panels}
 :column: text-center col-4 col-lg-4
+:header: bg-jb-one
 :footer: text-left
 :card: +my-2
 
-**Sense of Belonging**
+**<span style='color:white'>Sense of Belonging</span>**
 ^^^
 ```{image} images/belonging.png
 :alt: belonging
@@ -17,7 +18,7 @@
 We foster a welcoming, diverse and inclusive environment.
 ---
 
-**Education**
+**<span style='color:white'>Education</span>**
 ^^^
 ```{image} images/education.png
 :alt: belonging
@@ -29,7 +30,7 @@ We foster a welcoming, diverse and inclusive environment.
 We gain experience in conducting data-intensive research.
 ---
 
-**Immersive Learning**
+**<span style='color:white'>Immersive Learning</span>**
 ^^^
 ```{image} images/interactivity.png
 :alt: belonging
@@ -41,7 +42,7 @@ We gain experience in conducting data-intensive research.
 We encourage immersive, interactive and collaborative learning.
 ---
 
-**Co-creation**
+**<span style='color:white'>Co-creation</span>**
 ^^^
 ```{image} images/co-creation.png
 :alt: belonging
@@ -54,7 +55,7 @@ We incorporate elements of co-creation with participants.
 ---
 
 
-**Networking**
+**<span style='color:white'>Networking</span>**
 ^^^
 ```{image} images/networking.png
 :alt: belonging
@@ -66,7 +67,7 @@ We incorporate elements of co-creation with participants.
 We provide opportunities for people to build their networks.
 ---
 
-**Code of Conduct**
+**<span style='color:white'>Code of Conduct</span>**
 ^^^
 ```{image} images/CoC.png
 :alt: belonging
