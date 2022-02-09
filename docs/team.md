@@ -102,4 +102,12 @@ Our team consists of Research / Data Scientists and the Executive Director of th
 <img src="https://avatars.githubusercontent.com/u/178649?v=4" alt="picture of Joachim Meyer" width="200" height="200">
 +++
 *Roles:* Technical specialist
+
+---
+
+**Don Setiawan**
+^^^
+<img src="https://avatars.githubusercontent.com/u/17802172?v=4" alt="picture of Landung Setiawan" width="200" height="200">
++++
+*Roles:* Technical specialist
 ````
