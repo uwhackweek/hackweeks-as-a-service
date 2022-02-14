@@ -18,6 +18,7 @@ parts:
     sections:
       - file: resources/tutorial-resources
       - file: resources/data-management
+      - file: resources/recognition
 - caption: Gallery
   chapters:
   - file: gallery/index
