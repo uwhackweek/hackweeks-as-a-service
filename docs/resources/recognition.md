@@ -27,8 +27,7 @@ We use this YAML markdown template for each team member.
   user_groups:
   - 
   ```
-
-The first step is to copy the text above into your favorite editor and add your information. Here is an example of how the text you include gets rendered on the website:
+ Here is an example of how the text you include in this template gets rendered on the website:
 
   ```{image} ../images/website-bio.jpg
 :alt: example of how to fill out website bio
@@ -36,11 +35,20 @@ The first step is to copy the text above into your favorite editor and add your 
 :align: center
 ```
 
-Note that it is important to precisely follow the indentation and spacing layout shown here, so that the website correctly interprets the YAML format. Also, we encourage everyone to use their GitHub avatar as the source of their personal photograph.
+**Notes:**
+- You must precisely follow the indentation and spacing layout shown here, so that the website correctly interprets the YAML format.
+- We encourage everyone to use their GitHub avatar as the source of their personal photograph.
+- Only your GitHub username (not a full url) is required for the `link` key under `social`.
+- Acceptable user groups (roles) can be found [here](https://uwhackweek.github.io/hackweeks-as-a-service/services/index.html).
 
-## Uploading to the website
+### Uploading to the website
 
-There are two ways you can upload your information so that we can include you on the website:
+To include your content on the website, please make a pull request to the `team.yaml` file located in the website for the event you're involved with. For example, here is the [file for the ICESat-2 2022 hackweek](https://github.com/ICESAT-2HackWeek/website2022/blob/main/book/team.yaml). 
 
-1. send the completed YAML file to one of the lead organizers, and they will push it to the website
-2. If you're familiar with GitHub, make a pull request to the `team.yaml` file located in the website for the event you're involved with. For example, here is the [file for the ICESat-2 2022 hackweek](https://github.com/ICESAT-2HackWeek/website2022/blob/main/book/team.yaml). 
+## Online Tutorials
+
+All of our tutorials are recorded and shared on the [eScience Institute's youtube channel](https://www.youtube.com/channel/UCLKSeDZWDqBzKRfHTabg1lQ). We encourage tutorial leads to link to these videos from their social media accounts and websites as a way to demostrate their teaching competencies.
+
+## Referrals and Feedback
+
+The eScience Institute's hackweek as a service program will provide references for past organizers upon request. We will also offer feedback to help promote your professional development. [Contact us](mailto:arendta@uw.edu) for more information.
