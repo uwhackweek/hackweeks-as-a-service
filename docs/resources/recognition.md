@@ -47,7 +47,7 @@ To include your content on the website, please make a pull request to the `team.
 
 ## Online Tutorials
 
-All of our tutorials are recorded and shared on the [eScience Institute's youtube channel](https://www.youtube.com/channel/UCLKSeDZWDqBzKRfHTabg1lQ). We encourage tutorial leads to link to these videos from their social media accounts and websites as a way to demonstrate their teaching competencies.
+All of our tutorials are recorded and shared on the [eScience Institute's youtube channel](https://www.youtube.com/c/UWeScienceInstitute/playlists). We encourage tutorial leads to link to these videos from their social media accounts and websites as a way to demonstrate their teaching competencies.
 
 ## Referrals and Feedback
 
