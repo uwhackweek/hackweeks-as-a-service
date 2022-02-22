@@ -38,7 +38,7 @@ We use this YAML markdown template for each team member.
 **Notes:**
 - You must precisely follow the indentation and spacing layout shown here, so that the website correctly interprets the YAML format.
 - We encourage everyone to use their GitHub avatar as the source of their personal photograph.
-- Only your GitHub username (not a full url) is required for the `link` key under `social`.
+- Provide your GitHub username, together with the full url, for the `link` key under `social`.
 - Acceptable user groups (roles) can be found [here](https://uwhackweek.github.io/hackweeks-as-a-service/services/index.html).
 
 ### Uploading to the website
