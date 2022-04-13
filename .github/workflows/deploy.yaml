@@ -31,4 +31,4 @@ jobs:
         personal_token: ${{ secrets.GH_PAT }}
         publish_dir: docs/_build/html
         publish_branch: gh-pages
-        cname: guidbook.hackweek.io
+        cname: guidebook.hackweek.io
