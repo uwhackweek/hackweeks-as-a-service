@@ -43,12 +43,11 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -335,7 +334,8 @@
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="bibliography">
 <h1>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">¶</a></h1>
-<p id="id1"><dl class="citation">
+<div class="docutils container" id="id1">
+<dl class="citation">
 <dt class="label" id="id2"><span class="brackets">1</span></dt>
 <dd><p>Daniela Huppenkothen, Anthony Arendt, David W. Hogg, Karthik Ram, Jacob T. VanderPlas, and Ariel Rokem. Hack weeks as a model for data science education and collaboration. <em>Proceedings of the National Academy of Sciences</em>, 115(36):8872–8877, 2018. <a class="reference external" href="https://doi.org/10.1073/pnas.1717196115">doi:10.1073/pnas.1717196115</a>.</p>
 </dd>
@@ -346,7 +346,7 @@
 <dd><p>Julia S. Stewart Lowndes, Benjamin D. Best, Courtney Scarborough, Jamie C. Afflerbach, Melanie R. Frazier, Casey C. O’Hara, Ning Jiang, and Benjamin S. Halpern. Our path to better science in less time using open data science tools. <em>Nature Ecology &amp; Evolution</em>, 1(6):1–7, May 2017. Number: 6 Publisher: Nature Publishing Group. URL: <a class="reference external" href="https://www.nature.com/articles/s41559-017-0160">https://www.nature.com/articles/s41559-017-0160</a> (visited on 2020-07-16), <a class="reference external" href="https://doi.org/10.1038/s41559-017-0160">doi:10.1038/s41559-017-0160</a>.</p>
 </dd>
 </dl>
-</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
