@@ -38,9 +38,12 @@
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -421,8 +424,11 @@ const thebe_selector_output = ".output, .cell_output"
 <p>Here is an example of how the text you include in this template gets rendered on the website:</p>
 <a class="reference internal image-reference" href="../_images/website-bio.jpg"><img alt="example of how to fill out website bio" class="align-center" src="../_images/website-bio.jpg" style="width: 1100px;" /></a>
 <p><strong>Notes:</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You must precisely follow the indentation and spacing layout shown here, so that the website correctly interprets the YAML format. Copying and existing team member’s text and editing is an easy way to guarantee this</p>
+</div>
 <ul class="simple">
-<li><p>You must precisely follow the indentation and spacing layout shown here, so that the website correctly interprets the YAML format.</p></li>
 <li><p>We encourage everyone to use their GitHub avatar as the source of their personal photograph.</p></li>
 <li><p>Provide your GitHub username, together with the full url, for the <code class="docutils literal notranslate"><span class="pre">link</span></code> key under <code class="docutils literal notranslate"><span class="pre">social</span></code>.</p></li>
 <li><p>Acceptable user groups (roles) can be found <a class="reference external" href="https://uwhackweek.github.io/hackweeks-as-a-service/services/index.html">here</a>.</p></li>
@@ -430,6 +436,10 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="uploading-to-the-website">
 <h3>Uploading to the website<a class="headerlink" href="#uploading-to-the-website" title="Permalink to this headline">¶</a></h3>
 <p>To include your content on the website, please make a pull request to the <code class="docutils literal notranslate"><span class="pre">team.yaml</span></code> file located in the website for the event you’re involved with. For example, here is the <a class="reference external" href="https://github.com/ICESAT-2HackWeek/website2022/blob/main/book/team.yaml">file for the ICESat-2 2022 hackweek</a>.</p>
+<p>When you are just editing text, using GitHub’s online text editor is very convenient:
+<img width="1031" alt="Screen Shot 2022-06-07 at 3 07 21 PM" src="https://user-images.githubusercontent.com/3924836/172491535-8aa4d9ff-4d2d-492a-96ff-c8ba49c1b2e5.png"></p>
+<p>It’s best practice to create <a class="reference external" href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a> from ‘feature’ branches. So commit your changes on a branch other than the ‘main’ branch:
+<img width="1031" alt="Screen Shot 2022-06-07 at 3 08 02 PM" src="https://user-images.githubusercontent.com/3924836/172491617-ec81e180-2a61-4ed0-be28-65dff12559bd.png"></p>
 </div>
 </div>
 <div class="section" id="online-tutorials">
