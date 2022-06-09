@@ -1,83 +1,87 @@
 # Hackweek Mission
 
-````{panels}
-:column: text-center col-4 col-lg-4
-:header: bg-jb-one
-:footer: text-left
-:card: +my-2
+::::{grid} 3
+:gutter: 2
 
+:::{grid-item-card}
+:class-header: grid-card-purple
+:class-footer: bg-light
 **<span style='color:white'>Sense of Belonging</span>**
 ^^^
 ```{image} images/belonging.png
 :alt: belonging
-:class: bg-primary mb-1
-:width: 200px
-:align: center
 ```
 +++
 We foster a welcoming, diverse and inclusive environment.
----
+:::
 
+
+:::{grid-item-card}
+:class-header: grid-card-purple
+:class-footer: bg-light
 **<span style='color:white'>Education</span>**
 ^^^
 ```{image} images/education.png
-:alt: belonging
-:class: bg-primary mb-1
-:width: 200px
-:align: center
+:alt: education
 ```
 +++
 We gain experience in conducting data-intensive research.
----
+:::
 
+
+:::{grid-item-card}
+:class-header: grid-card-purple
+:class-footer: bg-light
 **<span style='color:white'>Immersive Learning</span>**
 ^^^
 ```{image} images/interactivity.png
-:alt: belonging
-:class: bg-primary mb-1
-:width: 200px
-:align: center
+:alt: interactivity
 ```
 +++
 We encourage immersive, interactive and collaborative learning.
----
+:::
 
+
+:::{grid-item-card}
+:class-header: grid-card-purple
+:class-footer: bg-light
 **<span style='color:white'>Co-creation</span>**
 ^^^
 ```{image} images/co-creation.png
-:alt: belonging
-:class: bg-primary mb-1
-:width: 200px
-:align: center
+:alt: co-creation
 ```
 +++
 We incorporate elements of co-creation with participants.
----
+:::
 
 
+:::{grid-item-card}
+:class-header: grid-card-purple
+:class-footer: bg-light
 **<span style='color:white'>Networking</span>**
 ^^^
 ```{image} images/networking.png
-:alt: belonging
-:class: bg-primary mb-1
-:width: 200px
-:align: center
+:alt: networking
 ```
 +++
 We provide opportunities for people to build their networks.
----
+:::
 
+
+:::{grid-item-card}
+:class-header: grid-card-purple
+:class-footer: bg-light
 **<span style='color:white'>Code of Conduct</span>**
 ^^^
 ```{image} images/CoC.png
-:alt: belonging
-:class: bg-primary mb-1
-:width: 200px
-:align: center
+:alt: codeofconduct
 ```
 +++
 We adhere to and enforce a shared Code of Conduct.
-````
+:::
+
+::::
+
 
 ## How Can a Hackweek Serve my Community?
 

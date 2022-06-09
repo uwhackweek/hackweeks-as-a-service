@@ -5,7 +5,7 @@ Here we provide additional details on the various roles responsibilities coming 
 ## Administration
 
 The Administration Team is responsible for the overall planning and execution of the event.
-This includes budgeting, 
+This includes budgeting,
 ### Lead Hackweek Coordinator for eScience
 
 The Lead Hackweek Coordinator provides oversight and direction to the eScience Team to ensure all components of the hackweek come together. This person will typically:
@@ -14,34 +14,21 @@ The Lead Hackweek Coordinator provides oversight and direction to the eScience T
 * help all organizers and participants align their activities with hackweek goals and values
 * assist in proposal writing and budget negotiation
 * assist the Lead Hackweek Coordinator for Community in assembling tutorial developers, project managers and technical helpers
-* offer coaching to various members of the organizing teams 
+* offer coaching to various members of the organizing teams
 * attend the event to provide opening context and set the stage for a positive learning environment
 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://avatars.githubusercontent.com/u/4993098?v=4?s=100
-:alt: picture of Anthony Arendt
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} Anthony Arendt
+:columns: 3
+:link: ../team
+:link-type: doc
+:img-top: https://avatars.githubusercontent.com/u/4993098?v=4?s=100
 ```
 
-```{link-button} ../team
-:text: Anthony Arendt
-:type: ref
-:classes: stretched-link
-```
 ````
 `````
 
@@ -57,109 +44,58 @@ The Lead Hackweek Coordinator for Community is usually the person who contacted 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://avatars.githubusercontent.com/u/11756442?v=4
-:alt: picture of Jessica Scheick
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} Jessica Scheick
+:columns: 3
+:link: ../team
+:link-type: doc
+:img-top: https://avatars.githubusercontent.com/u/11756442?v=4
 ```
 
-```{link-button} ../team
-:text: Jessica Scheick
-:type: ref
-:classes: stretched-link
-```
-
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://avatars.githubusercontent.com/u/23019134?v=4?s=100
-:alt: picture of HP Marshall
-:class: bg-primary mb-1
-:width: 100px
-:align: center
-```
-
-```{link-button} https://www.boisestate.edu/earth/staff-members/hans-peter-marshall/
-:text: HP Marshall
-:type: url
-:classes: stretched-link
+```{grid-item-card} HP Marshall
+:columns: 3
+:link: https://www.boisestate.edu/earth/staff-members/hans-peter-marshall
+:img-top: https://avatars.githubusercontent.com/u/23019134?v=4?s=100
 ```
 ````
 `````
 
 ### Program Manager
 
-The Program Manager coordinates event planning, logistics and budgets, assists in setting up virtual technologies, acts as main logistical point of contact for participants and attends the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms). 
+The Program Manager coordinates event planning, logistics and budgets, assists in setting up virtual technologies, acts as main logistical point of contact for participants and attends the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms).
 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://icesat-2hackweek.github.io/assets/images/JaneKoh.jpg
-:alt: Jane Koh
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} Jane Koh
+:columns: 3
+:link: ../team
+:link-type: doc
+:img-top: https://avatars.githubusercontent.com/u/51932541?v=4
 ```
 
-```{link-button} https://escience.washington.edu/people/jane-koh/
-:text: Jane Koh
-:type: url
-:classes: stretched-link
-```
 ````
 `````
 ### Budget Manager
 
-The Budget Manager guides the budgeting discussions, helping the teams get clarity on the scope of work for a given budget amount. They will work closely with the funding agency supporting the event to coordinate funding allocations for team members. 
+The Budget Manager guides the budgeting discussions, helping the teams get clarity on the scope of work for a given budget amount. They will work closely with the funding agency supporting the event to coordinate funding allocations for team members.
 
 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg
-:alt: picture of Ann Nykamp
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} Ann Nykamp
+:columns: 3
+:link: ../team
+:link-type: doc
+:img-top: https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg
 ```
 
-```{link-button} ../team
-:text: Ann Nykamp
-:type: ref
-:classes: stretched-link
-```
 ````
 `````
 
@@ -167,35 +103,22 @@ The Budget Manager guides the budgeting discussions, helping the teams get clari
 
 The Collaboration Architect helps to create the conditions for the organizing team and participants to function well together in teams. Tasks typically include:
 
-* designing agendas and meeting structures to support tutorial ideation and hackweek planning 
-* creating and leading facilitation approaches to guide project formation, team building and collaboation, conflict resolution and generating random connections through social interactions 
+* designing agendas and meeting structures to support tutorial ideation and hackweek planning
+* creating and leading facilitation approaches to guide project formation, team building and collaboation, conflict resolution and generating random connections through social interactions
 
 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} ../images/Charley.jpeg
-:alt: picture of Charley Haley
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} Charley Haley
+:columns: 3
+:link: ../team
+:link-type: doc
+:img-top: ../images/Charley.jpeg
 ```
 
-```{link-button} https://www.linkedin.com/in/pamhaley/
-:text: Charley Haley
-:type: url
-:classes: stretched-link
-```
 ````
 `````
 
@@ -211,7 +134,7 @@ The Lead Education Coordinator guides the tutorial development team in building 
 * help each tutorial developer get clear on learning outcomes and tutorial design
 * act as a point of contact between tutorial leads and the administrative/leadership and technical teams
 * **Anticipated Time Commitment** three hours/week
-* **Professional Development Opportunity** 
+* **Professional Development Opportunity**
 [![teaching](https://img.shields.io/static/v1?label=&message=teaching&color=orange)](https://)
 [![collab dev](https://img.shields.io/static/v1?label=&message=collaborative&nbsp;development&color=orange)](https://)
 [![curriculum development](https://img.shields.io/static/v1?label=&message=automated&nbsp;curriculum&nbsp;development&color=orange)](https://)
@@ -228,28 +151,14 @@ The Education Consultant offers advice and training to the education team about 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg
-:alt: picture of Naomi Alterman
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} Naomi Alterman
+:columns: 3
+:link: https://www.nlalterman.com/index.html
+:img-top: https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg
 ```
 
-```{link-button} https://www.nlalterman.com/index.html
-:text: Naomi Alterman
-:type: url
-:classes: stretched-link
-```
 ````
 `````
 
@@ -269,45 +178,20 @@ Each hackweek tutorial will be led by one or several Tutorial Leads. Their role 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://avatars.githubusercontent.com/u/1103530?v=4
-:alt: picture of David Shean
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} David Shean
+:columns: 3
+:link: https://dshean.github.io/
+:img-top: https://avatars.githubusercontent.com/u/1103530?v=4
 ```
 
-```{link-button} https://dshean.github.io/
-:text: David Shean
-:type: url
-:classes: stretched-link
+```{grid-item-card} Joachim Meyer
+:columns: 3
+:link: https://github.com/jomey
+:img-top: https://avatars.githubusercontent.com/u/178649?v=4
 ```
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://avatars.githubusercontent.com/u/178649?v=4
-:alt: picture of Joachim Meyer
-:class: bg-primary mb-1
-:width: 100px
-:align: center
-```
-
-```{link-button} https://github.com/jomey
-:text: Joachim Meyer
-:type: url
-:classes: stretched-link
-```
 ````
 `````
 
@@ -324,14 +208,14 @@ Tutorial Helpers play an important role in sharing tutorial content with the com
 
 ### Lead Project Coordinator
 
-The Lead Project Coordinator will help the organizing team get clear on the overall objectives of the project work, to assess what projects are possible and to align projects with programmatic objectives if applicable. They will be active on communication platforms such as Slack to encourage participants to pitch ideas before the hackweek, and to communicate the process, roles and responsibilities of working in collaborative teams. During the event they might facilitate project team formation and embed with teams to guide collaborations, resolve conflicts and define what is possible within the allotted time. 
+The Lead Project Coordinator will help the organizing team get clear on the overall objectives of the project work, to assess what projects are possible and to align projects with programmatic objectives if applicable. They will be active on communication platforms such as Slack to encourage participants to pitch ideas before the hackweek, and to communicate the process, roles and responsibilities of working in collaborative teams. During the event they might facilitate project team formation and embed with teams to guide collaborations, resolve conflicts and define what is possible within the allotted time.
 
 ### Project Team Lead
 
 The role of Project Team Lead is to guide the collaborative project work before, during and sometimes after the hackweek. Specific tasks could include:
 
 * pitching an idea for a project
-* gathering together a team and helping each person get clear on their individual goals during the project work 
+* gathering together a team and helping each person get clear on their individual goals during the project work
 * facilitating relationship-building and development of collaborative structures among the team
 * helping everyone design project work that is within the scope of the hackweek  
 
@@ -357,28 +241,14 @@ The Lead of Technology is responsible for establishing and maintaining the techn
 `````{dropdown} **People With Experience in this Role**
 :open:
 
-````{panels}
-:container: pb-3
-:card: shadow
-:header: border-0
-:footer: border-0
+````{grid}
 
----
-:column: text-center col-6 col-lg-4
-:card: + my-2
-
-```{image} https://avatars.githubusercontent.com/u/3924836?v=4
-:alt: picture of Scott Henderson
-:class: bg-primary mb-1
-:width: 100px
-:align: center
+```{grid-item-card} Scott Henderson
+:columns: 3
+:link: https://scottyhq.github.io/index.html
+:img-top: https://avatars.githubusercontent.com/u/3924836?v=4
 ```
 
-```{link-button} https://scottyhq.github.io/index.html
-:text: Scott Henderson
-:type: url
-:classes: stretched-link
-```
 ````
 `````
 

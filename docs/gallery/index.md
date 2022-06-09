@@ -1,36 +1,26 @@
 # Gallery of Previous Hackweeks
 
-````{panels}
-:container: full-width
-:column: text-center col-6 col-lg-4
-:card: +my-2
+````{grid}
 
-![SnowExHackweek logo](https://snow.nasa.gov/sites/default/files/snowex-logo.png)
-
-```{link-button} SnowExhackweek
-:text: SnowEx Hackweek
-:type: ref
-:classes: stretched-link
+```{grid-item-card} SnowEx Hackweek 2021
+:img-top: https://snow.nasa.gov/sites/default/files/snowex-logo.png
+:link: SnowExhackweek
+:link-type: doc
+:text-align: center
 ```
 
----
-
-![ICESat-2 hackweek logo](http://www.nasa.gov/sites/default/files/thumbnails/image/icesat2-logo_0.jpg)
-
-```{link-button} ICESat-2hackweek
-:text: ICESat-2 Hackweek
-:type: ref
-:classes: stretched-link
+```{grid-item-card} ICESat-2 Hackweek 2020
+:img-top: http://www.nasa.gov/sites/default/files/thumbnails/image/icesat2-logo_0.jpg
+:link: ICESat-2hackweek
+:link-type: doc
+:text-align: center
 ```
 
----
-
-![Geohackweek Logo](../images/geohackweek-2019.png)
-
-```{link-button} geohackweek
-:text: Geohackweek
-:type: ref
-:classes: stretched-link
+```{grid-item-card} Geo Hackweek 2019
+:img-top: ../images/geohackweek-2019.png
+:link:  geohackweek
+:link-type: doc
+:text-align: center
 ```
 
 ````

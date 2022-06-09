@@ -1,4 +1,4 @@
-Hosting a Hackweek with UW eScience Support 
+Hosting a Hackweek with UW eScience Support
 ===========================================
 
 <font size="4"> Hackweeks are participant-driven events that strive to create welcoming spaces for participants to learn new things, build community and gain hands-on experience with collaboration and team science {cite:p}`Huppenkothen2018`</font>
@@ -7,33 +7,36 @@ Hosting a Hackweek with UW eScience Support
 
 ## Here are a few links to get you started!
 
-:::{panels}
-:container: +full-width
-:column: col-lg-4 px-2 py-2
----
-:header: bg-jb-one
-**<span style='color:white'>What is a hackweek?</span>**
+::::{grid}
+
+:::{grid-item-card}
+:class-header: grid-card-purplegrid-card-purple
+**<span style='color:white'> What is a hackweek? </span>**
 ^^^
 Learn more about the hackweek model at our [Hackweek Mission](mission) page.
 
 Get to know [our team](team) of hackweek designers and supports.
 
 Browse the [services](services/index) we can provide.
----
-:header: bg-jb-one
+:::
 
-**<span style='color:white'>Application Procedure</span>**
+:::{grid-item-card}
+:class-header: grid-card-purple
+**<span style='color:white'> Application Procedure </span>**
 ^^^
 Are you interested in working with us? Review a list of [minimum requirements](client) for hosting a hackweek.
 
-Next, [submit an application](application)! 
----
-:header: bg-jb-one
+Next, [submit an application](application)!
+:::
 
-**<span style='color:white'>Be inspired</span>**
+:::{grid-item-card}
+:class-header: grid-card-purple
+**<span style='color:white'> Be inspired </span>**
 ^^^
 Visit our [Gallery](gallery/index) of past supported hackweeks.
 :::
+
+::::
 
 
 ````{div} full-width
