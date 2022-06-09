@@ -1,6 +1,6 @@
-name: hackweek
+name: hackweek-guidebook
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
-  - jupyter-book=0.12
+  - python=3.10
+  - jupyter-book=0.13
