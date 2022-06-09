@@ -10,7 +10,7 @@ Hosting a Hackweek with UW eScience Support
 ::::{grid}
 
 :::{grid-item-card}
-:class-header: grid-card-purplegrid-card-purple
+:class-header: grid-card-purple
 **<span style='color:white'> What is a hackweek? </span>**
 ^^^
 Learn more about the hackweek model at our [Hackweek Mission](mission) page.
@@ -39,11 +39,9 @@ Visit our [Gallery](gallery/index) of past supported hackweeks.
 ::::
 
 
-````{div} full-width
 ```{image} images/hackweeks.png
 :alt: Moore Foundation logo
 :class: bg-primary mb-1
 :width: 2500px
 :align: center
 ```
-````
