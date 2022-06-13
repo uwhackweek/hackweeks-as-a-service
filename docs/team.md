@@ -51,8 +51,8 @@ Education and technical specialist
 ```
 
 ```{grid-item-card} Jessica Scheick
-:img-top: https://avatars.githubusercontent.com/u/11756442?v=4 Education, administrative and technical specialist
-```
+:img-top: https://avatars.githubusercontent.com/u/11756442?v=4
+Lead Coordinator, Education and technical specialist
 
 ```{grid-item-card} Joachim Meyer
 :img-top: https://avatars.githubusercontent.com/u/178649?v=4
