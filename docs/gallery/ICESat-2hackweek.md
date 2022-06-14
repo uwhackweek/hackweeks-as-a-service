@@ -12,7 +12,7 @@ Here are the projects carried out during the 2020 ICESat-2 hackweek:
 
 
 | Project Name | Github Repo | final presentation |
-|:--------|:------|:--------|:-----|
+|:--------|:------|:--------|
 | Seasonal Snow | [https://github.com/ICESAT-2HackWeek/SeasonalSnow](https://github.com/ICESAT-2HackWeek/SeasonalSnow)  | [video](https://drive.google.com/file/d/1CLguqZeirmtUW6jhy7ApzYm1zqgRD2_H/view?usp=sharing) |
 | unsupervised | [https://github.com/ICESAT-2HackWeek/surface_classification](https://github.com/ICESAT-2HackWeek/surface_classification)  | [video](https://drive.google.com/file/d/1Ll961xDVVw4ry3ixOCqtQLDyGg5l1t3k/view?usp=sharing) |
 | FirnAndMelt | [https://github.com/ICESAT-2HackWeek/FirnAndMelt](https://github.com/ICESAT-2HackWeek/FirnAndMelt) | [video](https://drive.google.com/file/d/1WDM5WIxZUR0-BmBUTDslHHLbEL97fqrW/view?usp=sharing) |

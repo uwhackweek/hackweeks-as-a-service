@@ -11,7 +11,7 @@ We've hosted two NASA SnowEx-events in 2021 and 2022. Read more at https://snowe
 Here are the projects carried out during the 2021 SnowEx hackweek:
 
 | Project Name (with link to GitHub repo)  | final presentation |
-|:--------|:--------|:-----|
+|:--------|:--------|
 | [Snow Temperature Changes](https://github.com/snowex-hackweek/hot-pow) | [Video](https://youtu.be/lV3to0c_KtA)  |
 | [SnowEx data integration](https://github.com/snowex-hackweek/integration_station)  | [Video](https://youtu.be/7BGmDs2OTZg) |
 | [Snow microstructure](https://github.com/snowex-hackweek/snowmicropyn)  | [Video](https://youtu.be/Cc5R5t2MDWM) |
