@@ -5,7 +5,7 @@ runs:
   using: "composite"
   steps:
     - name: Setup Conda Cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       env:
         # Increase this value to reset cache if environment.yml has not changed
         CACHE_NUMBER: 0
