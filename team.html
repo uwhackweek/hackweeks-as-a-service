@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Our Team</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,21 +20,17 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -40,12 +38,13 @@
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
@@ -71,7 +70,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -80,9 +93,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -201,12 +215,12 @@ const thebe_selector_output = ".output, .cell_output"
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="gallery/ICESat-2hackweek.html">
-     ICESat-2 Hackweek 2020
+     ICESat-2 Hackweek
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="gallery/SnowExhackweek.html">
-     SnowEx Hackweek 2021
+     SnowEx Hackweek
     </a>
    </li>
    <li class="toctree-l2">
@@ -236,12 +250,17 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
 </div>
 
 
@@ -249,79 +268,167 @@ const thebe_selector_output = ".output, .cell_output"
 
 
           
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
     
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
+    <div class="header-article row sticky-top noprint">
         
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/team.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/uwhackweek/hackweeks-as-a-service"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fteam.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/team.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/team.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
     </div>
 </div>
 
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/uwhackweek/hackweeks-as-a-service"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fteam.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/team.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
 </div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-        </div>
     </div>
-</div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Our Team</h1>
@@ -332,173 +439,138 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="our-team">
-<h1>Our Team<a class="headerlink" href="#our-team" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="our-team">
+<h1>Our Team<a class="headerlink" href="#our-team" title="Permalink to this headline">#</a></h1>
 <p>Our team consists of Research / Data Scientists and the Executive Director of the University of Washington’s eScience Institute. Our team also includes affiliates of eScience who have been actively engaged in hackweek programs over the past several years.</p>
-<div class="sphinx-bs full-width docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Sarah Stone</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://escience.washington.edu/wp-content/uploads/2015/09/Bio_Sarah-Stone.jpg" alt="picture of Sarah Stone" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Program management and client recruitment</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-3 sd-row-cols-lg-4 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://escience.washington.edu/wp-content/uploads/2015/09/Bio_Sarah-Stone.jpg" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Sarah Stone</div>
+<p class="sd-card-text">Program management and client recruitment</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Anthony Arendt</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://avatars.githubusercontent.com/u/4993098?v=4?s=100" alt="picture of Anthony Arendt" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Lead hackweek coordinator, hackweek facilitation</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/4993098?v=4?s=100" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Anthony Arendt</div>
+<p class="sd-card-text">Lead hackweek coordinator, hackweek facilitation</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Charley Haley</strong></p>
-</div>
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/Charley.jpeg"><img alt="projects" class="bg-primary mb-1 align-center" src="_images/Charley.jpeg" style="width: 200px;" /></a>
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Hackweek design and facilitation</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/70242677?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Charley Haley</div>
+<p class="sd-card-text">Hackweek design and facilitation</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Jane Koh</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://icesat-2hackweek.github.io/assets/images/JaneKoh.jpg" alt="picture of Jane Koh" width="175" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Hackweek logistics, administrative support</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/51932541?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Jane Koh</div>
+<p class="sd-card-text">Hackweek logistics, administrative support</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Ann Nykamp</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg" alt="picture of Ann Nykamp" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Budgeting and administrative support</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Ann Nykamp</div>
+<p class="sd-card-text">Budgeting and administrative support</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Scott Henderson</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://avatars.githubusercontent.com/u/3924836?v=4?s=100" alt="picture of Scott Henderson" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Education and technical specialist</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/3924836?v=4?s=100" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Scott Henderson</div>
+<p class="sd-card-text">Education and technical specialist</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Nicoleta Cristea</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://escience.washington.edu/wp-content/uploads/2018/09/NicoletaCristea-2-300x300.jpeg" alt="picture of Nicoleta Cristea" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Education and technical specialist</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://escience.washington.edu/wp-content/uploads/2018/09/NicoletaCristea-2-300x300.jpeg" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Nicoleta Cristea</div>
+<p class="sd-card-text">Education and technical specialist</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Naomi Alterman</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg" alt="picture of Naomi Alterman" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Education and technical specialist</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Naomi Alterman</div>
+<p class="sd-card-text">Education and technical specialist</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Emilio Mayorga</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://i0.wp.com/communitysnowobs.org/wp-content/uploads/2020/12/mayorga.jpg?resize=300%2C300&ssl=1" alt="picture of Emilio Mayorga" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Education and technical specialist</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://i0.wp.com/communitysnowobs.org/wp-content/uploads/2020/12/mayorga.jpg?resize=300%2C300&amp;ssl=1" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Emilio Mayorga</div>
+<p class="sd-card-text">Education and technical specialist</p>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Jessica Scheick</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://avatars.githubusercontent.com/u/11756442?v=4" alt="picture of Jessica Scheick" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Education, administrative and technical specialist</p>
-</div>
-</div>
-</div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Joachim Meyer</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://avatars.githubusercontent.com/u/178649?v=4" alt="picture of Joachim Meyer" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Technical specialist</p>
-</div>
-</div>
-</div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-header docutils">
-<p class="card-text"><strong>Don Setiawan</strong></p>
-</div>
-<div class="card-body docutils">
-<img src="https://avatars.githubusercontent.com/u/17802172?v=4" alt="picture of Landung Setiawan" width="200" height="200">
-</div>
-<div class="card-footer text-left docutils">
-<p class="card-text"><em>Roles:</em> Technical specialist</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/11756442?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Jessica Scheick</div>
+<p class="sd-card-text">Lead Coordinator, Education and technical specialist</p>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/178649?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Joachim Meyer</div>
+<p class="sd-card-text">Technical specialist</p>
 </div>
 </div>
 </div>
 </div>
 </div>
 </div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/17802172?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Landung “Don” Setiawan</div>
+<p class="sd-card-text">Technical specialist</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -522,9 +594,11 @@ const thebe_selector_output = ".output, .cell_output"
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="mission.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -540,24 +614,28 @@ const thebe_selector_output = ".output, .cell_output"
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By eScience Institute, University of Washington<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By eScience Institute, University of Washington<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

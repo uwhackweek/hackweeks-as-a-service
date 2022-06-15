@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Details of Hackweek Roles</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,21 +20,17 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -40,12 +38,13 @@
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
@@ -71,7 +70,21 @@ const thebe_selector_output = ".output, .cell_output"
                 </script>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -80,9 +93,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -201,12 +215,12 @@ const thebe_selector_output = ".output, .cell_output"
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../gallery/ICESat-2hackweek.html">
-     ICESat-2 Hackweek 2020
+     ICESat-2 Hackweek
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../gallery/SnowExhackweek.html">
-     SnowEx Hackweek 2021
+     SnowEx Hackweek
     </a>
    </li>
    <li class="toctree-l2">
@@ -236,92 +250,197 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/services/roles-details.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/uwhackweek/hackweeks-as-a-service"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fservices/roles-details.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/services/roles-details.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
             </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/uwhackweek/hackweeks-as-a-service"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fservices/roles-details.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/services/roles-details.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/services/roles-details.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#administration">
    Administration
@@ -427,12 +546,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Details of Hackweek Roles</h1>
@@ -554,18 +672,19 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="details-of-hackweek-roles">
-<h1>Details of Hackweek Roles<a class="headerlink" href="#details-of-hackweek-roles" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="details-of-hackweek-roles">
+<h1>Details of Hackweek Roles<a class="headerlink" href="#details-of-hackweek-roles" title="Permalink to this headline">#</a></h1>
 <p>Here we provide additional details on the various roles responsibilities coming together to make a hackweek run smoothly!</p>
-<div class="section" id="administration">
-<h2>Administration<a class="headerlink" href="#administration" title="Permalink to this headline">¶</a></h2>
+<section id="administration">
+<h2>Administration<a class="headerlink" href="#administration" title="Permalink to this headline">#</a></h2>
 <p>The Administration Team is responsible for the overall planning and execution of the event.
 This includes budgeting,</p>
-<div class="section" id="lead-hackweek-coordinator-for-escience">
-<h3>Lead Hackweek Coordinator for eScience<a class="headerlink" href="#lead-hackweek-coordinator-for-escience" title="Permalink to this headline">¶</a></h3>
+<section id="lead-hackweek-coordinator-for-escience">
+<h3>Lead Hackweek Coordinator for eScience<a class="headerlink" href="#lead-hackweek-coordinator-for-escience" title="Permalink to this headline">#</a></h3>
 <p>The Lead Hackweek Coordinator provides oversight and direction to the eScience Team to ensure all components of the hackweek come together. This person will typically:</p>
 <ul class="simple">
 <li><p>facilitate initial planning meetings to get clear on purpose and scope</p></li>
@@ -575,29 +694,30 @@ This includes budgeting,</p>
 <li><p>offer coaching to various members of the organizing teams</p></li>
 <li><p>attend the event to provide opening context and set the stage for a positive learning environment</p></li>
 </ul>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://avatars.githubusercontent.com/u/4993098?v=4?s=100"><img alt="picture of Anthony Arendt" class="bg-primary mb-1 align-center" src="https://avatars.githubusercontent.com/u/4993098?v=4?s=100" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference internal" href="../team.html"><span class="doc">Anthony Arendt</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/4993098?v=4?s=100" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Anthony Arendt</div>
+</div>
+<a class="sd-stretched-link reference internal" href="../team.html"><span class="doc"></span></a></div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-</details></div>
-<div class="section" id="lead-hackweek-coordinator-for-community">
-<h3>Lead Hackweek Coordinator for Community<a class="headerlink" href="#lead-hackweek-coordinator-for-community" title="Permalink to this headline">¶</a></h3>
+</details></section>
+<section id="lead-hackweek-coordinator-for-community">
+<h3>Lead Hackweek Coordinator for Community<a class="headerlink" href="#lead-hackweek-coordinator-for-community" title="Permalink to this headline">#</a></h3>
 <p>The Lead Hackweek Coordinator for Community is usually the person who contacted eScience with an intention to host a hackweek. This person will typically:</p>
 <ul class="simple">
 <li><p>work with their community to define the overarching goals of the hackweek</p></li>
@@ -605,116 +725,121 @@ This includes budgeting,</p>
 <li><p>oversee activities of the community organizing team</p></li>
 <li><p>attend the event and be available to assist with project and tutorial work</p></li>
 </ul>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://avatars.githubusercontent.com/u/11756442?v=4"><img alt="picture of Jessica Scheick" class="bg-primary mb-1 align-center" src="https://avatars.githubusercontent.com/u/11756442?v=4" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference internal" href="../team.html"><span class="doc">Jessica Scheick</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/11756442?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Jessica Scheick</div>
+</div>
+<a class="sd-stretched-link reference internal" href="../team.html"><span class="doc"></span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/23019134?v=4?s=100" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+HP Marshall</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://www.boisestate.edu/earth/staff-members/hans-peter-marshall"></a></div>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://avatars.githubusercontent.com/u/23019134?v=4?s=100"><img alt="picture of HP Marshall" class="bg-primary mb-1 align-center" src="https://avatars.githubusercontent.com/u/23019134?v=4?s=100" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference external" href="https://www.boisestate.edu/earth/staff-members/hans-peter-marshall/"><span>HP Marshall</span></a></p>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</details></div>
-<div class="section" id="program-manager">
-<h3>Program Manager<a class="headerlink" href="#program-manager" title="Permalink to this headline">¶</a></h3>
+</details></section>
+<section id="program-manager">
+<h3>Program Manager<a class="headerlink" href="#program-manager" title="Permalink to this headline">#</a></h3>
 <p>The Program Manager coordinates event planning, logistics and budgets, assists in setting up virtual technologies, acts as main logistical point of contact for participants and attends the event and offer real-time administrative assistance (e.g. setting up zoom breakout rooms).</p>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://icesat-2hackweek.github.io/assets/images/JaneKoh.jpg"><img alt="Jane Koh" class="bg-primary mb-1 align-center" src="https://icesat-2hackweek.github.io/assets/images/JaneKoh.jpg" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference external" href="https://escience.washington.edu/people/jane-koh/"><span>Jane Koh</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/51932541?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Jane Koh</div>
+</div>
+<a class="sd-stretched-link reference internal" href="../team.html"><span class="doc"></span></a></div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-</details></div>
-<div class="section" id="budget-manager">
-<h3>Budget Manager<a class="headerlink" href="#budget-manager" title="Permalink to this headline">¶</a></h3>
+</details></section>
+<section id="budget-manager">
+<h3>Budget Manager<a class="headerlink" href="#budget-manager" title="Permalink to this headline">#</a></h3>
 <p>The Budget Manager guides the budgeting discussions, helping the teams get clarity on the scope of work for a given budget amount. They will work closely with the funding agency supporting the event to coordinate funding allocations for team members.</p>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg"><img alt="picture of Ann Nykamp" class="bg-primary mb-1 align-center" src="https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference internal" href="../team.html"><span class="doc">Ann Nykamp</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://escience.washington.edu/wp-content/uploads/2019/01/Ann-and-Dubs-2-300x300.jpg" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Ann Nykamp</div>
+</div>
+<a class="sd-stretched-link reference internal" href="../team.html"><span class="doc"></span></a></div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-</details></div>
-<div class="section" id="collaboration-architect">
-<h3>Collaboration Architect<a class="headerlink" href="#collaboration-architect" title="Permalink to this headline">¶</a></h3>
+</details></section>
+<section id="collaboration-architect">
+<h3>Collaboration Architect<a class="headerlink" href="#collaboration-architect" title="Permalink to this headline">#</a></h3>
 <p>The Collaboration Architect helps to create the conditions for the organizing team and participants to function well together in teams. Tasks typically include:</p>
 <ul class="simple">
 <li><p>designing agendas and meeting structures to support tutorial ideation and hackweek planning</p></li>
 <li><p>creating and leading facilitation approaches to guide project formation, team building and collaboation, conflict resolution and generating random connections through social interactions</p></li>
 </ul>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/Charley.jpeg"><img alt="picture of Charley Haley" class="bg-primary mb-1 align-center" src="../_images/Charley.jpeg" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference external" href="https://www.linkedin.com/in/pamhaley/"><span>Charley Haley</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="../_images/Charley.jpeg" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Charley Haley</div>
+</div>
+<a class="sd-stretched-link reference internal" href="../team.html"><span class="doc"></span></a></div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-</details></div>
-</div>
-<div class="section" id="education">
-<h2>Education<a class="headerlink" href="#education" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="lead-education-coordinator">
-<h3>Lead Education Coordinator<a class="headerlink" href="#lead-education-coordinator" title="Permalink to this headline">¶</a></h3>
+</details></section>
+</section>
+<section id="education">
+<h2>Education<a class="headerlink" href="#education" title="Permalink to this headline">#</a></h2>
+<section id="lead-education-coordinator">
+<h3>Lead Education Coordinator<a class="headerlink" href="#lead-education-coordinator" title="Permalink to this headline">#</a></h3>
 <p>The Lead Education Coordinator guides the tutorial development team in building curriculum for the hackweek. They will typically:</p>
 <ul class="simple">
 <li><p>lead the education team in assessing community learning needs and then build a reasonable schedule balancing breadth and depth of content</p></li>
@@ -728,37 +853,38 @@ This includes budgeting,</p>
 <a class="reference external" href="https://"><img alt="collab dev" src="https://img.shields.io/static/v1?label=&amp;message=collaborative%C2%A0development&amp;color=orange" /></a>
 <a class="reference external" href="https://"><img alt="curriculum development" src="https://img.shields.io/static/v1?label=&amp;message=automated%C2%A0curriculum%C2%A0development&amp;color=orange" /></a></p></li>
 </ul>
-</div>
-<div class="section" id="education-consultant">
-<h3>Education Consultant<a class="headerlink" href="#education-consultant" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="education-consultant">
+<h3>Education Consultant<a class="headerlink" href="#education-consultant" title="Permalink to this headline">#</a></h3>
 <p>The Education Consultant offers advice and training to the education team about best practices for creating positive and productive learning spaces. Their activities might include:</p>
 <ul class="simple">
 <li><p>hosting “train-the-trainer” workshops for tutorial leads and helpers prior to a hackweek</p></li>
 <li><p>sharing evidence-based resources on how to build interactive tutorial content</p></li>
 </ul>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg"><img alt="picture of Naomi Alterman" class="bg-primary mb-1 align-center" src="https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference external" href="https://www.nlalterman.com/index.html"><span>Naomi Alterman</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Naomi Alterman</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://www.nlalterman.com/index.html"></a></div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-</details></div>
-<div class="section" id="tutorial-leads">
-<h3>Tutorial Leads<a class="headerlink" href="#tutorial-leads" title="Permalink to this headline">¶</a></h3>
+</details></section>
+<section id="tutorial-leads">
+<h3>Tutorial Leads<a class="headerlink" href="#tutorial-leads" title="Permalink to this headline">#</a></h3>
 <p>Each hackweek tutorial will be led by one or several Tutorial Leads. Their role is to:</p>
 <ul class="simple">
 <li><p>defining learning outcomes that are tailored to the needs of their community</p></li>
@@ -768,52 +894,54 @@ This includes budgeting,</p>
 <li><p>practice their tutorial with a peer group and iterate to incorporate improvements</p></li>
 <li><p>deliver the tutorial during the hackweek</p></li>
 </ul>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://avatars.githubusercontent.com/u/1103530?v=4"><img alt="picture of David Shean" class="bg-primary mb-1 align-center" src="https://avatars.githubusercontent.com/u/1103530?v=4" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference external" href="https://dshean.github.io/"><span>David Shean</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/1103530?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+David Shean</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://dshean.github.io/"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/178649?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Joachim Meyer</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/jomey"></a></div>
 </div>
 </div>
 </div>
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://avatars.githubusercontent.com/u/178649?v=4"><img alt="picture of Joachim Meyer" class="bg-primary mb-1 align-center" src="https://avatars.githubusercontent.com/u/178649?v=4" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference external" href="https://github.com/jomey"><span>Joachim Meyer</span></a></p>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</details></div>
-<div class="section" id="tutorial-helper">
-<h3>Tutorial Helper<a class="headerlink" href="#tutorial-helper" title="Permalink to this headline">¶</a></h3>
+</details></section>
+<section id="tutorial-helper">
+<h3>Tutorial Helper<a class="headerlink" href="#tutorial-helper" title="Permalink to this headline">#</a></h3>
 <p>Tutorial Helpers play an important role in sharing tutorial content with the community. Their activities include:</p>
 <ul class="simple">
 <li><p>becoming familiar with the tutorial content and being prepared to answer questions</p></li>
 <li><p>attend the hackweek and be available to answer questions in real time (on slack or in person) and/or during office hours after the event</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="projects">
-<h2>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="lead-project-coordinator">
-<h3>Lead Project Coordinator<a class="headerlink" href="#lead-project-coordinator" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="projects">
+<h2>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">#</a></h2>
+<section id="lead-project-coordinator">
+<h3>Lead Project Coordinator<a class="headerlink" href="#lead-project-coordinator" title="Permalink to this headline">#</a></h3>
 <p>The Lead Project Coordinator will help the organizing team get clear on the overall objectives of the project work, to assess what projects are possible and to align projects with programmatic objectives if applicable. They will be active on communication platforms such as Slack to encourage participants to pitch ideas before the hackweek, and to communicate the process, roles and responsibilities of working in collaborative teams. During the event they might facilitate project team formation and embed with teams to guide collaborations, resolve conflicts and define what is possible within the allotted time.</p>
-</div>
-<div class="section" id="project-team-lead">
-<h3>Project Team Lead<a class="headerlink" href="#project-team-lead" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="project-team-lead">
+<h3>Project Team Lead<a class="headerlink" href="#project-team-lead" title="Permalink to this headline">#</a></h3>
 <p>The role of Project Team Lead is to guide the collaborative project work before, during and sometimes after the hackweek. Specific tasks could include:</p>
 <ul class="simple">
 <li><p>pitching an idea for a project</p></li>
@@ -821,59 +949,60 @@ This includes budgeting,</p>
 <li><p>facilitating relationship-building and development of collaborative structures among the team</p></li>
 <li><p>helping everyone design project work that is within the scope of the hackweek</p></li>
 </ul>
-</div>
-<div class="section" id="project-helper">
-<h3>Project Helper<a class="headerlink" href="#project-helper" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="project-helper">
+<h3>Project Helper<a class="headerlink" href="#project-helper" title="Permalink to this headline">#</a></h3>
 <p>Each project might have one or several Project Helpers. Their role is often to:</p>
 <ul class="simple">
 <li><p>offer technical guidance on a specific data science tool or topic in which they have expertise</p></li>
 <li><p>help team members navigate collaboration technologies like JupyterHub and GitHub</p></li>
 <li><p>offer a deeper-dive on content touched on during tutorials</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="technology-team">
-<h2>Technology Team<a class="headerlink" href="#technology-team" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="lead-of-technology">
-<h3>Lead of Technology<a class="headerlink" href="#lead-of-technology" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="technology-team">
+<h2>Technology Team<a class="headerlink" href="#technology-team" title="Permalink to this headline">#</a></h2>
+<section id="lead-of-technology">
+<h3>Lead of Technology<a class="headerlink" href="#lead-of-technology" title="Permalink to this headline">#</a></h3>
 <p>The Lead of Technology is responsible for establishing and maintaining the technical tools needed during the hackweek. Specific tasks include:</p>
 <ul class="simple">
 <li><p>setting up a shared computational environment such as JupyterHub, either on premises or via a contract with an independent provider</p></li>
 <li><p>create a roadmap of the suite of technologies to be used during the planning and implementation of the hackweek</p></li>
 <li><p>coordinate the activities of the technology team in assisting organizers and participants as they learn and use tools such as GitHub, JupyterBook and Python libraries</p></li>
 </ul>
-<details class="sphinx-bs dropdown card mb-3" open="open">
-<summary class="summary-title card-header">
-<strong>People With Experience in this Role</strong><div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<div class="sphinx-bs pb-3 docutils">
-<div class="row docutils">
-<div class="d-flex text-center col-6 col-lg-4 docutils">
-<div class="card w-100 shadow my-2 docutils">
-<div class="card-body docutils">
-<a class="bg-primary mb-1 reference internal image-reference" href="https://avatars.githubusercontent.com/u/3924836?v=4"><img alt="picture of Scott Henderson" class="bg-primary mb-1 align-center" src="https://avatars.githubusercontent.com/u/3924836?v=4" style="width: 100px;" /></a>
-<p class="card-text"><a class="sphinx-bs btn text-wrap stretched-link reference external" href="https://scottyhq.github.io/index.html"><span>Scott Henderson</span></a></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" open="open">
+<summary class="sd-summary-title sd-card-header">
+<strong>People With Experience in this Role</strong><div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<img alt="card-img-top" class="sd-card-img-top" src="https://avatars.githubusercontent.com/u/3924836?v=4" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Scott Henderson</div>
+</div>
+<a class="sd-stretched-link reference external" href="https://scottyhq.github.io/index.html"></a></div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-</details></div>
-<div class="section" id="software-engineer">
-<h3>Software Engineer<a class="headerlink" href="#software-engineer" title="Permalink to this headline">¶</a></h3>
+</details></section>
+<section id="software-engineer">
+<h3>Software Engineer<a class="headerlink" href="#software-engineer" title="Permalink to this headline">#</a></h3>
 <p>Software Engineers offer their skills in building and maintaining tools that are needed to plan and implement the hackweek. Their roles could be:</p>
 <ul class="simple">
 <li><p>deploying JupyterHub computational tools using infrastructure-as-code platforms</p></li>
 <li><p>deploying and managing cloud computing environments that support the hackweek</p></li>
 <li><p>managing issues and pull requests associated with community code libraries</p></li>
 </ul>
-</div>
-<div class="section" id="technical-specialist">
-<h3>Technical Specialist<a class="headerlink" href="#technical-specialist" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="technical-specialist">
+<h3>Technical Specialist<a class="headerlink" href="#technical-specialist" title="Permalink to this headline">#</a></h3>
 <p>Technical Specialists assist in a variety of technical tasks that might include:</p>
 <ul class="simple">
 <li><p>deploy and maintain GitHub organizations and repositories</p></li>
@@ -888,9 +1017,9 @@ This includes budgeting,</p>
 <a class="reference external" href="https://"><img alt="infrastructure" src="https://img.shields.io/static/v1?label=&amp;message=computing%C2%A0infrastructure&amp;color=orange" /></a>
 <a class="reference external" href="https://"><img alt="web" src="https://img.shields.io/static/v1?label=&amp;message=web%C2%A0development&amp;color=orange" /></a></p></li>
 </ul>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -914,9 +1043,11 @@ This includes budgeting,</p>
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="index.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -932,24 +1063,28 @@ This includes budgeting,</p>
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By eScience Institute, University of Washington<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By eScience Institute, University of Washington<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>
