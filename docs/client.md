@@ -24,6 +24,6 @@ Every hackweek involves the assembly of a planning team to prepare content and d
 
 ## Scheduling and Time Commitment
 
-Planning for a hackweek generally begins 6 months in advance of a virtual event and 12-18 months in advance forin person events.  
+Planning for a hackweek generally begins 6 months in advance of a virtual event and 12-18 months in advance for in-person events.  
 
 
