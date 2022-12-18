@@ -1,5 +1,6 @@
 # hackweeks-as-a-service
 [![Deploy](https://github.com/uwhackweek/hackweeks-as-a-service/actions/workflows/deploy.yaml/badge.svg)](https://github.com/uwhackweek/hackweeks-as-a-service/actions/workflows/deploy.yaml)
+[![DOI](https://zenodo.org/badge/354072491.svg)](https://zenodo.org/badge/latestdoi/354072491)
 
 This repository hosts a website with information describing the [UW eScience Institute's](https://escience.washington.edu) hackweeks as a service model. It uses [Jupyter-book](https://jupyterbook.org/) and the website is hosted on the gh-pages branch.
 
