@@ -1,10 +1,18 @@
 # Budget Manager
 
-The Budget Manager guides the budgeting discussions, helping the teams get clarity on the scope of work for a given budget amount. They will work closely with the funding agency supporting the event to coordinate funding allocations for team members.
+The Budget Manager has experience with university funding policies and the specific requirements of funding agencies who support our hackweeks.
 
 ## Goals
 
+* Assisting team members to develop realistic cost estimates for hackweek activities and expenses.
+* Ensuring team activities and expenditures align with the requirements of funding agencies.
+
 ## Specific Activities
+
+* notify hackweek organizers of potential funding sources
+* facilitate budgeting conversations
+* create a budget and scope of work   
+* allocate funds to cover hackweek activities and expenses
 
 
 `````{dropdown} **People With Experience in this Role**
@@ -20,5 +28,4 @@ The Budget Manager guides the budgeting discussions, helping the teams get clari
 ```
 
 ````
-`````
 `````
