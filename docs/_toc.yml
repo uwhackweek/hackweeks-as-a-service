@@ -10,7 +10,10 @@ parts:
     - file: client
     - file: services/index
       sections:
-        - file: services/roles-details
+        - file: services/lead-eScience
+        - file: services/lead-community
+        - file: services/program-manager
+        - file: services/collaboration-architect
     - file: application
 - caption: Resources for Organizers
   chapters:
