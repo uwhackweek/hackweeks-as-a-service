@@ -1,30 +1,29 @@
-# Tutorial Developer
+# Hackweek Helper
 
-Tutorial leads include anyone who has an interest in sharing their knowledge with their peers. 
+Hackweek helpers include anyone interested in sharing their knowledge with their peers. 
 
 ## Goals
 
-* Fostering the learning and development of community members on topics of the hackweek
-* Supporting the design of a shared open source curriculum 
+* Helping hackweek participants move past stuck points  
+* Including all participants in the learning process
+* Empowering learners to connect with external learning resources
 
 ## Specific Activities
 
-* defining learning outcomes that are tailored to community needs 
-* build new skills in data science pedagogy
-* offer feedback to peers on tutorial design
-* create interactive tutorials in Jupyter Notebooks
-* use GitHub to share tutorial content in an open source environment
-* teach or assist with teaching tutorials during the hackweek 
+* answer questions from participants during the teaching of tutorials
+* host office hours to offer guidance on specific data science or domain topics
+* embed in project teams and assist with technical questions
+* offer feedback to tutorial developers based on participant experiences with the materials
 
 `````{dropdown} **People With Experience in this Role**
 :open:
 
 ````{grid}
 
-```{grid-item-card} David Shean
+```{grid-item-card} Don Setiawan
 :columns: 3
-:link: https://dshean.github.io/
-:img-top: https://avatars.githubusercontent.com/u/1103530?v=4
+:link: https://github.com/lsetiawan
+:img-top: https://avatars.githubusercontent.com/u/17802172?v=4
 ```
 
 ```{grid-item-card} Joachim Meyer
