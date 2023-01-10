@@ -17,6 +17,10 @@ parts:
         - file: services/budget-manager
         - file: services/education-consultant
         - file: services/tutorial-developer
+        - file: services/project-consultant
+        - file: services/project-lead
+        - file: services/technology-consultant
+        - file: services/helper
     - file: application
 - caption: Resources for Organizers
   chapters:
