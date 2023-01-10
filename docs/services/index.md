@@ -8,7 +8,7 @@ Hackweeks are supported through the collaborative work of an organizing team. Th
 :::{grid-item-card} [eScience Staff Roles](#escience-staff-roles)
 :::
 
-:::{grid-item-card} [Community Roles](#community-roles)
+:::{grid-item-card} [Client Roles](#community-roles)
 :::
 
 ::::
@@ -18,6 +18,10 @@ Many people engage in multiple roles when planning and running a hackweek. The d
 ```
 
 ## eScience Staff Roles
+
+[Our team](../team.md) is here to support the planning and delivery of hackweeks for each of our clients. Our role is to facilitate and create the conditions for learning and collaboration.
+
+<hr>
 
 ::::{grid}
 :gutter: 2
@@ -38,30 +42,9 @@ Many people engage in multiple roles when planning and running a hackweek. The d
 
 :::{grid-item}
 :columns: 6
-* [Lead Coordinator](lead-eScience.md) 
+* [Lead Coordinator (eScience)](lead-eScience.md) 
 * [Program Manager](program-manager.md) 
 * [Budget Manager](budget-manager.md) 
-:::
-
-<hr>
-
-:::{grid-item}
-:columns: 2
-```{image} ../images/noun-teamwork-1616304.png
-:alt: teaching
-:class: bg-primary mb-1
-:align: center
-```
-:::
-
-:::{grid-item}
-:columns: 4
-**Community Building**
-:::
-
-:::{grid-item}
-:columns: 6
-* [Collaboration Architect](collaboration-architect.md) 
 :::
 
 <hr>
@@ -83,13 +66,61 @@ Many people engage in multiple roles when planning and running a hackweek. The d
 :::{grid-item}
 :columns: 6
 * [Education Consultant](education-consultant.md) 
+* [Technology Consultant](technology-consultant.md)
 :::
-
-::::
 
 <hr>
 
-## Community Roles
+:::{grid-item}
+:columns: 2
+```{image} ../images/noun-teamwork-1616304.png
+:alt: teaching
+:class: bg-primary mb-1
+:align: center
+```
+:::
+
+:::{grid-item}
+:columns: 4
+**Community Building & Collaboration**
+:::
+
+:::{grid-item}
+:columns: 6
+* [Collaboration Architect](collaboration-architect.md) 
+* [Project Consultant](project-consultant.md)
+:::
+
+<hr>
+
+:::{grid-item}
+:columns: 2
+```{image} ../images/noun-help-5401808.png
+:alt: helper
+:class: bg-primary mb-1
+:align: center
+```
+:::
+
+:::{grid-item}
+:columns: 4
+**Helpers**
+:::
+
+:::{grid-item}
+:columns: 6
+* [Hackweek Helpers](helper.md) 
+:::
+
+<hr>
+
+::::
+
+## Client Roles
+
+Clients who partner with us to host a hackweek are responsible for creating learning content specific to the needs of their community. 
+
+<hr>
 
 ::::{grid}
 :gutter: 2
@@ -110,7 +141,7 @@ Many people engage in multiple roles when planning and running a hackweek. The d
 
 :::{grid-item}
 :columns: 6
-* [Lead Community Coordinator](lead-community.md) 
+* [Lead Coordinator (Community)](lead-community.md) 
 :::
 
 <hr>
@@ -126,12 +157,33 @@ Many people engage in multiple roles when planning and running a hackweek. The d
 
 :::{grid-item}
 :columns: 4
-**Learning Content**
+**Training & Education**
 :::
 
 :::{grid-item}
 :columns: 6
-* [Tutorial Lead](tutorial-lead.md) 
+* [Tutorial Lead](tutorial-developer.md) 
+:::
+
+<hr>
+
+:::{grid-item}
+:columns: 2
+```{image} ../images/noun-teamwork-1616304-gold.png
+:alt: teaching
+:class: bg-primary mb-1
+:align: center
+```
+:::
+
+:::{grid-item}
+:columns: 4
+**Community Building & Collaboration**
+:::
+
+:::{grid-item}
+:columns: 6
+* [Project Lead](project-lead.md) 
 :::
 
 <hr>
