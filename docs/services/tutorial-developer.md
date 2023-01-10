@@ -1,10 +1,10 @@
 # Tutorial Developer
 
-Tutorial leads include anyone who has an interest in sharing their knowledge with their peers. 
+Tutorial developers create online learning materials and teach tutorials during the hackweek. 
 
 ## Goals
 
-* Fostering the learning and development of community members on topics of the hackweek
+* Fostering the learning and development of community members on topics of interest at the hackweek
 * Supporting the design of a shared open source curriculum 
 
 ## Specific Activities
