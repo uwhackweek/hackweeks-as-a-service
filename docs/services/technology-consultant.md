@@ -9,12 +9,12 @@ The Technology Consultant is experienced with the computational platforms that s
 
 ## Specific Activities
 
-* set up a shared computational environment such as JupyterHub, either on premises or via a contract with an independent provider
-* deploy the hackweek website
-* teach hackweek organizers how to use GitHub and JupyterHub for planning and design of the hackweek
-* assist tutorial leads in uploading their notebooks and sample datasets
-* help participants gain access to shared resources
-* archive hackweek outcomes using digital object identifiers
+* Set up a shared computational environment such as JupyterHub, either on premises or via a contract with an independent provider.
+* Deploy the hackweek website.
+* Teach hackweek organizers how to use GitHub and JupyterHub for planning and design of the hackweek.
+* Assist tutorial leads in uploading their notebooks and sample datasets.
+* Help participants gain access to shared resources.
+* Archive hackweek outcomes using digital object identifiers.
 
 `````{dropdown} **People With Experience in this Role**
 :open:

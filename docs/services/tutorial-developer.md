@@ -1,20 +1,20 @@
 # Tutorial Developer
 
-Tutorial developers create online learning materials and teach tutorials during the hackweek. 
+Tutorial developers use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackweek. 
 
 ## Goals
 
-* Fostering the learning and development of community members on topics of interest at the hackweek
-* Supporting the design of a shared open source curriculum 
+* Fostering the learning and development of community members on topics of interest at the hackweek.
+* Supporting the design of a shared open source curriculum.
 
 ## Specific Activities
 
-* defining learning outcomes that are tailored to community needs 
-* build new skills in data science pedagogy
-* offer feedback to peers on tutorial design
-* create interactive tutorials in Jupyter Notebooks
-* use GitHub to share tutorial content in an open source environment
-* teach or assist with teaching tutorials during the hackweek 
+* Define learning outcomes that are tailored to community needs. 
+* Build new skills in data science pedagogy.
+* Offer feedback to peers on tutorial design.
+* Create interactive tutorials in Jupyter Notebooks.
+* Use GitHub to share tutorial content in an open source environment.
+* Teach or assist with teaching tutorials during the hackweek. 
 
 `````{dropdown} **People With Experience in this Role**
 :open:

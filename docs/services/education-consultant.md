@@ -9,9 +9,9 @@ The Education Consultant has experience with designing curriculum and creating p
 
 ## Specific Activities
 
-* offer a series of tutorials to hackweek organizers for best practices in data science pedagogy
-* facilitate peer feedback sessions for hackweek tutorial leads as they develop content
-* offer tutorials during the hackweek to teach participants about strategies for teamwork and collaboration
+* Offer a series of tutorials to hackweek organizers for best practices in data science pedagogy.
+* Facilitate peer feedback sessions for hackweek tutorial leads as they develop content.
+* Offer tutorials during the hackweek to teach participants about strategies for teamwork and collaboration.
 
 `````{dropdown} **People With Experience in this Role**
 :open:

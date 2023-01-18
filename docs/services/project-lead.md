@@ -1,6 +1,6 @@
 # Project Lead
 
-Project Leaders have an interest in guiding small teams in their progress toward hackweek project goals.
+Project Leaders have an interest in guiding small teams in their progress toward hackweek project goals. Usually the project lead is the person who pitches a project idea.
 
 ## Goals
 
@@ -10,11 +10,11 @@ Project Leaders have an interest in guiding small teams in their progress toward
 
 ## Specific Activities
 
-* pitch an idea for a project
-* gather a team and help each person get clear on their individual goals during the project work
-* facilitate relationship-building and development of collaborative structures among the team
-* help everyone design project work that is within the scope of the hackweek  
-* lead daily standup team check-ins
+* Pitch an idea for a project.
+* Gather a team and help each person get clear on their individual goals during the project work.
+* Facilitate relationship-building and development of collaborative structures among the team.
+* Help everyone design project work that is within the scope of the hackweek.  
+* Lead daily standup team check-ins.
 
 `````{dropdown} **People With Experience in this Role**
 :open:

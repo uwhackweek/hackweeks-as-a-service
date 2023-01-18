@@ -1,6 +1,6 @@
 # Lead Hackweek Coordinator for eScience
 
-The Lead Hackweek Coordinator provides oversight and direction to the eScience Team to ensure all components of the hackweek come together. 
+The Lead Hackweek Coordinator has a background in team leadership and science collaboration. They provide oversight and direction to the eScience Team to ensure all components of the hackweek come together. 
 
 ::::{grid}
 :gutter: 2
@@ -28,13 +28,13 @@ The Lead Hackweek Coordinator provides oversight and direction to the eScience T
 
 ## Specific Activities
 
-* assist in proposal writing and budget negotiation
-* assemble an organizing team
-* facilitate planning meetings to get clear on purpose and scope
-* meet with organizers to balance workloads and review deadlines
-* communicate eScience hackweek mission and values to participants and organizers
-* facilitate the opening day of the hackweek to set the stage for a positive learning environment
-* evaluate survey and debrief results to design improvements for future events
+* Assist in proposal writing and budget negotiation.
+* Assemble an organizing team.
+* Facilitate planning meetings to get clear on purpose and scope.
+* Meet with organizers to balance workloads and review deadlines.
+* Communicate eScience hackweek mission and values to participants and organizers.
+* Facilitate the opening day of the hackweek to set the stage for a positive learning environment.
+* Evaluate survey and debrief results to design improvements for future events.
 
 `````{dropdown} **People With Experience in this Role**
 :open:

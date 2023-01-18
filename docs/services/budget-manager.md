@@ -1,6 +1,6 @@
 # Budget Manager
 
-The Budget Manager has experience with university funding policies and the specific requirements of funding agencies who support our hackweeks.
+The Budget Manager has experience with university funding policies and the specific requirements of organizations who support our hackweeks.
 
 ## Goals
 
@@ -9,10 +9,10 @@ The Budget Manager has experience with university funding policies and the speci
 
 ## Specific Activities
 
-* notify hackweek organizers of potential funding sources
-* facilitate budgeting conversations
-* create a budget and scope of work   
-* allocate funds to cover hackweek activities and expenses
+* Notify hackweek organizers of potential funding sources.
+* Facilitate budgeting conversations.
+* Create a budget and scope of work.   
+* Allocate funds to cover hackweek activities and expenses.
 
 
 `````{dropdown} **People With Experience in this Role**

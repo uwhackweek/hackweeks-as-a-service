@@ -1,6 +1,6 @@
 # Program Manager
 
-The Program Manager acts as main logistical point of contact for participants and organizers of the hackweek.
+The Program Manager is experienced in organizational management and event planning. They act as main logistical point of contact for participants and organizers of the hackweek.
 
 ## Goals
 

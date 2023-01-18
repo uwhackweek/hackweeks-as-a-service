@@ -10,10 +10,10 @@ The Lead Hackweek Coordinator for Community guides the activities of community m
 
 ## Specific Activities
 
-* acquire funding and develop a budget to support hackweek activities
-* work with the community to define the overarching goals of the hackweek
-* recruit people to join the tutorial, project and technology organizing teams
-* attend the event and be available to assist with project and tutorial work
+* Acquire funding and develop a budget to support hackweek activities.
+* Work with the community to define the overarching goals of the hackweek.
+* Recruit people to join the hackweek organizing team.
+* Attend the event and be available to assist with project and tutorial work.
 
 `````{dropdown} **People With Experience in this Role**
 :open:

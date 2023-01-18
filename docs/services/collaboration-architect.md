@@ -22,28 +22,28 @@ Collaboration is at the heart of what makes our hackweeks so enlivening and succ
 
 ## Goals
 
-* Reduce the overwhelm and social anxiety that participants commonly experience as they learn multiple topics and are asked to practice using them within project teams, in a tightly compressed week
-* Support early career participants as they step outside their comfort zone to propose and pitch project ideas and step into leading a project team
-* Foster inclusive and generative group work in project teams
-* Guide the co-development of a cohesive portfolio of tutorials by the Education Team
-* Develop opportunities to create longer-lasting connections with each other
-* Cultivate a supportive community that celebrates everyone's accomplishments together
+* Reduce the overwhelm and social anxiety that participants commonly experience as they learn multiple topics and are asked to practice using them within project teams, in a tightly compressed week.
+* Support early career participants as they step outside their comfort zone to propose and pitch project ideas and step into leading a project team.
+* Foster inclusive and generative group work in project teams.
+* Guide the co-development of a cohesive portfolio of tutorials by the Education Team.
+* Develop opportunities to create longer-lasting connections with each other.
+* Cultivate a supportive community that celebrates everyone's accomplishments together.
 
-## Range of Activities
+## Range of Hackweek Activities
 
-### Hackweek Planning
+### Planning
 
-* Facilitate team planning calls, ensuring all voices are included in the organizing process
-* Guide organizers in developing tutorial content
-* Train organizers to facilitate project task ideation and participant interactions
+* Facilitate team planning calls, ensuring all voices are included in the organizing process.
+* Guide organizers in developing tutorial content.
+* Train organizers to facilitate project task ideation and participant interactions.
 
-### Hackweek Delivery
+### Delivery
 
 * Help participants get to know each other through icebreakers and a shared introductory slide deck.
 * Teach participants best practices for project ideation, pitching, team selection and collaboration.
 * Mentor individuals and teams in navigating social interactions and challenges that arise during an event.
 
-### Hackweek Debrief
+### Debrief
 
 * Conduct focus groups with participants who volunteer to share their feedback.
 * Facilitate a debrief session with hackweek organizers to learn what works well and what needs to be improved with the planning phase.
