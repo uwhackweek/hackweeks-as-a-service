@@ -3,12 +3,12 @@
 Hackweeks are supported through the collaborative work of an organizing team. This page lists the various roles typically required to host an event.
 
 ::::{grid}
-:gutter: 3
+:gutter: 1
 
 :::{grid-item-card} [eScience Staff Roles](#escience-staff-roles)
 :::
 
-:::{grid-item-card} [Client Roles](#community-roles)
+:::{grid-item-card} [Community Partner Roles](#community-partner-roles)
 :::
 
 ::::
@@ -116,9 +116,9 @@ Many people engage in multiple roles when planning and running a hackweek. The d
 
 ::::
 
-## Client Roles
+## Community Partner Roles
 
-Clients who partner with us to host a hackweek are responsible for creating learning content specific to the needs of their community. 
+Our clients who partner with us to host a hackweek are responsible for creating learning content specific to the needs of their community. 
 
 <hr>
 
@@ -162,7 +162,7 @@ Clients who partner with us to host a hackweek are responsible for creating lear
 
 :::{grid-item}
 :columns: 6
-* [Tutorial Lead](tutorial-developer.md) 
+* [Tutorial Developers](tutorial-developer.md) 
 :::
 
 <hr>
