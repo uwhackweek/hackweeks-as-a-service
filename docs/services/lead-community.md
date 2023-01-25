@@ -1,6 +1,6 @@
 # Lead Hackweek Coordinator for Community
 
-The Lead Hackweek Coordinator for Community guides the activities of community members engaged in hackweek organization. This is typically the person who contacted eScience requesting a hackweek.
+The Lead Hackweek Coordinator for Community guides the activities of community members engaged in hackweek organization and execution. This is typically the person who contacted eScience requesting a hackweek.
 
 ## Goals
 
