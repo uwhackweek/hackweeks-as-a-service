@@ -6,7 +6,8 @@ The Lead Hackweek Coordinator for Community guides the activities of community m
 
 * Matching the technical and scientific needs of the community to the design of the hackweek.
 * Ensuring everyone involved is sufficiently resourced to carry out the work.
-* Strategizing on how best to implement practices of open source science for this community. 
+* Strategizing on how best to implement practices of open-source science within this community.
+* Building supportive partnerships and communities of practice before, during, and after the hackweek.
 
 ## Specific Activities
 
