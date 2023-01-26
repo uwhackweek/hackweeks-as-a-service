@@ -1,16 +1,17 @@
 # Hackweek Helper
 
-Hackweek helpers have knowledge of data or domain science tools and methods that they wish to share with their peers.
+Hackweek helpers have knowledge of data or domain science tools and methods that they wish to share with their peers. Helpers can include eScience staff, community memebers and hackweek participants.
 
 ## Goals
 
-* Helping hackweek participants move past stuck points.  
+* Helping hackweek participants move past stuck points and complete learning objectives.  
 * Including all participants in the learning process.
 * Empowering learners to connect with external educational resources.
 
 ## Specific Activities
 
 * Answer questions from participants during the teaching of tutorials.
+* Help participants access resources needed to address specific problems.
 * Host office hours to offer guidance on specific data science or domain topics.
 * Participate in project teams and assist with technical questions.
 * Offer feedback to tutorial developers based on participant experiences with the materials.
