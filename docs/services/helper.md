@@ -1,6 +1,6 @@
 # Hackweek Helper
 
-Hackweek helpers have knowledge of data or domain science tools and methods that they wish to share with their peers. Helpers can include eScience staff, community memebers and hackweek participants.
+Hackweek helpers have knowledge of data or domain science tools and methods that they wish to share with their peers. Helpers can include eScience staff, community members and hackweek participants.
 
 ## Goals
 
