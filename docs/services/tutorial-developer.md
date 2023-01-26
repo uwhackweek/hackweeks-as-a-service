@@ -21,6 +21,18 @@ Tutorial developers use their knowledge of data science tools and methods to cre
 
 ````{grid}
 
+```{grid-item-card} Emilio Mayorga
+:columns: 3
+:link: https://apl.uw.edu/people/profile.php?last_name=Mayorga&first_name=Emilio
+:img-top: https://avatars.githubusercontent.com/u/742403?v=4
+```
+
+```{grid-item-card} Scott Henderson
+:columns: 3
+:link: https://scottyhq.github.io/index.html
+:img-top: https://avatars.githubusercontent.com/u/3924836?v=4
+```
+
 ```{grid-item-card} David Shean
 :columns: 3
 :link: https://dshean.github.io/
