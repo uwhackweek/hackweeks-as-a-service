@@ -2,11 +2,6 @@
 
 The Education Consultant has experience with designing curriculum and creating positive learning spaces for data science education.
 
-## Goals
-
-* Helping all participants feel able to intellectually engage in the educational and project spaces at hackweeks.
-* Helping tutorial leads build content that is effective for participants across a wide range of backgrounds and experience levels.
-
 ::::{grid}
 :gutter: 2
 
@@ -22,6 +17,11 @@ The Education Consultant has experience with designing curriculum and creating p
 :::
 
 ::::
+
+## Goals
+
+* Helping all participants feel able to intellectually engage in the educational and project spaces at hackweeks.
+* Helping tutorial leads build content that is effective for participants across a wide range of backgrounds and experience levels.
 
 ## Specific Activities
 
