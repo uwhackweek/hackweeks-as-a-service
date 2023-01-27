@@ -210,3 +210,15 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 <hr>
 
 ::::
+
+# Time Commitment
+
+There is considerable variability in the amount of time people spend on various hackweek roles. The level of effort depends on event size, whether it has been run before, and the number of other people available. 
+
+In general, time commitments are greatest for administration and planning roles, and decrease for those roles where effort is focused during the event: 
+
+```{image} ../images/community-roles-time-commitment.png
+:alt: time commitment
+:class: bg-primary mb-1
+:align: center
+```
