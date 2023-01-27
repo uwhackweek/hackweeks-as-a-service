@@ -10,7 +10,17 @@ parts:
     - file: client
     - file: services/index
       sections:
-        - file: services/roles-details
+        - file: services/lead-eScience
+        - file: services/lead-community
+        - file: services/program-manager
+        - file: services/collaboration-architect
+        - file: services/budget-manager
+        - file: services/education-consultant
+        - file: services/tutorial-developer
+        - file: services/project-consultant
+        - file: services/project-lead
+        - file: services/technology-consultant
+        - file: services/helper
     - file: application
 - caption: Resources for Organizers
   chapters:
