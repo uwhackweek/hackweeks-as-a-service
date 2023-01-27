@@ -2,6 +2,10 @@
      --sd-color-card-header: #4b2e83;
 }
 
+.grid-card-metallic-gold {
+    --sd-color-card-header: #85754d;
+}
+
 .grid-card-escience {
      --sd-color-card-header: #2c7fb8;
 }
