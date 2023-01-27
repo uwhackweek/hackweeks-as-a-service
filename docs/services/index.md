@@ -211,7 +211,7 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 
 ::::
 
-# Time Commitment
+## Time Commitment
 
 There is considerable variability in the amount of time people spend on various hackweek roles. The level of effort depends on event size, whether it has been run before, and the number of other people available. 
 
