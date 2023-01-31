@@ -183,6 +183,7 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 
 :::{grid-item}
 :columns: 6
+* [Project Consultant](project-consultant.md)
 * [Project Lead](project-lead.md) 
 :::
 
