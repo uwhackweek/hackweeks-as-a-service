@@ -24,8 +24,9 @@ parts:
     - file: application
 - caption: Resources for Organizers
   chapters:
-  - file: resources/tutorials
+  - file: resources/index
     sections:
+      - file: resources/tutorials
       - file: resources/tutorial-resources
       - file: resources/data-management
       - file: resources/recognition
