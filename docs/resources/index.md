@@ -20,3 +20,7 @@ We recognize that many people will be new to tutorial design and guiding project
 * facilitation approaches to foster teamwork and collaboration
 * peer feedback on tutorial delivery
 * best practices for creating inclusive and welcoming event spaces
+
+## Funding Support    
+
+Depending on the funding agency and level of bugetary support, some of our events include honoraria to support organizing team member's time. Many events also cover the costs of travel and lodging for organizing team members (for in person events). Contact the organizers of specific events for more details. 
