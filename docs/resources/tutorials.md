@@ -1,16 +1,12 @@
 # Tutorial Leads
 
-Our work in designing and delivering tutorial content is informed by our overall [mission](../mission). *We strive to create a sense of belonging by meeting participants where they are and embracing the idea that each of us is on a lifelong journey of learning.*
+We strive to create a sense of belonging by meeting participants where they are and embracing the idea that each of us is on a lifelong journey of learning.
 
 ```{image} ../images/tutorials.png
 :alt: Tutorials in action
 :width: 500px
 :align: center
 ```
-
-## Time Commitment
-
-We will work with you to build a tutorial design team in the months preceding your event. This usually involves a series of 8 to 10 one hour biweekly planning calls where we will work with you to get clear on learning outcomes, tutorial design and the technical aspects of tutorial building. This is in addition to any time you spend during the hackweek to teach material.
 
 ## What can I expect to gain from this experience?
 
