@@ -118,7 +118,7 @@ Many people engage in multiple roles when planning and running a hackweek. The d
 
 ## Community Partner Roles
 
-Our clients who partner with us to host a hackweek are responsible for creating learning content specific to the needs of their community. 
+Our clients who partner with us to host a hackweek are responsible for creating learning content specific to the needs of their community. Some of these roles involve participation in an Organizing Team prior to the hackweek. Such roles are labeled in bold with "**OT**".
 
 <hr>
 
@@ -141,7 +141,7 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 
 :::{grid-item}
 :columns: 6
-* [Lead Coordinator (Community)](lead-community.md) 
+* [**Lead Coordinator, Community (OT)**](lead-community.md) 
 :::
 
 <hr>
@@ -162,7 +162,7 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 
 :::{grid-item}
 :columns: 6
-* [Tutorial Developers](tutorial-developer.md) 
+* [**Tutorial Developers (OT)**](tutorial-developer.md) 
 :::
 
 <hr>
@@ -183,7 +183,7 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 
 :::{grid-item}
 :columns: 6
-* [Project Consultant](project-consultant.md)
+* [**Project Consultant (OT)**](project-consultant.md)
 * [Project Lead](project-lead.md) 
 :::
 
@@ -205,6 +205,7 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 
 :::{grid-item}
 :columns: 6
+* [**Helper Coordinator (OT)**](helper-coordinator.md)
 * [Hackweek Helpers](helper.md) 
 :::
 
