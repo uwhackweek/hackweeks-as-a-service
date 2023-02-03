@@ -20,6 +20,7 @@ parts:
         - file: services/project-consultant
         - file: services/project-lead
         - file: services/technology-consultant
+        - file: services/helper-coordinator
         - file: services/helper
     - file: application
 - caption: Resources for Organizers
