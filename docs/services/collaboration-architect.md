@@ -1,6 +1,6 @@
 # Collaboration Architect
 
-Collaboration is at the heart of what makes our hackweeks so enlivening and successful. The role of the Collaboration Architect is to identify and remove barriers that inhibit the participants' ability to voice and contribute to their hackweek experience.  The Collaboration Architect develops strategies, processes, and structured conversations that amplify inclusion, shared understanding, brainstorming, co-mentoring, and collaboration.
+The Collaboration Architect is experienced in developing community-building strategies that amplify inclusion, co-mentoring, and collaboration. They identify the barriers that inhibit engagement and contribution, and they develop structured interactions that enhance the participant’s learning experience.
 
 ::::{grid}
 :gutter: 2
@@ -22,32 +22,26 @@ Collaboration is at the heart of what makes our hackweeks so enlivening and succ
 
 ## Goals
 
-* Reduce the overwhelm and social anxiety that participants commonly experience as they learn multiple topics and are asked to practice using them within project teams, in a tightly compressed week.
-* Support early career participants as they step outside their comfort zone to propose and pitch project ideas and step into leading a project team.
-* Foster inclusive and generative group work in project teams.
-* Guide the co-development of a cohesive portfolio of tutorials by the Education Team.
-* Develop opportunities to create longer-lasting connections with each other.
-* Cultivate a supportive community that celebrates everyone's accomplishments together.
 
-## Range of Hackweek Activities
+* Reduce the degree of overwhelm and social anxiety that emerges when learning and practicing new skills with new people in a compressed timeframe.   
+* Foster inclusive and generative teamwork.
+* Encourage and support early career participants to step out of their comfort zone to take on leading a project team.
 
-### Planning
+## Specific Activities
 
-* Facilitate team planning calls, ensuring all voices are included in the organizing process.
-* Guide organizers in developing tutorial content.
-* Train organizers to facilitate project task ideation and participant interactions.
+### Pre-hackweek
 
-### Delivery
+* Facilitate collaborative discussions about the portfolio of tutorials and their content.
+* Train/coach Project Coordinator and Helpers.
 
-* Help participants get to know each other through icebreakers and a shared introductory slide deck.
-* Teach participants best practices for project ideation, pitching, team selection and collaboration.
-* Mentor individuals and teams in navigating social interactions and challenges that arise during an event.
+### Hackweek
 
-### Debrief
+* Facilitate participant interaction.
+* Facilitate participants moving through the project formation phases i.e., ideation, pitching, co-shaping/scoping, and selection.
 
-* Conduct focus groups with participants who volunteer to share their feedback.
-* Facilitate a debrief session with hackweek organizers to learn what works well and what needs to be improved with the planning phase.
-* Review survey responses and translate them into a list of improvements.
+### Post Hackweek
+
+* Gather feedback, insights, and ideas from the organizing team, participant focus group, and survey responses and identify areas for improvement.
 
 `````{dropdown} **People With Experience in this Role**
 :open:
