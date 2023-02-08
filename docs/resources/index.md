@@ -21,7 +21,7 @@ The eScience Institute supports Community Partners in planning each hackweek. We
 
 ## Tutorial Lead Meeting Schedule
 
-Tutorial leads and developers will gather two months prior to a hackweek to create content and prepare for teaching. Here is the weekly schedule:
+Tutorial leads and developers typically gather over the course of eight to ten weeks prior to a hackweek to create content and prepare for teaching. Below is an example eight week meeting schedule, which does not include individual or team time spent preparing tutorial content:
 
 ```{Admonition} Week 1 / 90 min: Kick-off Meeting (everyone)
 Create tutorial schedule outline, form tutorial teams, and get to know each other.
