@@ -76,7 +76,9 @@ Upon completion of this training you will be awarded a tutorial lead badge! ![GH
 
 ## Project Coordinator
 
-## Helper
+## Helper Schedule
+
+Helpers are critical to keeping a hackweek running smoothly and sharing information among participants and organizers. Helpers are asked to attend a virtual training session (60 minutes), usually the week before the hackweek, to get an overview of the event, have an opportunity to ask questions, and commit to being a helper for a specific day.
 
 
 ## Funding Support    
