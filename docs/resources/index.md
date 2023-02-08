@@ -76,7 +76,7 @@ Upon completion of this training you will be awarded a tutorial lead badge! ![GH
 
 ## Project Coordinator
 
-# Helper
+## Helper
 
 
 ## Funding Support    
