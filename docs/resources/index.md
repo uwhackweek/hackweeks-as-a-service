@@ -19,6 +19,8 @@ The eScience Institute supports Community Partners in planning each hackweek. We
 
 ::::
 
+<hr>
+
 ## Tutorial Lead Meeting Schedule
 
 Tutorial leads and developers typically gather over the course of eight to ten weeks prior to a hackweek to create content and prepare for teaching. Below is an example eight week meeting schedule, which does not include individual or team time spent preparing tutorial content:
@@ -62,7 +64,7 @@ Tutorial development help.
 ```
 
 ```{Admonition} Week 6 and 7 (60 min): Tutorial Feedback (everyone)
-Practice tutorial delivery and get constructive feedback from others on the team.
+Practice tutorial delivery and get constructive feedback from others on the organizing team.
 ```
 
 ```{Admonition} Week 8 (60 min): Final meeting (everyone)
@@ -71,15 +73,22 @@ Coordination, logistics, and final preparations.
 
 Upon completion of this training you will be awarded a tutorial lead badge! ![GH](https://img.shields.io/static/v1?label=Hackweek&message=Tutorial_Lead&color=4b2e83&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic).
 
-
-
+<hr>
 
 ## Project Coordinator
 
-## Helper Schedule
+<hr>
 
-Helpers are critical to keeping a hackweek running smoothly and sharing information among participants and organizers. Helpers are asked to attend a virtual training session (60 minutes), usually the week before the hackweek, to get an overview of the event, have an opportunity to ask questions, and commit to being a helper for a specific day.
+## Helper
 
+Helpers are critical to keeping a hackweek running smoothly and sharing information among participants and organizers. Helpers are asked to attend a virtual training session shortly before the hackweek:
+
+```{Admonition} 90 min: Helper Orientation
+Learn best practices for giving help to learners in a virtual and in-person environment; discuss schedule and helper opportunities; sign up for specific times.
+```
+Completion of the helper training will earn you the hackweek helper badge! ![GH](https://img.shields.io/static/v1?label=Hackweek&message=Helper&color=4b2e83&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic).
+
+<hr>
 
 ## Funding Support    
 
