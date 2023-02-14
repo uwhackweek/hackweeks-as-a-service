@@ -212,6 +212,8 @@ Our clients who partner with us to host a hackweek are responsible for creating 
 
 ::::
 
+Visit our [Resources for Organizers](../resources/index.md) page to learn more about the training and preparation we offer to community members for many of these roles.
+
 ## Time Commitment
 
 There is considerable variability in the amount of time people spend on various hackweek roles. The level of effort depends on event size, whether it has been run before, and the number of other people available. 
