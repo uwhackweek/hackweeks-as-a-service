@@ -2,6 +2,8 @@
 
 The eScience Institute supports Community Partners in planning each hackweek. We invite organizers to participate in video and live training sessions tailored to each of the Community Partner roles. Upon completion of the training, organizer profiles will be posted on the hackweek website along with badge(s) representing their roles in the event. 
 
+A new suggested paragraph of amazing content.
+
 ::::{grid}
 :gutter: 1
 
