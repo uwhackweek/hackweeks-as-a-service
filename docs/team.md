@@ -20,9 +20,9 @@ Lead hackweek coordinator, hackweek facilitation
 Hackweek design and facilitation
 ```
 
-```{grid-item-card} Jane Koh
-:img-top: https://avatars.githubusercontent.com/u/51932541?v=4
-Hackweek logistics, administrative support
+```{grid-item-card} Mark Welden-Smith
+:img-top: https://escience.washington.edu/wp-content/uploads/2023/06/Mark-Welden-Smith-2048x2048.jpeg
+Program Manager for Community Engagement 
 ```
 
 ```{grid-item-card} Ann Nykamp
