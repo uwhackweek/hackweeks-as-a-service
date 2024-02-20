@@ -3,4 +3,4 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - jupyter-book=0.13
+  - jupyter-book=0.15
