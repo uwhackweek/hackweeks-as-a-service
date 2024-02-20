@@ -7,7 +7,6 @@ parts:
     - file: team
 - caption: Hackweek Services
   chapters:
-    - file: client
     - file: services/index
       sections:
         - file: services/lead-eScience
@@ -21,7 +20,6 @@ parts:
         - file: services/project-lead
         - file: services/technology-consultant
         - file: services/helper
-    - file: application
 - caption: Resources for Organizers
   chapters:
   - file: resources/index
@@ -30,13 +28,6 @@ parts:
       - file: resources/tutorial-resources
       - file: resources/data-management
       - file: resources/recognition
-- caption: Gallery
-  chapters:
-  - file: gallery/index
-    sections:
-      - file: gallery/ICESat-2hackweek
-      - file: gallery/SnowExhackweek
-      - file: gallery/geohackweek
 - caption: Reference
   chapters:
     - file: bibliography
