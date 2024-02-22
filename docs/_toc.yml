@@ -5,6 +5,9 @@ parts:
   chapters:
     - file: mission
     - file: team
+- caption: Training Materials
+  chapters:
+    - file: training/index    
 - caption: Hackweek Services
   chapters:
     - file: services/index
