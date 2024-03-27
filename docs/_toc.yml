@@ -8,12 +8,15 @@ parts:
   chapters:
     - file: tutorials/index  
       sections: 
-        - file: tutorials/tutorial-resources
-        - file: tutorials/tutorials
+        - file: tutorials/tutorial-design
+        - file: tutorials/tutorial-delivery
 - caption: Project Design
   chapters:
   - file: projects/index
-- caption: Accessible Technology
+    sections:
+      - file: projects/project-design.md
+      - file: projects/project-implementation.md
+- caption: Technology
   chapters:
     - file: technology/index  
       sections:
