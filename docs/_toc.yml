@@ -3,40 +3,28 @@ root: intro
 parts:
 - caption: Overview
   chapters:
-    - file: mission
-    - file: team
-- caption: Hackweek Services
+    - file: overview
+- caption: Tutorial Design
   chapters:
-    - file: client
-    - file: services/index
+    - file: tutorials/index  
+      sections: 
+        - file: tutorials/tutorial-resources
+        - file: tutorials/tutorials
+- caption: Project Design
+  chapters:
+  - file: projects/index
+- caption: Accessible Technology
+  chapters:
+    - file: technology/index  
       sections:
-        - file: services/lead-eScience
-        - file: services/lead-community
-        - file: services/program-manager
-        - file: services/collaboration-architect
-        - file: services/budget-manager
-        - file: services/education-consultant
-        - file: services/tutorial-developer
-        - file: services/project-consultant
-        - file: services/project-lead
-        - file: services/technology-consultant
-        - file: services/helper
-    - file: application
-- caption: Resources for Organizers
+        - file: technology/data-management
+        - file: technology/recognition
+- caption: Strategy and Planning
   chapters:
-  - file: resources/index
-    sections:
-      - file: resources/tutorials
-      - file: resources/tutorial-resources
-      - file: resources/data-management
-      - file: resources/recognition
-- caption: Gallery
+    - file: strategy/index  
+- caption: Learning Culture
   chapters:
-  - file: gallery/index
-    sections:
-      - file: gallery/ICESat-2hackweek
-      - file: gallery/SnowExhackweek
-      - file: gallery/geohackweek
+    - file: culture/index 
 - caption: Reference
   chapters:
     - file: bibliography

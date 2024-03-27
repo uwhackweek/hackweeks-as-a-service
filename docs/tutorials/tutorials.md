@@ -1,13 +1,5 @@
 # Tutorial Leads
 
-We strive to create a sense of belonging by meeting participants where they are and embracing the idea that each of us is on a lifelong journey of learning.
-
-```{image} ../images/tutorials.png
-:alt: Tutorials in action
-:width: 500px
-:align: center
-```
-
 ## What can I expect to gain from this experience?
 
 Hackweeks have traditionally been very dynamic events at which knowledge is exchanged in multiple directions across different levels of career position and backgrounds. We hope you will have an opportunity to learn a lot of new things by engaging in this experience.

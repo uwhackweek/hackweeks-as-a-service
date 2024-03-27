@@ -2,7 +2,7 @@
 [![Deploy](https://github.com/uwhackweek/hackweeks-as-a-service/actions/workflows/deploy.yaml/badge.svg)](https://github.com/uwhackweek/hackweeks-as-a-service/actions/workflows/deploy.yaml)
 [![DOI](https://zenodo.org/badge/354072491.svg)](https://zenodo.org/badge/latestdoi/354072491)
 
-This repository hosts a website with information describing the [UW eScience Institute's](https://escience.washington.edu) hackweeks as a service model. It uses [Jupyter-book](https://jupyterbook.org/) and the website is hosted on the gh-pages branch.
+This repository hosts a website with information to support the Organizing Team of [UW eScience Institute's](https://escience.washington.edu) earth science focused hackweeks. It uses [Jupyter-book](https://jupyterbook.org/) and the website is hosted on the gh-pages branch.
 
 ## GitHub Deployment
 This repository is configured with [GitHub Actions](./.github/workflows/deploy.yaml) to automatically build and publish HTML to the gh-pages branch. Just commit to the main branch and the website will be automatically updated.
@@ -12,7 +12,7 @@ This repository is configured with [GitHub Actions](./.github/workflows/deploy.y
 git clone https://github.com/uwhackweek/hackweeks-as-a-service.git
 cd hackweeks-as-a-service
 conda env create
-conda activate hackweek
+conda activate hackweek-guidebook
 jb build docs
 ```
 

@@ -1,7 +1,6 @@
 # Resources for tutorial design
 
-Preparing a tutorial for a hackweek can feel like a daunting task. We are here to help guide you through the process! This page summarizes our recommendations for [Tutorial Leads](../services/roles-details.html#tutorial-leads).
-
+Preparing a tutorial for a hackweek can feel like a daunting task. We are here to help guide you through the process! 
 
 ## Curriculum development
 
