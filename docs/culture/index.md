@@ -7,7 +7,7 @@
 After completing this module, hackweek supporters will:
 
 * understand the importance of psychological safety to support creativity and open science
-* practice applying tools that support a healthy learning culture
+* have practical experience applying tools that support a healthy learning culture
 * identify specific ways we can maximize for inclusivity within existing hackweek structures 
 
 ## Possible References?
