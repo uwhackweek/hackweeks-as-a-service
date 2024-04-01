@@ -17,6 +17,6 @@ Evidence that project-based learning is a viable approach {cite:p}`almulla_effec
 
 Mentorship at a hackathon should be more than just occasional support. It should include taking ownership of the project, setting achievable goals, building social ties, and receiving learning-oriented support {cite:p}`nolte_how_2020`.
 
-Evidence that minimal guidance and lack of structure does not lead to positive project outcomes {cite:p}`irschner_why_2006`.
+Evidence that minimal guidance and lack of structure does not lead to positive project outcomes {cite:p}`kirschner_why_2006`.
 
 ## What to expect as a project lead
