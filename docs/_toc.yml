@@ -28,7 +28,10 @@ parts:
 - caption: Learning Culture
   chapters:
     - file: culture/index 
+      sections: 
+        - file: culture/psychological-safety
 - caption: Reference
   chapters:
+    - file: participant-selection 
     - file: bibliography
     - file: acknowledgements
