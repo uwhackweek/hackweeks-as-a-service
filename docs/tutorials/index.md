@@ -36,3 +36,8 @@ Past tutorial leads have used these events to gain teaching experience and as a 
 
 In crafting a tutorial you'll gain valuable experience with creating reproducible computation examples. And together we'll collaborate on building digital content that will serve as a public resource with a citable DOI so that all tutorial authors receive credit for the effort!
 
+## Badge
+
+Hackweek helpers successfully completing this module will earn the [Tutorial Developer](https://badgr.com/public/badges/vK9cbBhdQFiIV8ovxTj1Fw) badge from the UW eScience Institute.
+
+![badge](../images/tutorial-badge.png)
