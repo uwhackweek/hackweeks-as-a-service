@@ -10,15 +10,15 @@ So, how do we learn these tools? If we're already enrolled in a formal education
 
 ## Emergence of the Hackweek
 
-Back in 2004, there were very few formal educational pathways to learn data science. So, a group of astronomers designed a workshop combining tutorials and open project work, and called it a "hackweek". They invited members of their own communities to create learning content, and made sure there was ample time for people to work on projects to gain practical experience. Nearly 10 years after the formation of AstroHackweek, this model has been applied across multiple disciplines in over 30 events. Hackweeks have helped us to teach people new skills, create community software and build collaborative networks.
+Back in 2014, there were very few formal educational pathways to learn data science. So, a group of astronomers designed a workshop combining tutorials and open project work, and called it a "hackweek". They invited members of their own communities to create learning content, and made sure there was ample time for people to work on projects to gain practical experience. Nearly 10 years after the formation of AstroHackweek, this model has been applied across multiple disciplines in over 30 events. Hackweeks have helped us to teach people new skills, create community software and build collaborative networks.
 
 ## Fast Forward 
 
 Today the educational landscape has changed. Many institutions now have their own data science programs, and software is being taught as a component of many discipline-specific offerings. As we continue to reimagine the role of hackweeks, it is useful to explicitly distinguish between these different pathways of learning and community development.
 
-We'll do this by adopt terminology from a recent publication that compares Formal Higher Education with Short-Format Training {cite:p}`williams_optimizing_2023`. Formal Higher Education includes those courses now offered in many universities and colleges. These are typically traditional classroom lectures and may involve some kind of hands-on or lab exercise component. Student performance is evaluated through grading, and everyone follows along a standardized curriculum. Teaching generally requires pedagogical rigor, course evaluation and continuity of curriculum. 
+We'll do this by adopting terminology from a recent publication that compares Formal Higher Education with Short-Format Training {cite:p}`williams_optimizing_2023`. Formal Higher Education includes those courses now offered in many universities and colleges. These are typically traditional classroom lectures and may involve some kind of hands-on or lab exercise component. Student performance is evaluated through grading, and everyone follows along a standardized curriculum. Teaching generally requires pedagogical rigor, course evaluation and continuity of curriculum. 
 
-In contrast, Short Format Training refers to workshops, summer schools, boot camps or any other *ad hoc* gatherings aimed at teaching to a specific set of topics. These events are time-bounded and typically of much shorter duration than a university course. The training is often conducted by volunteers who create training modules and may or may not have experience in pedagogical best practices. These events rarely involve any form of evaluation or program improvement, and people hosting and teaching the events usually do not get formally recognized for the work.  We see hackweeks are a special category of Short Format Training, one that is highly adaptive to the emerging needs of a particular community. 
+In contrast, Short Format Training refers to workshops, summer schools, boot camps or any other *ad hoc* gatherings aimed at teaching to a specific set of topics. These events are time-bounded and typically of much shorter duration than a university course. The training is often conducted by volunteers who create training modules and may or may not have experience in pedagogical best practices. These events rarely involve any form of evaluation or program improvement, and people hosting and teaching the events usually do not get formally recognized for the work.  We see hackweeks as a special category of Short Format Training, one that is highly adaptive to the emerging needs of a particular community. 
 
 ## Benefits of Short-Format Training
 
@@ -26,7 +26,7 @@ If Formal Higher Education is finally catching up with the learning needs of our
 
 * Many Formal Higher Education institutions still lack the funding to create data science programs, or to infuse software development into existing classes. Short Format Training can help fill the gap, especially for under-resourced communities.
 * The flexibility of Short Format Training enables us to continually adapt to emerging research needs at a pace that may not be possible in a Formal Higher Education setting. 
-* Short Format Training provide unique opportunities for networking and community building.
+* Short Format Training provides unique opportunities for networking and community building.
 * The absence of learner evaluation requirements in Short Format Trainings frees participants to pursue creative work that might not otherwise occur.
 
 ## The Best of Both Worlds?
