@@ -5,7 +5,7 @@ runs:
   using: "composite"
   steps:
     - name: Cache Conda Packages
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       env:
         # Increase this value to reset cache if environment.yml has not changed
         CACHE_NUMBER: 0
@@ -15,7 +15,7 @@ runs:
           ${{ runner.os }}-conda-packages-${{ env.CACHE_NUMBER }}-${{ hashFiles('environment.yml') }}
 
     - name: Setup Mambaforge
-      uses: conda-incubator/setup-miniconda@v2
+      uses: conda-incubator/setup-miniconda@v3
       with:
         miniforge-version: latest
         miniforge-variant: Mambaforge
@@ -26,7 +26,7 @@ runs:
 
     - name: Cache Entire Conda Environment
       id: cache-env
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       env:
         CACHE_NUMBER: 0
       with:
