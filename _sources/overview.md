@@ -2,9 +2,7 @@
 
 Data permeates nearly every corner of the research landscape. Whether you are a social scientist exploring the impacts of zoning policies on urban demographics, or a physical scientist predicting the effects of climate change on agricultural productivity, you will almost certainly need to develop skills in accessing, processing, visualizing and performing statistical analysis on datasets. 
 
-New technologies have enabled us to have access to ever-increasing volumes of data. At first we usually think, the more data the better! But very quickly we run into challenges. Let's take a high resolution imagery of earth from space as an example: depending on the sensor resolution and study region, such files could be as large as several hundred gigabytes. Very quickly you might find yourself investing time trying to subset the data, work with it in the cloud, or find someone else who has a bigger hard drive than yours to download the data. 
-
-Even for the most technically savvy of us, keeping up with the dizzying expansion of tools, data formats and technologies is nearly impossible. 
+New technologies have enabled us to have access to ever-increasing volumes of data. At first we usually think, the more data the better! But very quickly we run into challenges. Often a dataset will be too large for us to download and manage it on our local laptop, and we find ourselves trying to subset the data, work with it in the cloud, or find someone else who has a bigger hard drive than yours to download the data. Other times there may be new approaches such as machine learning that would advance our science, but we do not have access to example workflows for applying the tools to our datasets. Even for the most technically savvy of us, keeping up with the dizzying expansion of tools, data formats and technologies is nearly impossible. 
 
 So, how do we learn these tools? If we're already enrolled in a formal education system, we may be lucky enough to find good courses that keep pace with the shifting data science landscape. If not, we typically try to learn from what is on the internet, or we seek out a training workshop. 
 
