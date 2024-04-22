@@ -39,7 +39,7 @@ There are also some risks that we cannot control, and might not want to eliminat
 
 ```{admonition} Note 
 :class: warning
-Lowering stakes to create a sense of psychological safety is not the same "lowering standards". We are aware that there are many high risk environements where the stakes are also very high. An example would be a surgeon performing a risky procedure on a patient. That would not be a time when we want to foster a "safe-to-fail" environment!
+Lowering stakes to create a sense of psychological safety is not the same "lowering standards". We are aware that there are many high risk environments where the stakes are also very high. An example would be a surgeon performing a risky procedure on a patient. That would not be a time when we want to foster a "safe-to-fail" environment!
 ```
 
 ## Risk, Power and Identity
