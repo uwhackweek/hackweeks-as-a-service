@@ -1,4 +1,4 @@
-# Resources for tutorial design
+# Tutorial Design
 
 Preparing a tutorial for a hackweek can feel like a daunting task. We are here to help guide you through the process! 
 
@@ -10,7 +10,7 @@ A hackweek tutorial is *learning-oriented* and should guide participants through
 
 You're likely leading a tutorial because it is a topic that you are excited about! It is tempting to want to share all the things, but keep the *learning-oriented* framing of your tutorial in mind as you begin to plan your tutorial.
 
-We recommend following the [Software Carpentry Curriculum Development](https://carpentries.github.io/curriculum-development/) model for building hackweek tutorials. The core components of this "Backward Design" approach include:
+We recommend following the [Software Carpentry Curriculum Development](https://carpentries.github.io/workbench/) model for building hackweek tutorials. The core components of this "Backward Design" approach include:
 
 ```{note}
 1. Start by identifying key learning outcomes
@@ -56,19 +56,6 @@ Spend a bit of time looking at these examples from past events:
 | - | - |
 | SnowEx 2021 Thermal IR | [rendered](https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html), [download](https://github.com/snowex-hackweek/website/raw/main/book/tutorials/thermal-ir/thermal-ir-tutorial.ipynb) |
 
-
-## Delivering a tutorial
-
-Prepare your tutorials well in advance and practice it in front of a small audience for feedback. This helps ensure you have enough time to cover your full tutorial, can be an opportunity for feedback, and will give you confidence when presenting during the hackweek.
-
-### Examples of presenting
-Take a bit of time to review these excellent tutorials recorded at our previous hackweeks:
-
-| Description | Event | Recording |
-| - | - | - |
-| Thermal Infrared Remote Sensing | 2021 SnowEx Hackweek by Steven Pestana | [link](https://www.youtube.com/watch?v=dkI0pVYclt0) |
-| ICESat-2 Land Ice Applications | 2020 ICESat-2 Hackweek by Ben Smith | [link](https://www.youtube.com/watch?v=qtkVd2xc-U8) |
-| Google Earth Engine | 2018 GeoHackweek by Catherine Kuhn | [link](https://www.youtube.com/watch?v=VMJ1ZO48cwU) |
 
 
 ## References
