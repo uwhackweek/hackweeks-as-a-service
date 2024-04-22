@@ -75,13 +75,13 @@ Over the years, we have noticed career stage playing an important role in how pe
 
 ## Hackweek Examples
 
-We have prepared two videos that simulate typical scenarios occuring at a hackweek. (more to come...)
+We have prepared two videos that simulate typical scenarios occurring at a hackweek. (more to come...)
 
 ## Group Activity
 
-We invite you to reflect on your own idenity and how this has shaped your experience so far as an academic. Scholars typically use some type of circle or wheel to visualize intersecting identities and their interplay with power and privilege {cite:p}`morgan_describing_1996`. We'll work with a version of such a wheel that locates high privilege in the center transitioning to lower privilege towards the outer edge of the circle.
+We invite you to reflect on your own identity and how this has shaped your experience so far as an academic. Scholars typically use some type of circle or wheel to visualize intersecting identities and their interplay with power and privilege {cite:p}`morgan_describing_1996`. We'll work with a version of such a wheel that locates high privilege in the center transitioning to lower privilege towards the outer edge of the circle.
 
-:::{admonition} Activity Instuctions
+:::{admonition} Activity Instructions
 :class: tip
 The purpose of this activity is to locate yourself on your own wheel of power and privilege. We will not ask you to share your wheel with others. Instead, we'll invite you to discuss in small groups general ways your experience of the exercise might affect how you show up at the hackweek. 
 1. Think about 3 or 4 identities that have particular meaning for you when you think about participating in a learning environment, and jot these down in a list.
