@@ -11,7 +11,7 @@ on:
 
 jobs:
   add-preview:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     # This workflow accesses secrets and checks out a PR, so only run if labelled
     # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
     if: contains(github.event.pull_request.labels.*.name, 'preview')
@@ -20,7 +20,7 @@ jobs:
         shell: bash -l {0}
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         ref: ${{ github.event.pull_request.head.sha }}
 
@@ -31,7 +31,7 @@ jobs:
         jupyter-book build docs/
 
     - name: Deploy Website Preview
-      uses: nwtgck/actions-netlify@v1.1
+      uses: nwtgck/actions-netlify@v3.0
       with:
         publish-dir: './docs/_build/html'
         production-deploy: false
