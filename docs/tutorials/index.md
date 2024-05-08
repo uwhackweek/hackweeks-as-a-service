@@ -1,6 +1,16 @@
 # Introduction
 
-*Paragraph providing brief overview of this module*
+In hackweek events, participants get the opportunity to learn and engage with new concepts through *tutorials*. These usually take the form of a 60-to-90 minute classroom session in which a content expert, the "*tutorial lead*", leads the audience through an interactive Jupyter notebook that demonstrates a particular computational technique or dataset. 
+
+Although the central artifact of a tutorial is its jupyter notebook, this notebook is actually used in two different and equally important contexts:
+
+- The *synchronous* time that the tutorial lead spends with participants while teaching, where the notebook serves as an outline and presentation tool.
+- The *asynchronous* time that participants spend after the tutorial, where the notebook serves as a subject reference and code "cookbook".
+
+Effective tutorials are designed with this division in mind, using synchronous time to engage and inspire learners by showing them the "tip of the iceberg," after which participants can dig into the notebook's deeper material.
+
+The rest of this chapter covers the goals, considerations, and best practices of tutorial design that make the most out of both synchronous and asynchronous learning contexts.
+
 
 ## Learning Objectives
 
