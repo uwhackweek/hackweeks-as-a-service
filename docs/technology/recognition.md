@@ -4,7 +4,7 @@ There are a variety of ways that we would like to recognize community contributi
 
 ## Website Presence
 
-We invite all people who join us in organizing and hosting a hackweek to be included in our "Meet the team" section of each hackweek website. 
+We invite all people who join us in organizing and hosting a hackweek to be included in our "Meet the team" section of each hackweek website.
 
 We use this YAML markdown template for each team member. 
 
@@ -37,7 +37,7 @@ We use this YAML markdown template for each team member.
 
 **Notes:**
 ```{warning}
-You must precisely follow the indentation and spacing layout shown here, so that the website correctly interprets the YAML format. Copying and existing team member's text and editing is an easy way to guarantee this
+You must precisely follow the indentation and spacing layout shown here, so that the website correctly interprets the YAML format. Using the template is a great way to guarantee this.
 ```
 - We encourage everyone to use their GitHub avatar as the source of their personal photograph.
 - Provide your GitHub username, together with the full url, for the `link` key under `social`.
@@ -45,8 +45,22 @@ You must precisely follow the indentation and spacing layout shown here, so that
 
 ### Uploading to the website
 
-To include your content on the website, please make a pull request to the `team.yaml` file located in the website for the event you're involved with. For example, here is the [file for the ICESat-2 2022 hackweek](https://github.com/ICESAT-2HackWeek/website2022/blob/main/book/team.yaml). 
+To include your content on the website, follow [these instructions](https://github.com/uwhackweek/jupyterbook-template/blob/main/team/README.md) (included below):
+* Navigate to the 'landing page' repository for your event.
+* Navigate into the 'teams' directory.
+* Use the provided 'template.yaml' file.
+* Create a copy of the 'template.yaml' file and rename the file to your name.
+You can do this through the GitHub interface, your local development environment, or on the command line with
+   ```
+    cp template.yaml FirstName-LastName.yaml
+   ```
+* Open the new file you just created in your favorite editor and fill out the
+  details, replacing the placeholder text.
+* Commit the file and (if necessary) push your changes to GitHub.
+* Open a pull request (PR).
 
+
+### UPDATE THESE IMAGES
 When you are just editing text, using GitHub's online text editor is very convenient:
 <img width="1031" alt="Screen Shot 2022-06-07 at 3 07 21 PM" src="https://user-images.githubusercontent.com/3924836/172491535-8aa4d9ff-4d2d-492a-96ff-c8ba49c1b2e5.png">
 
