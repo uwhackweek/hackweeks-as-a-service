@@ -16,8 +16,7 @@ parts:
     sections:
       - file: projects/project-design.md
       - file: projects/project-implementation.md
-- caption: Technology
-  chapters:
+- chapters:
     - file: technology/index  
       sections:
         - file: technology/data-management
