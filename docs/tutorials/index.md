@@ -7,10 +7,16 @@ Although the central artifact of a tutorial is its jupyter notebook, this notebo
 - The *synchronous* time that the tutorial lead spends with participants while teaching, where the notebook serves as an outline and presentation tool.
 - The *asynchronous* time that participants spend after the tutorial, where the notebook serves as a subject reference and code "cookbook".
 
-Effective tutorials are designed with this division in mind, using synchronous time to engage and inspire learners by showing them the "tip of the iceberg," after which participants can dig into the notebook's deeper material.
+Effective tutorials are designed with this division in mind, using their synchronous time to engage and inspire learners by showing them the "tip of the iceberg," after which participants can dig into the notebook's deeper material.
 
-The rest of this chapter covers the goals, considerations, and best practices of tutorial design that make the most out of both synchronous and asynchronous learning contexts.
+The rest of this chapter covers the goals, considerations, and best practices regarding tutorial design and delivery to make the most out of the event participants' time together.
 
+
+```{image} ../images/tutorials.png
+:alt: Tutorials in action
+:width: 500px
+:align: center
+```
 
 ## Learning Objectives
 
@@ -31,12 +37,6 @@ Active learning increases performance in STEM {cite:p}`freeman_active_2014`
 
 SWC lessons learned {cite:p}`wilson_software_2016`
 
-
-```{image} ../images/tutorials.png
-:alt: Tutorials in action
-:width: 500px
-:align: center
-```
 
 ## What to expect as a tutorial lead
 
