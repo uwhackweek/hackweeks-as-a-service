@@ -103,15 +103,74 @@ Feeding yourself: a workshop for new college students
 
 ### Interactivity and Assessment
 
-TODO
+Once the tutorial has been outlined, instructive bullets can be punctuated with bullets describing participant activities. Activities can serve a variety of different purposes:
+    - During synchronous time, they engage the audience and help maintain attention
+    - They provide a way for participants to self-assess their mastery of the material
+    - They provide opportunities for participants to help each other, which builds community and strengthens understanding through peer teaching.
+    - They provide opportunities for structured practice of the material, which through repetition improves retention.
+
+Some activity suggestions are outlined below, depending on the ultimate intent of the activity at a given point in our outline.
+
+#### Attentional activities
+
+To maintain participant engagement during long days, it can be very helpful to provide forms of interactivity that _don't_ assess a skill, but rather just have folks switch from a 'student' mode to 'participant' mode.
+
+A common attentional activity is to ask participants to respond to a creative prompt, observing the following guidelines:
+- Ask for _written_ responses through slack or zoom chat, or platforms like [particify](https://particify.de/)
+- Give adequate time for shy folks to write their responses. One way to solicit them is to ask people to type their responses and hold back from posting them until you do a countdown and say "go!".
+- Read back some responses out loud
+
+It's important to not ask comprehension or mastery questions, like "describe back to me what I just said" or "we're about to talk about XYZ. can someone tell me what XYZ is". Rather, try questions like these:
+- Ask for reflections on past experience
+- Ask participants to brainstorm as many unique responses as possible
+- Ask for participants' opinions on or “favorites of” a given subject
+
+
+#### Conceptual activties
+
+For non-technical material, several techniques are described in this [active learning strategies guide](https://drive.google.com/file/d/1lJ2Eb773tOx0Oik_G51bcWcwub20Co-4/view) and summarized in this chart:
+
+```{image} ../images/tutorials-active-learning-strategies.png
+:alt: A chart of active learning strategies [TODO enumerate them]
+:width: 100%
+:align: center
+```
+
+#### Technical activities
+
+For technical material, here are some suggestions:
+
+- Material involving data access
+    - Repeat a procedure you just modeled
+    - Find and share an interesting datapoint/dataset/layer
+- Material involving codeing techniques
+    - Fill-in-the-blanks
+    - Reading pre-written code for comprehension
+    - Tweak pre-written code behavior
+    - Parsons problems (arranging scrambled lines of code)
+
 
 ### Timing and refinement
 
-TODO
+Once we've built out content for our tutorial, it's important to run through it once or twice to get a sense of how much time each section takes. Although it's helpful to do this in front of colleagues and solicit feedback, even just doing a dry run alone at your desk with a stopwatch can give critical understanding as to how well your material flows and how much content you may need to edit. 
 
 ## Editing
 
 You're likely leading a tutorial because it is a topic that you are excited about! It is tempting to want to share all the things, but keep the *learning-oriented* framing of your tutorial in mind as you begin to plan your tutorial.
+
+```{image} ../images/tutorials-priority.png
+:alt: A chart expressing content priority [TODO describe in detail]
+:width: 100%
+:align: center
+```
+
+TODO: cite Veldof, Jerilyn R. Creating the One-Shot Library Workshop: A Step-by-Step Guide. Chicago: American Library Association, 2006.
+
+TODO:
+
+Questions to ask yourself:
+- Is this piece of content critical for learning success?
+- Can the learners (or will the learners) learn this content elsewhere?
 
 
 
