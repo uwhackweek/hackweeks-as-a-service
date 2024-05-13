@@ -162,12 +162,12 @@ up in the room?
 ## Hackweek Examples
 
 We have prepared two videos that simulate typical scenarios occurring 
-at a hackweek. (more to come...)
+at a hackweek. (This section is still in development.)
 
 ## Group Activity
 
 We invite you to reflect on your own identity and how this has shaped 
-your experience so far as an academic. Scholars typically use some type of 
+your experience so far in your career. Scholars typically use some type of 
 circle or wheel to visualize intersecting identities and their interplay 
 with power and privilege {cite:p}`morgan_describing_1996`. We'll work with 
 a version of such a wheel that locates high privilege in the center 
@@ -179,27 +179,30 @@ The purpose of this activity is to locate yourself on your own wheel of power
 and privilege. We will not ask you to share your wheel with others. Instead, 
 we'll invite you to discuss in small groups general ways your experience of 
 the exercise might affect how you show up at the hackweek. 
-1. Think about 3 or 4 identities that have particular meaning for you when 
+1. Choose 4 different identities that have particular meaning for you when 
 you think about participating in a learning environment, and jot these down 
 in a list.
-1. Take the image we have provided of a circle with the word "high privilege" 
-at the center, and "low privilege" on the outer edge.
-1. Draw a line from the center of the circle to the outer edge for each of 
-the identities you described. 
-1. Choose a word that represents one realization of that identity associated 
-with high and low privilege, and label your diagram accordingly.
+1. Take the [image we have provided of a circle](../images/wheel-of-power.jpg).
+There are four black lines drawn
+on the circle. Write down your identities on these lines, with one word on each
+line. For example, you might write "gender" on one line and "career position" on
+another.
 1. Now, draw a star on each of your identity lines showing where you 
-place yourself on the continuum of privilege.
-1. Optionally, connect each of your stars with a line. The total area 
-inscribed represents your overall privilege with respect to the identities 
-you chose.
+place yourself on the continuum of privilege. The center of the circle
+represents a position of high privilege, and the outer ring represents low
+privilege.
+
+```{image} ../images/wheel-of-power.jpg
+:alt: Wheel of Power and Privilege
+:class: float-left mr-2 rounded
+:width: 350px
+```
 
 **Prompts for Discussion**
 * Typically the center of such a circle is associated with greater power, 
 and the outer edges associated with marginalization (see example 
 [wheel of power and privilege](https://usq.pressbooks.pub/app/uploads/sites/53/2022/05/Power.jpg)). 
 Does this ring true for your example?
-* (other prompts)
 :::
 
 ## Suggested "hacks" to build awareness 
