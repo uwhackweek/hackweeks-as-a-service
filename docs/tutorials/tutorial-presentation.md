@@ -1,10 +1,14 @@
-# Tutorial Delivery
-
-
+# Tutorial Presentation
 
 Prepare your tutorials well in advance and practice it in front of a small audience for feedback. This helps ensure you have enough time to cover your full tutorial, can be an opportunity for feedback, and will give you confidence when presenting during the hackweek.
 
 Successful tutorials often combine moments of non-interactive lecture-style teaching with audience engagement prompts and interactive hands-on coding activities.
+
+
+TODO:
+- lowering barriers to entry
+- firm instructions during activities
+- modeling
 
 ### Examples of presenting
 Take a bit of time to review these excellent tutorials recorded at our previous hackweeks:

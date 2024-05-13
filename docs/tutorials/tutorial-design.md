@@ -109,6 +109,12 @@ Once the tutorial has been outlined, instructive bullets can be punctuated with 
     - They provide opportunities for participants to help each other, which builds community and strengthens understanding through peer teaching.
     - They provide opportunities for structured practice of the material, which through repetition improves retention.
 
+```{note}
+**💡 Lessons learned from previous hackweeks**
+
+Not all interactivity has to be structured. Leave some space when you are not talking for people to work through examples and ask questions.
+```
+
 Some activity suggestions are outlined below, depending on the ultimate intent of the activity at a given point in our outline.
 
 #### Attentional activities
@@ -156,63 +162,62 @@ Once we've built out content for our tutorial, it's important to run through it 
 
 ## Editing
 
-You're likely leading a tutorial because it is a topic that you are excited about! It is tempting to want to share all the things, but keep the *learning-oriented* framing of your tutorial in mind as you begin to plan your tutorial.
+More often than not, most tutorial topics will have far more content to cover than can reasonably fit in a single tutorial session. It is tempting to try to crunch as much of it as possible into the synchronous time we have together, but it's important to keep a realistic view of how the tutorial's timing and pacing. No matter what we _want_ to share, there is a limit to what attendees will reasonably be able to absorb in a single session. Even more importantly, trying to push past that limit will negatively affect the learning goals we _do_ have time to cover.
+
+To that point, here are some tools to help make the most out of the time you have.
+
+### Content prioritization
+
+Once you have a content outline, try going through the bullet points and categorizing them with the following labels as they relate to the tutorial's **learning goals**:
+1. **Important 🤯**: What folks absolutely _need_ to know about the topic to engage with it later in the day.
+2. **Useful 👍**: What folks _should_ know by the time they leave the hackweek.
+3. **Reference 📖**: What folks should know _eventually_, if they continue to engage with the topic beyond their hackweek project.
+
+We will try to include **important 🤯**  and **useful 👍** content in our tutorial's jupyter notebook. During our synchronous sessions we'll cover the **important 🤯** content, and point participants towards the **useful 👍** content for later. 
+
+As for the **reference 📖** content, we will remove it from our tutorial's jupyter notebook and move it into a separate notebook linked to at the bottom of the document.
+
+```{note}
+**💡 Lessons learned from previous hackweeks**
+
+*Keep it simple and brief!* Hackweeks have a lot going on, and between tutorials, networking events, and projects there is a lot for participants to digest.
+
+```
+
+Ultimately, this is a *learning-oriented* framing of our tutorial content that prioritizes content in the context of a greater ecosystem of materials:
 
 ```{image} ../images/tutorials-priority.png
 :alt: A chart expressing content priority [TODO describe in detail]
 :width: 100%
 :align: center
 ```
-
 TODO: cite Veldof, Jerilyn R. Creating the One-Shot Library Workshop: A Step-by-Step Guide. Chicago: American Library Association, 2006.
 
-TODO:
+### Layering difficulty
 
-Questions to ask yourself:
-- Is this piece of content critical for learning success?
-- Can the learners (or will the learners) learn this content elsewhere?
+Hackweek audiences usually bring together folks with a broad range of prior experiences and confidence levels. To make tutorials accessible it's important to gear synchronous instruction towards relative newcomers, while also considering ways to provide value to the more senior practioners in the audience.
 
+One approach is to prioritize content during synchronous instruction that is *broad in scope*, giving an initial picture of what might be possible when applying a particular data science tool. Then, break out out to small group activities that offer opportunities for multiple levels of challenge:
+- Groups composed mostly of newcomers can focus on mastering the presented content
+- Experienced groups can face more specific challenges or discuss topics as they relate to their own experience
+- Groups of _mixed_ experience offer the opportunity for *peer instruction*, where more experienced participants mentor the less experienced ones.
 
-
-## Lessons learned from previous hackweeks
-
-* *Keep it simple and brief!* Hackweeks have a lot going on, and between tutorials, networking events, and projects there is a lot for participants to digest.
-
-* Make your tutorials *interactive* through live coding challenges, working through a Juypter Notebook together, or interactive discussions. Leave some space when you are not talking for people to work through examples and ask questions.
-
-* Try for content that is *broad in scope* and gives an initial picture of what might be possible when applying a particular data science tool. Save detailed explanations on a narrow topic for optional breakout sessions.
-
-* *Start with simple explanations* that attend to people who are seeing this content for the first time, AND *keep advanced participants engaged by inviting them to assist others*, or to explore more advanced concepts through individual study.
+Ultimately, the idea is to *start with simple explanations* that attend to people who are seeing this content for the first time, AND *keep advanced participants engaged by inviting them to assist others*, or to explore more advanced concepts through individual study.
 
 
-## Formatting
+### Keeping cut content for later
 
-An effective format for tutorial content is in the form of a Jupyter Notebook that provides participants with narrative text and interactive code examples. Notebooks can contain a wide variety of embedded media (images, videos, equations, etc.) and can be easily rendered on hackweek event websites.
-
-We recommend that all notebooks make use of sections with the following minimal structure:
-```
-# Title
-* Learning objectives *
-## Software
-## Data
-## My Section
-### My Subsection
-## Summary
-## References
+```{image} ../images/tutorials-left-overs.png
+:alt: A stock image of tupperware containers in a refrigerator 
+:width: 15em
+:align: right
 ```
 
-For convenience you can start with a copy of our [template notebook](https://uwhackweek.github.io/jupyterbook-template/tutorials/example/tutorial-notebook.html), which you can download [here](https://github.com/uwhackweek/jupyterbook-template/raw/main/book/tutorials/example/tutorial-notebook.ipynb).
+A psychological trick that can help when considering what material to flat-out _remove_ from a tutorial and its notebook is to copy it into a separate document for use some time later. Whether or not you end up finding a use for it, keeping it around in some private location until the hackweek is done can make it easier to hit the delete button in the participant-facing jupyter notebook.
 
+In this way, we can treat cut content like left-over ingredients from making a sandwich. When we end up with spare vegetables, we put them in separate tupperware containers, and then stack them in the fridge. Storing and preserving excess ingredients gets us ready to make future sandwiches, and reduces trips to both the grocery store and ER because of food poisoning!
 
-### Examples of formatting
-
-Spend a bit of time looking at these examples from past events:
-
-| Description | Links |
-| - | - |
-| SnowEx 2021 Thermal IR | [rendered](https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html), [download](https://github.com/snowex-hackweek/website/raw/main/book/tutorials/thermal-ir/thermal-ir-tutorial.ipynb) |
-
-
+TODO: image attribution: https://unsplash.com/photos/green-and-pink-plastic-container-AEU9UZstCfs
 
 ## References
 

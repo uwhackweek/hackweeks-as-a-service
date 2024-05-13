@@ -9,7 +9,8 @@ parts:
     - file: tutorials/index  
       sections: 
         - file: tutorials/tutorial-design
-        - file: tutorials/tutorial-delivery
+        - file: tutorials/tutorial-notebooks
+        - file: tutorials/tutorial-presentation
 - caption: Project Design
   chapters:
   - file: projects/index

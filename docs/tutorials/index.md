@@ -9,8 +9,19 @@ Although the central artifact of a tutorial is its jupyter notebook, this notebo
 
 Effective tutorials are designed with this division in mind, using their synchronous time to engage and inspire learners by showing them the "tip of the iceberg," after which participants can dig into the notebook's deeper material.
 
-The rest of this chapter covers the goals, considerations, and best practices regarding tutorial design and delivery to make the most out of the event participants' time together.
+In general, synchronous group sessions are good at:
+- establishing smaller concepts within a bigger picture 
+- modelling thought processes and behaviors
+- fostering peer-to-peer interaction
 
+
+Written material, on the other hand, is good at:
+- expressing processes, proofs, and other logical sequences
+- providing a “recipe book” of cut-and-pastable techniques
+- layering multiple levels of difficulty and complexity next to each other
+
+
+The rest of this chapter covers the goals, considerations, and best practices regarding tutorial design and delivery to make the most out of the event participants' time together.
 
 ```{image} ../images/tutorials.png
 :alt: Tutorials in action
