@@ -29,6 +29,8 @@ parts:
 - caption: Learning Culture
   chapters:
     - file: culture/index 
+      sections:
+        - file: culture/psychological-safety.md
 - caption: Reference
   chapters:
     - file: bibliography
