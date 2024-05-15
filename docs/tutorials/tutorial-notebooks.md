@@ -26,7 +26,7 @@ For convenience you can start with a copy of our [template notebook](https://uwh
 :align: right
 ```
 
-Signposting is a general writing technique that invovles using language specifically intended to prime a reader's expectations and prepare them to navigate the upcoming content. We naturally signpost when talking with others, to the extent that it can seem to obvious to be worth mentioning: prefacing the conclusion of a presentation with the phrase "Let's Recap."
+Signposting is a general writing technique that involves using language specifically intended to prime a reader's expectations and prepare them to navigate the upcoming content. We naturally signpost when talking with others, to the extent that it can seem to obvious to be worth mentioning: prefacing the conclusion of a presentation with the phrase "Let's Recap."
 
 In the context of reference texts like tutorial notebooks, however, signposting and related strategies can help a lot with making relevant content stand out in the deluge of learning material. Here are some strategies:
 

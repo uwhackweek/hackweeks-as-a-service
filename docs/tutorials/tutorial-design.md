@@ -132,7 +132,7 @@ It's important to not ask comprehension or mastery questions, like "describe bac
 - Ask for participants' opinions on or “favorites of” a given subject
 
 
-#### Conceptual activties
+#### Conceptual activities
 
 For non-technical material, several techniques are described in this [active learning strategies guide](https://drive.google.com/file/d/1lJ2Eb773tOx0Oik_G51bcWcwub20Co-4/view) and summarized in this chart:
 
@@ -149,7 +149,7 @@ For technical material, here are some suggestions:
 - Material involving data access
     - Repeat a procedure you just modeled
     - Find and share an interesting datapoint/dataset/layer
-- Material involving codeing techniques
+- Material involving coding techniques
     - Fill-in-the-blanks
     - Reading pre-written code for comprehension
     - Tweak pre-written code behavior
@@ -195,7 +195,7 @@ TODO: cite Veldof, Jerilyn R. Creating the One-Shot Library Workshop: A Step-by-
 
 ### Layering difficulty
 
-Hackweek audiences usually bring together folks with a broad range of prior experiences and confidence levels. To make tutorials accessible it's important to gear synchronous instruction towards relative newcomers, while also considering ways to provide value to the more senior practioners in the audience.
+Hackweek audiences usually bring together folks with a broad range of prior experiences and confidence levels. To make tutorials accessible it's important to gear synchronous instruction towards relative newcomers, while also considering ways to provide value to the more senior practitioners in the audience.
 
 One approach is to prioritize content during synchronous instruction that is *broad in scope*, giving an initial picture of what might be possible when applying a particular data science tool. Then, break out out to small group activities that offer opportunities for multiple levels of challenge:
 - Groups composed mostly of newcomers can focus on mastering the presented content
