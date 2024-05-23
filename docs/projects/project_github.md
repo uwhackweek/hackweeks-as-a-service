@@ -35,7 +35,7 @@ GitHub teams provide a convenient way for you to set permissions on your project
 1. Click on the "Create Team" button
 1. Add all team members by clicking the “Members” tab and the green “Add a member” button
 
-## Add the project team to your project repo
+## Add the project team to your project repo 
 
 1. Go to the new repository you just created 
 1. Click “Settings” tab in upper right corner
