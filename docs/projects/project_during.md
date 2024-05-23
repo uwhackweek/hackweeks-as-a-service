@@ -23,7 +23,7 @@ We facilitate a project team formation session on the first day of the hackweek.
   * Team members volunteer for tasks that match their personal goals and interests, identify opportunities for working in pairs or small groups
   * Identify if any tasks require skills or knowledge that the current team does not yet have (the project team helper may be able to connect you with someone to provide those skills or knowledge)
  
-```{image} ../img/project-taskboard.png
+```{image} ../images/project-taskboard.png
 :alt: example of identifying tasks and organizing them into clusters
 :class: bg-primary mb-1
 :width: 800px
@@ -51,7 +51,7 @@ A "stand up" meeting model may be useful for your team to check in at the begini
  
 Organizing this information on a four-column chart (ideas, in progress, need help, done) with sticky notes (or a virtual chart) may be useful, such as the example below.
 
-```{image} ../img/project-progress.png
+```{image} ../images/project-progress.png
 :alt: example of using sticky notes to keep track of project progress
 :class: bg-primary mb-1
 :width: 800px
