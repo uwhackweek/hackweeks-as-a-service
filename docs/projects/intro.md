@@ -1,6 +1,4 @@
-# Introduction
-
-## Introduction to Hackweek Projects
+# Hackweek Projects
 
 During our hackweeks, we invite participants to collaborate in small group project teams (usually 5-7 people). Depending on the size of the hackweek, we usually see between 10-15 project teams form. Embedding project work along with tutorials across the week offers participants multiple ways to deepen their learning around specific data sets, data science methods, and open science practices.
 
