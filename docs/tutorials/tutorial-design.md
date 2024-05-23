@@ -226,3 +226,10 @@ To dig a bit deeper on some general guidance on creating technical content for a
 ```{note}
 While we've advocated for *learning-oriented* tutorials based on the Diátaxis Framework during a hackweek, keep in mind alternative approaches that might be a good fit depending on your goals: [*understanding-oriented*](https://diataxis.fr/explanation), [*reference-oriented*](https://diataxis.fr/reference), and [*goal-oriented*](https://diataxis.fr/how-to-guides).
 ```
+
+These are some other good references:
+
+* Tools for teaching with Jupyter {cite:p}`barba_teaching_2019`
+* Active learning increases performance in STEM {cite:p}`freeman_active_2014`
+* SWC lessons learned {cite:p}`wilson_software_2016`
+
