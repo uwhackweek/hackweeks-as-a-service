@@ -19,4 +19,4 @@ Mentorship at a hackathon should be more than just occasional support. It should
 
 Evidence that minimal guidance and lack of structure does not lead to positive project outcomes {cite:p}`kirschner_why_2006`.
 
-## What to expect as a project lead
+## What to expect as a project lead 
