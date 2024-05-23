@@ -10,13 +10,13 @@ Before getting started, you'll need a name for your project. A team exploring sn
 
 We have created a GitHub template that is pre-populated with directories and a README layout the we find works well with most teams.
 
-We encourage all teams to create a new GitHub repository within the {{hackweek}} Organization, even if it is just to point to an already-existing repository or package your team is contributing to for their project.
+We encourage all teams to create a new GitHub repository within the hackweek organization, even if it is just to point to an already-existing repository or package your team is contributing to for their project.
 
-* Go to: {{ '[https://github.com/{name}/sample_project_repository](https://github.com/{name}/sample_project_repository)'.format(name=hackweek) }}
+* Go to: [https://github.com/uwhackweek/sample_project_repository](https://github.com/uwhackweek/sample_project_repository)
 
 * Click the green "Use this template" button on right side of page:
 
-![new-repo-screenshot](../img/project-template.png)
+![new-repo-screenshot](../images/project-template.png)
 
 * Choose "Create a new repository"
 * Name your repository using a short name.
@@ -25,10 +25,10 @@ We encourage all teams to create a new GitHub repository within the {{hackweek}}
 
 Visit the [GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) for more details on creating a repository from a template.
 
-## Create a new GitHub team within the {{hackweek}} Organization
+## Create a new GitHub team within the hackweek organization
 GitHub teams provide a convenient way for you to set permissions on your project repository for groups of people, rather than having to do this for each individual on your team. 
 
-1. Go to the "Teams" tab near the top of the GitHub {{hackweek}} Organization page: {{ '[https://github.com/orgs/{name}/teams](https://github.com/orgs/{name}/teams)'.format(name=hackweek) }}
+1. Go to the "Teams" tab near the top of the GitHub hackweek organization page
 1. Click green “New team” button
 1. Use your short project name for "Team name"
 1. Set the team to visibility "Visible"

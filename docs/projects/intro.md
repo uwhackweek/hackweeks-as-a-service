@@ -11,7 +11,7 @@ Each hackweek’s community of research scientists and domain practitioners gene
 * **Developing a new community tool or library**
 
 
-```{image} ../img/projects-montage.png
+```{image} ../images/projects-montage.png
 :alt: picture of people interacting during hackweek project work
 :class: bg-primary mb-1
 :width: 700px

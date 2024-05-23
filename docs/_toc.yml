@@ -14,6 +14,11 @@ parts:
   chapters:
   - file: projects/index
     sections:
+      - file: projects/intro.md
+      - file: projects/project_before.md
+      - file: projects/project_during.md
+      - file: projects/project_after.md
+      - file: projects/project_github.md
       - file: projects/project-design.md
       - file: projects/project-implementation.md
 - caption: Technology
