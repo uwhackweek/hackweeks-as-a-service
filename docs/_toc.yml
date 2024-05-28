@@ -12,9 +12,8 @@ parts:
         - file: tutorials/tutorial-delivery
 - caption: Project Design
   chapters:
-  - file: projects/index
+  - file: projects/project-overview
     sections:
-      - file: projects/project-overview
       - file: projects/project-before
       - file: projects/project-during
       - file: projects/project-after
