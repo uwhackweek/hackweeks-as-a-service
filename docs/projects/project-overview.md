@@ -28,7 +28,7 @@ This table presents examples of what a project scope might look like, what prepa
 | --- | --- | --- |
 | **Scope** | - Your team explores a variety of aspects with a new data set, tool, or method  | - Your team works to develop a specific software tool or answer a specific research question |
 | **Preparation** | - Project leaders provide example data, code, and tutorial-like content | - Project leaders provide well-defined and measurable goals  |
-| **Teamwork** | - Team members can pursue their own specific learning goals within the broad project topic <br /> - Peer-learning - team members learn from each other during project work <br /> - Project leaders spend more time teaching and guiding team members through the project topic  |  - Team members work on specific tasks to accomplish project goals<br /> - Pair programming - team members might code in pairs to solve a problem<br /> - Project leaders spend more time coordinating specific tasks and lead design discussions |
+| **Teamwork** | - Team members can pursue their own specific learning goals within the broad project topic <br> - Peer-learning: team members learn from each other during project work <br> - Project leaders spend more time teaching and guiding team members through the project topic  |  - Team members work on specific tasks to accomplish project goals<br> - Pair programming: team members might code in pairs to solve a problem<br> - Project leaders spend more time coordinating specific tasks and lead design discussions |
 
 ## Project Stages and Timeline
 
