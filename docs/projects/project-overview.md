@@ -1,4 +1,4 @@
-# Hackweek Projects
+# Overview
 
 During our hackweeks, we invite participants to collaborate in small group project teams (usually 5-7 people). Depending on the size of the hackweek, we usually see between 10-15 project teams form. Embedding project work along with tutorials across the week offers participants multiple ways to deepen their learning around specific data sets, data science methods, and open science practices.
 
@@ -41,7 +41,7 @@ Each project will progress through these stages:
 :align: center
 ```
 
-### [Before the hackweek](project_before.md): Formulate Projects
+### [Before the hackweek](project-before.md): Formulate Projects
 
 For many project leaders, planning begins months before the hackweek, shortly after their applications to develop their project idea has been accepted by the hackweek organizers. This time is used to help project leads think through how to organize their project into tasks team members, with varying backgrounds and skills, can contribute to and make progress on during the week. 
 
@@ -51,12 +51,12 @@ This section covers:
 * Project Facilitation Training
 * Project Development Milestones
 
-### [During the hackweek](project_during.md): Form Teams, Facilitate Teamwork, Share Learning
+### [During the hackweek](project-during.md): Form Teams, Facilitate Teamwork, Share Learning
 
 Each day of the hackweek, participants will spend time with hackweek specific tutorials and with their project teams. For participants to advance their personal goals in a team setting, it requires open communication between the project leader and team members, and identifying team member roles and tasks. A significant part of the first day is geared toward supporting participants with finding the project that best fits their interests, skills, and learning desires. By the end of Day 1, teams have formed and conversations about mapping out the tasks will have begun. Days 2-4 and part of 5, project leads will facilitate team members making progress on project work and their specific learning objectives. The hackweeks concludes with each project team showcasing what they explored, learned, and accomplished together. 
 
 We have provided suggested outlines for daily check-in meetings and tasks that a project leader can guide their team through.
 
-### [After the hackweek](project_after.md)
+### [After the hackweek](project-after.md)
 
 We hope that project work will build a foundation for future collaboration, where the work performed during the hackweek event and the connections made with other participants set the stage for new work to emerge.

@@ -12,7 +12,7 @@ We facilitate a project team formation session on the first day of the hackweek.
     * How do you work best? What level of group interaction works for you?
     * What skills and background are you most excited to share with the team?
     * When are you available for team check-in meetings or group work sessions?
-* This is also a good time to review the [code of conduct](../CoC.md) and discuss as a team:
+* This is also a good time to review the event code of conduct and discuss as a team:
     * How is the team going to communicate?
     * How is the team going to discuss ideas and make decisions?
     * How are tasks going to be assigned?
@@ -30,7 +30,7 @@ We facilitate a project team formation session on the first day of the hackweek.
 :align: center
 ```
 
-* Set up team organization infrastructure on Slack and GitHub (see [Organizing your project on GitHub](project_github.md)) 
+* Set up team organization infrastructure on Slack and GitHub (see [Organizing your project on GitHub](project-github.md)) 
 * Project work begins!
     * As progress is made, project outputs (code, notebooks, figures, documentation, etc.) are recorded in the team's GitHub repository (a good place for team members to get started is by making their own folder under the *contributors* directory)
 * All team members check back in at the end of the day, review progress towards tasks, anything preventing progress, and planned next steps
