@@ -45,6 +45,4 @@ Spend a bit of time looking at these examples from past events:
 
 | Description | Links |
 | - | - |
-| SnowEx 2021 Thermal IR | [rendered](https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html), [download](https://github.com/snowex-hackweek/website/raw/main/book/tutorials/thermal-ir/thermal-ir-tutorial.ipynb) |
-
-TODO: rendered link is broken
+| SnowEx 2021 Thermal IR | [rendered](https://snowex-2021.hackweek.io/tutorials/thermal-ir), [download](https://github.com/snowex-hackweek/website/raw/main/book/tutorials/thermal-ir/thermal-ir-tutorial.ipynb) |

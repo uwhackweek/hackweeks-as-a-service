@@ -68,8 +68,7 @@ The outline is our key tool for being able to keep track of varying levels of de
 Although tutorial outlines don't necessarily use their learning goals as the top-level bullet points, it's often a good way to get started.
 
 
-```{note}
-**Example outline**
+```{admonition} Example outline
 
 Feeding yourself: a workshop for new college students
 
