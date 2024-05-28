@@ -12,23 +12,21 @@ Goals/Outcomes:
 
 ## Project Development & Support
 
-After the initial meeting, project leads will work on defining their project and creating a GitHub repository from the project template. This includes defining the project tasks and outlining the anticipated skills that participants will apply in the project. This information will be posted to the website for participants to review before the hackweek
+After the initial meeting, project leads will work on defining their project and creating a GitHub repository from the project template. This includes defining the project tasks and outlining the anticipated skills that participants will apply in the project. This information will be posted to the website for participants to review before the hackweek.
 
 Think about the following as you begin to formulate your project idea:
 * What problem do you want to solve or explore with your project?
-* What would you like you and your team to learn from the project work?
+* What would you and your team like to learn from the project work?
 * What tools or datasets might your team use?
 * What mini-tutorials/demos could be useful to some/all team members?
 
-Hackweek event organizers will reach out to each project lead team to schedule a project check-in meeting. Feedback from previous hackweeks indicated that check-ins would help project development on track avoiding scrambling to bring all the pieces together the week or night before that hackweek. A check-in offers an additional thought partner with someone that has experience with previous hackweeks to talk through design decisions such as scope, tasks, skills needed/nice to have. It is best if you first try to document some of your initial project ideas (such as creating a first draft of a project README document) prior to this meeting.
-
+Hackweek event organizers will reach out to each project lead team to schedule a project check-in meeting. Feedback from previous hackweeks indicated that check-ins would help keep project development on track avoiding scrambling to bring all the pieces together right before that hackweek. A check-in offers an additional thought partner with someone who has experience with previous hackweeks to talk through design decisions such as scope, tasks, and skills needed/nice to have. It is best if you first try to document some of your initial project ideas (such as creating a first draft of a project README document) prior to this meeting.
 
 ## Project Facilitation Training
 
-Project Facilitation Training will be held a few weeks before the hackweek. The first part of this meeting project leads will give a brief overview of how they are organizing their projects and the mini-tutorials team members might need to work on the project. This time will give projects lead an opportunity to learn from each other and identify any overlapping tutorial needs that might be creatively co-organized.  
+Project Facilitation Training will be held a few weeks before the hackweek. Project leads will give a brief overview of how they are organizing their projects and the mini-tutorials team members might need to work on the project. During this time project leads will have an opportunity to learn from each other and identify any overlapping tutorial needs that might be co-organized.  
 
-During the second half, hackweek organizers will present information on how to effectively facilitate a group project with a diverse team, with varying skills, skill-levels, and learning desires. The goal of this training is to chat about some of the common scenarios that project leads might encounter and offer suggestions, so that leads can feel better equipped and more relaxed to work with what shows up.
-
+During the second half of the meeting, hackweek organizers will present information on how to effectively facilitate a group project with a diverse team. The goal of this training is to chat about some of the common scenarios that project leads might encounter and to offer suggestions so that leads can feel better equipped and more relaxed to work with what shows up.
 
 ## Project Development Milestones:
 
