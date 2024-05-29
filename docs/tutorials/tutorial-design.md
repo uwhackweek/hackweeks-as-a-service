@@ -66,7 +66,7 @@ Continuing this example, here are some examples of how we might assess each goal
 
 
 ```{warning}
-Note that wile it's important to be able to _describe_ each learning goal in terms of an assessment activity to test it, it's not important we actually _do_ that activity during the synchronous tutorial session. Time is limited, and it's likely we'll be able to _teach_ each of our goals without being able to _test_ them. Not having time for a goal's associated activity doesn't mean the whole topic should be cut from the lesson plan! The main intent behind this assessment guideline is to keep our goals concrete. 
+Note that while it's important to be able to _describe_ each learning goal in terms of an assessment activity to test it, it's not important we actually _do_ that activity during the synchronous tutorial session. Time is limited, and it's likely we'll be able to _teach_ each of our goals without being able to _test_ them. Not having time for a goal's associated activity doesn't mean the whole topic should be cut from the lesson plan! The main intent behind this assessment guideline is to keep our goals concrete. 
 ```
 
 
