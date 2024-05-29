@@ -74,7 +74,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'tutorials/tutorial-design';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Tutorial Delivery" href="tutorial-delivery.html" />
+    <link rel="next" title="Tutorial Notebooks" href="tutorial-notebooks.html" />
     <link rel="prev" title="Introduction" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -190,7 +190,8 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Introduction</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Tutorial Design</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial-delivery.html">Tutorial Delivery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial-notebooks.html">Tutorial Notebooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial-presentation.html">Tutorial Presentation</a></li>
 </ul>
 </li>
 </ul>
@@ -437,12 +438,22 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#curriculum-development">Curriculum development</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lessons-learned-from-previous-hackweeks">Lessons learned from previous hackweeks</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#formatting">Formatting</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-formatting">Examples of formatting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting started</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-goals">Learning Goals</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#content-outline">Content Outline</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interactivity-and-assessment">Interactivity and Assessment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#attentional-activities">Attentional activities</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#conceptual-activities">Conceptual activities</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-activities">Technical activities</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#timing-and-refinement">Timing and refinement</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing">Editing</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#content-prioritization">Content prioritization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#layering-difficulty">Layering difficulty</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#keeping-cut-content-for-later">Keeping cut content for later</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
@@ -459,63 +470,234 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="tutorial-design">
 <h1>Tutorial Design<a class="headerlink" href="#tutorial-design" title="Link to this heading">#</a></h1>
-<p>Preparing a tutorial for a hackweek can feel like a daunting task. We are here to help guide you through the process!</p>
-<section id="curriculum-development">
-<h2>Curriculum development<a class="headerlink" href="#curriculum-development" title="Link to this heading">#</a></h2>
+<p>This section will focus on designing and editing the intellectual content of your tutorial, with an eye towards the different contexts in which it will be used (synchronous and asynchronous).</p>
+<section id="getting-started">
+<h2>Getting started<a class="headerlink" href="#getting-started" title="Link to this heading">#</a></h2>
+<p>Starting from scratch on any project can feel like a daunting task. To overcome “blank page syndrome,” we recommend the “backwards design” process in which we start by defining the core outcomes we hope for our audience to experience, and then refine to further detail from there. In the rest of this chapter, we’ll go into detail about each stage:</p>
+<a class="reference internal image-reference" href="../_images/tutorials-granularity.png"><img alt="A figure illustrating a linear workflow from learning objectives to content outlines to assessment design to timing, iteration and refinement. Each step of the workflow is an image of oat grains that have been milled to a progressively finer grain." class="align-center" src="../_images/tutorials-granularity.png" style="width: 100%;" /></a>
+<p>This process is heavily inspired by the <a class="reference external" href="https://carpentries.github.io/workbench/">Software Carpentry Curriculum Development</a> model for building learning content.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>A hackweek tutorial is <em>learning-oriented</em> and should guide participants through a step-wise process with a meaningful outcome.</p>
 </div>
-<p>You’re likely leading a tutorial because it is a topic that you are excited about! It is tempting to want to share all the things, but keep the <em>learning-oriented</em> framing of your tutorial in mind as you begin to plan your tutorial.</p>
-<p>We recommend following the <a class="reference external" href="https://carpentries.github.io/workbench/">Software Carpentry Curriculum Development</a> model for building hackweek tutorials. The core components of this “Backward Design” approach include:</p>
+<section id="learning-goals">
+<h3>Learning Goals<a class="headerlink" href="#learning-goals" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../_images/tutorials-lighthouse.gif"><img alt="A toy lighthouse" class="align-right" src="../_images/tutorials-lighthouse.gif" style="width: 25%;" /></a>
+<p>A tutorial’s learning goals are a set of succinctly stated objectives the audience is intended to achieve through their participation in the content. As tutorial authors, they serve as our guiding light to determine what content we need to produce and what content we can reasonably ignore.</p>
+<p>Although there are many ways to articulate a lesson’s goals, we recommend the following structure to hold ourselves accountable later in the design process:</p>
+<ul class="simple">
+<li><p>Write them as a bulleted list, with one goal per bullet.</p></li>
+<li><p>Use a consistent format for each goal’s phrasing. For example, state each goal as a single sentence that begins with “Students will be able to…”</p></li>
+<li><p>Expect to achieve 2-3 goals per 50 minutes of synchronous tutorial time</p></li>
+<li><p>Make goals concrete enough to be measurable using some sort of interactive activity. It doesn’t matter whether you actually have time for said activities or not – just know that if you can’t articulate an activity to measure a goal, it is likely too general.</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<ol class="arabic simple">
-<li><p>Start by identifying key learning outcomes</p></li>
-<li><p>Identify the practical skills that would guide participants to these outcomes</p></li>
-<li><p>Build challenges that give learners practice in integrating new skills</p></li>
-</ol>
+<p>Learning goals primarily describe the outcome of the <em>synchronous time</em> spent during tutorial delivery (as opposed to what participants will gain throughout the week when using your material as a reference).</p>
 </div>
-<section id="lessons-learned-from-previous-hackweeks">
-<h3>Lessons learned from previous hackweeks<a class="headerlink" href="#lessons-learned-from-previous-hackweeks" title="Link to this heading">#</a></h3>
+<p>Here is a set of example learning goals for a 45-minute workshop on API requests:</p>
+<div class="admonition-api-requests-with-python-learning-goals admonition">
+<p class="admonition-title">“API requests with Python” Learning Goals</p>
 <ul class="simple">
-<li><p><em>Keep it simple and brief!</em> Hackweeks have a lot going on, and between tutorials, networking events, and projects there is a lot for participants to digest.</p></li>
-<li><p>Make your tutorials <em>interactive</em> through live coding challenges, working through a Juypter Notebook together, or interactive discussions. Leave some space when you are not talking for people to work through examples and ask questions.</p></li>
-<li><p>Try for content that is <em>broad in scope</em> and gives an initial picture of what might be possible when applying a particular data science tool. Save detailed explanations on a narrow topic for optional breakout sessions.</p></li>
-<li><p><em>Start with simple explanations</em> that attend to people who are seeing this content for the first time, AND <em>keep advanced participants engaged by inviting them to assist others</em>, or to explore more advanced concepts through individual study.</p></li>
+<li><p>Understand foundational HTTP API concepts</p></li>
+<li><p>Use the Python “requests” library to perform API requests</p></li>
+<li><p>Understand the complexities beyond basic operations and how to learn more</p></li>
+</ul>
+</div>
+<p>Continuing this example, here are some examples of how we might assess each goal:</p>
+<div class="admonition-api-requests-with-python-learning-goals-with-assessments admonition">
+<p class="admonition-title">“API requests with Python” Learning Goals (With assessments)</p>
+<ul class="simple">
+<li><p>Understand foundational HTTP API concepts</p>
+<ul>
+<li><p><em>Match HTTP verbs to concrete use cases for a hypothetical API</em></p></li>
+<li><p><em>Structure an example query as a URL and also as JSON</em></p></li>
+</ul>
+</li>
+<li><p>Use the Python “requests” library to perform API requests</p>
+<ul>
+<li><p><em>Run example python code that performs an API get. Duplicate python code and modify it to GET from another API</em></p></li>
+</ul>
+</li>
+<li><p>Understand the resources available to learn more about APIs</p>
+<ul>
+<li><p><em>Activity: Assign each participant to read one of the pages from the <a class="reference external" href="https://restcookbook.com/">REST cookbook</a>. Then, split into breakout groups composed of folks who read different pages. Have them summarize for each other.</em></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Note that while it’s important to be able to <em>describe</em> each learning goal in terms of an assessment activity to test it, it’s not important we actually <em>do</em> that activity during the synchronous tutorial session. Time is limited, and it’s likely we’ll be able to <em>teach</em> each of our goals without being able to <em>test</em> them. Not having time for a goal’s associated activity doesn’t mean the whole topic should be cut from the lesson plan! The main intent behind this assessment guideline is to keep our goals concrete.</p>
+</div>
+</section>
+<section id="content-outline">
+<h3>Content Outline<a class="headerlink" href="#content-outline" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../_images/tutorials-outline.png"><img alt="A cat sculpture getting successively more refined" class="align-left" src="../_images/tutorials-outline.png" style="width: 25%;" /></a>
+<p>Using our learning goals as a framing device, we can write an outline describing the intellectual content needed to achieve those desired outcomes. The outline takes the form of a longer bullet list that tersely expresses “everything you need to know” about the topic of the tutorial, roughly in the order it will be covered during synchronous lesson time. Sub-bullets in the list get to increasing levels of detail.</p>
+<p>The outline is our key tool for being able to keep track of varying levels of detail throughout the rest of the design process, though it also serves several other uses:</p>
+<ul class="simple">
+<li><p>Discussing content amongst the teaching team</p></li>
+<li><p>Understanding the narrative arc of the intellectual information</p></li>
+<li><p>Adjusting “air time” given to any given topic</p></li>
+<li><p>Identifying logical gaps that need to be filled in</p></li>
+<li><p>Just getting started!</p></li>
+</ul>
+<p>Although tutorial outlines don’t necessarily use their learning goals as the top-level bullet points, it’s often a good way to get started.</p>
+<div class="admonition-example-outline admonition">
+<p class="admonition-title">Example outline</p>
+<p>Feeding yourself: a workshop for new college students</p>
+<ul class="simple">
+<li><p>Students will be able to find ingredients</p>
+<ul>
+<li><p>Selecting a grocery store</p>
+<ul>
+<li><p>Trader Joes vs. Whole Foods vs. Safeway</p></li>
+<li><p>Pricing differences</p></li>
+<li><p>Specialty ingredients and “absolute needs”</p></li>
+</ul>
+</li>
+<li><p>Finding ingredients</p>
+<ul>
+<li><p>Search by aisle</p></li>
+<li><p>Bulk bins</p></li>
+<li><p>Shelf stable vs refrigerated (eg, pickles)</p></li>
+</ul>
+</li>
+<li><p>Checkout</p>
+<ul>
+<li><p>Cashier</p></li>
+<li><p>Self checkout
+• PLU codes
+• Barcode scanning
+• By weight</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Students will be able to make a sandwich</p>
+<ul>
+<li><p>Getting out ingredients</p>
+<ul>
+<li><p>Identify minimum ingredient set by recipe, put on counter</p></li>
+<li><p>Remove portion of refrigerated ingredients you need, put rest back in fridge</p></li>
+</ul>
+</li>
+<li><p>Assembly</p></li>
+<li><p>Plating</p></li>
+</ul>
+</li>
+<li><p>Students will be able to store left-over food</p>
+<ul>
+<li><p>Tupperware</p></li>
+<li><p>Fridge vs. shelf</p></li>
+<li><p>Lifetimes</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><em>Cat sculpture photo courtesy of artist <a class="reference external" href="https://www.instagram.com/yamaneko5656/">Ryoji Bannai
+</a></em></p>
+</section>
+<section id="interactivity-and-assessment">
+<h3>Interactivity and Assessment<a class="headerlink" href="#interactivity-and-assessment" title="Link to this heading">#</a></h3>
+<p>Once the tutorial has been outlined, instructive bullets can be punctuated with bullets describing participant activities. Activities can serve a variety of different purposes:
+- During synchronous time, they engage the audience and help maintain attention
+- They provide a way for participants to self-assess their mastery of the material
+- They provide opportunities for participants to help each other, which builds community and strengthens understanding through peer teaching.
+- They provide opportunities for structured practice of the material, which through repetition improves retention.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>💡 Lessons learned from previous hackweeks</strong></p>
+<p>Not all interactivity has to be structured. Leave some space when you are not talking for people to work through examples and ask questions.</p>
+</div>
+<p>Some activity suggestions are outlined below, depending on the ultimate intent of the activity at a given point in our outline.</p>
+<section id="attentional-activities">
+<h4>Attentional activities<a class="headerlink" href="#attentional-activities" title="Link to this heading">#</a></h4>
+<p>To maintain participant engagement during long days, it can be very helpful to provide forms of interactivity that <em>don’t</em> assess a skill, but rather just have folks switch from a ‘student’ mode to ‘participant’ mode.</p>
+<p>A common attentional activity is to ask participants to respond to a creative prompt, observing the following guidelines:</p>
+<ul class="simple">
+<li><p>Ask for <em>written</em> responses through slack or zoom chat, or platforms like <a class="reference external" href="https://particify.de/">particify</a></p></li>
+<li><p>Give adequate time for shy folks to write their responses. One way to solicit them is to ask people to type their responses and hold back from posting them until you do a countdown and say “go!”.</p></li>
+<li><p>Read back some responses out loud</p></li>
+</ul>
+<p>It’s important to not ask comprehension or mastery questions, like “describe back to me what I just said” or “we’re about to talk about XYZ. can someone tell me what XYZ is”. Rather, try questions like these:</p>
+<ul class="simple">
+<li><p>Ask for reflections on past experience</p></li>
+<li><p>Ask participants to brainstorm as many unique responses as possible</p></li>
+<li><p>Ask for participants’ opinions on or “favorites of” a given subject</p></li>
 </ul>
 </section>
-<section id="formatting">
-<h3>Formatting<a class="headerlink" href="#formatting" title="Link to this heading">#</a></h3>
-<p>An effective format for tutorial content is in the form of a Jupyter Notebook that provides participants with narrative text and interactive code examples. Notebooks can contain a wide variety of embedded media (images, videos, equations, etc.) and can be easily rendered on hackweek event websites.</p>
-<p>We recommend that all notebooks make use of sections with the following minimal structure:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Title</span>
-<span class="o">*</span> <span class="n">Learning</span> <span class="n">objectives</span> <span class="o">*</span>
-<span class="c1">## Software</span>
-<span class="c1">## Data</span>
-<span class="c1">## My Section</span>
-<span class="c1">### My Subsection</span>
-<span class="c1">## Summary</span>
-<span class="c1">## References</span>
-</pre></div>
-</div>
-<p>For convenience you can start with a copy of our <a class="reference external" href="https://uwhackweek.github.io/jupyterbook-template/tutorials/example/tutorial-notebook.html">template notebook</a>, which you can download <a class="reference external" href="https://github.com/uwhackweek/jupyterbook-template/raw/main/book/tutorials/example/tutorial-notebook.ipynb">here</a>.</p>
-<section id="examples-of-formatting">
-<h4>Examples of formatting<a class="headerlink" href="#examples-of-formatting" title="Link to this heading">#</a></h4>
-<p>Spend a bit of time looking at these examples from past events:</p>
-<table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Description</p></th>
-<th class="head"><p>Links</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>SnowEx 2021 Thermal IR</p></td>
-<td><p><a class="reference external" href="https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html">rendered</a>, <a class="reference external" href="https://github.com/snowex-hackweek/website/raw/main/book/tutorials/thermal-ir/thermal-ir-tutorial.ipynb">download</a></p></td>
-</tr>
-</tbody>
-</table>
+<section id="conceptual-activities">
+<h4>Conceptual activities<a class="headerlink" href="#conceptual-activities" title="Link to this heading">#</a></h4>
+<p>For non-technical material, several techniques are described in this <a class="reference external" href="https://drive.google.com/file/d/1lJ2Eb773tOx0Oik_G51bcWcwub20Co-4/view">active learning strategies guide</a> and summarized in this chart:</p>
+<img alt="../_images/tutorials-active-learning-strategies.png" src="../_images/tutorials-active-learning-strategies.png" />
 </section>
+<section id="technical-activities">
+<h4>Technical activities<a class="headerlink" href="#technical-activities" title="Link to this heading">#</a></h4>
+<p>For technical material, here are some suggestions:</p>
+<ul class="simple">
+<li><p>Material involving data access</p>
+<ul>
+<li><p>Repeat a procedure you just modeled</p></li>
+<li><p>Find and share an interesting datapoint/dataset/layer</p></li>
+</ul>
+</li>
+<li><p>Material involving coding techniques</p>
+<ul>
+<li><p>Fill-in-the-blanks</p></li>
+<li><p>Reading pre-written code for comprehension</p></li>
+<li><p>Tweak pre-written code behavior</p></li>
+<li><p>Parsons problems (arranging scrambled lines of code)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="timing-and-refinement">
+<h3>Timing and refinement<a class="headerlink" href="#timing-and-refinement" title="Link to this heading">#</a></h3>
+<p>Once we’ve built out content for our tutorial, it’s important to run through it once or twice to get a sense of how much time each section takes. Although it’s helpful to do this in front of colleagues and solicit feedback, even just doing a dry run alone at your desk with a stopwatch can give critical understanding as to how well your material flows and how much content you may need to edit.</p>
+</section>
+</section>
+<section id="editing">
+<h2>Editing<a class="headerlink" href="#editing" title="Link to this heading">#</a></h2>
+<p>More often than not, most tutorial topics will have far more content to cover than can reasonably fit in a single tutorial session. It is tempting to try to crunch as much of it as possible into the synchronous time we have together, but it’s important to keep a realistic view of how the tutorial’s timing and pacing. No matter what we <em>want</em> to share, there is a limit to what attendees will reasonably be able to absorb in a single session. Even more importantly, trying to push past that limit will negatively affect the learning goals we <em>do</em> have time to cover.</p>
+<p>To that point, here are some tools to help make the most out of the time you have.</p>
+<section id="content-prioritization">
+<h3>Content prioritization<a class="headerlink" href="#content-prioritization" title="Link to this heading">#</a></h3>
+<p>Once you have a content outline, try going through the bullet points and categorizing them with the following labels as they relate to the tutorial’s <strong>learning goals</strong>:</p>
+<ol class="arabic simple">
+<li><p><strong>Important 🤯</strong>: What folks absolutely <em>need</em> to know about the topic to engage with it later in the day.</p></li>
+<li><p><strong>Useful 👍</strong>: What folks <em>should</em> know by the time they leave the hackweek.</p></li>
+<li><p><strong>Reference 📖</strong>: What folks should know <em>eventually</em>, if they continue to engage with the topic beyond their hackweek project.</p></li>
+</ol>
+<p>We will try to include <strong>important 🤯</strong>  and <strong>useful 👍</strong> content in our tutorial’s jupyter notebook. During our synchronous sessions we’ll cover the <strong>important 🤯</strong> content, and point participants towards the <strong>useful 👍</strong> content for later.</p>
+<p>As for the <strong>reference 📖</strong> content, we will remove it from our tutorial’s jupyter notebook and move it into a separate notebook linked to at the bottom of the document.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>💡 Lessons learned from previous hackweeks</strong></p>
+<p><em>Keep it simple and brief!</em> Hackweeks have a lot going on, and between tutorials, networking events, and projects there is a lot for participants to digest.</p>
+</div>
+<p>Ultimately, this is a <em>learning-oriented</em> framing of our tutorial content that prioritizes content in the context of a greater ecosystem of materials, which builds on the prior work of <span id="id1">[<a class="reference internal" href="../bibliography.html#id2" title="Jerilyn R Veldof. Creating the one-shot library workshop. ALA Editions, Chicago, IL, July 2006.">14</a>]</span>:</p>
+<a class="reference internal image-reference" href="../_images/tutorials-priority.png"><img alt="A chart expressing content priority as an inverted pyramid with &quot;everything there is that could be known&quot; in the wide base at the top, &quot;never need to know&quot; below that, &quot;nice to know&quot; below that, and &quot;need to know&quot; below that in the pyramid tip. &quot;Nice to know&quot; is indicated as material addressed elsewhere (subsequent workshops, handouts, reference links, etc) while &quot;need to know&quot; is indicated as what is actually covered in a workshop." class="align-center" src="../_images/tutorials-priority.png" style="width: 100%;" /></a>
+</section>
+<section id="layering-difficulty">
+<h3>Layering difficulty<a class="headerlink" href="#layering-difficulty" title="Link to this heading">#</a></h3>
+<p>Hackweek audiences usually bring together folks with a broad range of prior experiences and confidence levels. To make tutorials accessible it’s important to gear synchronous instruction towards relative newcomers, while also considering ways to provide value to the more senior practitioners in the audience.</p>
+<p>One approach is to prioritize content during synchronous instruction that is <em>broad in scope</em>, giving an initial picture of what might be possible when applying a particular data science tool. Then, break out out to small group activities that offer opportunities for multiple levels of challenge:</p>
+<ul class="simple">
+<li><p>Groups composed mostly of newcomers can focus on mastering the presented content</p></li>
+<li><p>Experienced groups can face more specific challenges or discuss topics as they relate to their own experience</p></li>
+<li><p>Groups of <em>mixed</em> experience offer the opportunity for <em>peer instruction</em>, where more experienced participants mentor the less experienced ones.</p></li>
+</ul>
+<p>Ultimately, the idea is to <em>start with simple explanations</em> that attend to people who are seeing this content for the first time, AND <em>keep advanced participants engaged by inviting them to assist others</em>, or to explore more advanced concepts through individual study.</p>
+</section>
+<section id="keeping-cut-content-for-later">
+<h3>Keeping cut content for later<a class="headerlink" href="#keeping-cut-content-for-later" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../_images/tutorials-left-overs.png"><img alt="A stock image of tupperware containers in a refrigerator" class="align-right" src="../_images/tutorials-left-overs.png" style="width: 15em;" /></a>
+<p>A psychological trick that can help when considering what material to flat-out <em>remove</em> from a tutorial and its notebook is to copy it into a separate document for use some time later. Whether or not you end up finding a use for it, keeping it around in some private location until the hackweek is done can make it easier to hit the delete button in the participant-facing jupyter notebook.</p>
+<p>In this way, we can treat cut content like left-over ingredients from making a sandwich. When we end up with spare vegetables, we put them in separate tupperware containers, and then stack them in the fridge. Storing and preserving excess ingredients gets us ready to make future sandwiches, and reduces trips to both the grocery store and ER because of food poisoning!</p>
+<p><em>Image courtesty of <a class="reference external" href="https://unsplash.com/photos/green-and-pink-plastic-container-AEU9UZstCfs">unsplash</a></em></p>
 </section>
 </section>
 <section id="references">
@@ -525,6 +707,12 @@ document.write(`
 <p class="admonition-title">Note</p>
 <p>While we’ve advocated for <em>learning-oriented</em> tutorials based on the Diátaxis Framework during a hackweek, keep in mind alternative approaches that might be a good fit depending on your goals: <a class="reference external" href="https://diataxis.fr/explanation"><em>understanding-oriented</em></a>, <a class="reference external" href="https://diataxis.fr/reference"><em>reference-oriented</em></a>, and <a class="reference external" href="https://diataxis.fr/how-to-guides"><em>goal-oriented</em></a>.</p>
 </div>
+<p>These are some other good references:</p>
+<ul class="simple">
+<li><p>Tools for teaching with Jupyter <span id="id2">[<a class="reference internal" href="../bibliography.html#id11" title="Lorena A Barba, Lecia J Barker, Douglas S Blank, Jed Brown, Allen B Downey, Timothy George, Lindsey J Heagy, Kyle T Mandli, Jason K Moore, David Lippert, Kyle E Niemeyer, Ryan R Watkins, Richard H West, Carol Willing, and Michael Zingale. Teaching and Learning with Jupyter. 2019. URL: https://jupyter4edu.github.io/jupyter-edu-book/.">2</a>]</span></p></li>
+<li><p>Active learning increases performance in STEM <span id="id3">[<a class="reference internal" href="../bibliography.html#id14" title="Scott Freeman, Sarah L. Eddy, Miles McDonough, Michelle K. Smith, Nnadozie Okoroafor, Hannah Jordt, and Mary Pat Wenderoth. Active learning increases student performance in science, engineering, and mathematics. Proceedings of the National Academy of Sciences, 111(23):8410–8415, June 2014. Publisher: Proceedings of the National Academy of Sciences. URL: https://www.pnas.org/doi/10.1073/pnas.1319030111 (visited on 2022-06-24), doi:10.1073/pnas.1319030111.">6</a>]</span></p></li>
+<li><p>SWC lessons learned <span id="id4">[<a class="reference internal" href="../bibliography.html#id16" title="Greg Wilson. Software Carpentry: lessons learned. F1000Research, January 2016. URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976103/ (visited on 2021-04-19), doi:10.12688/f1000research.3-62.v2.">16</a>]</span></p></li>
+</ul>
 </section>
 </section>
 
@@ -568,11 +756,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="tutorial-delivery.html"
+       href="tutorial-notebooks.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Tutorial Delivery</p>
+        <p class="prev-next-title">Tutorial Notebooks</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -592,12 +780,22 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#curriculum-development">Curriculum development</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lessons-learned-from-previous-hackweeks">Lessons learned from previous hackweeks</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#formatting">Formatting</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-formatting">Examples of formatting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting started</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-goals">Learning Goals</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#content-outline">Content Outline</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interactivity-and-assessment">Interactivity and Assessment</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#attentional-activities">Attentional activities</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#conceptual-activities">Conceptual activities</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-activities">Technical activities</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#timing-and-refinement">Timing and refinement</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing">Editing</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#content-prioritization">Content prioritization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#layering-difficulty">Layering difficulty</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#keeping-cut-content-for-later">Keeping cut content for later</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>

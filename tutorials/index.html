@@ -190,7 +190,8 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Introduction</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="tutorial-design.html">Tutorial Design</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial-delivery.html">Tutorial Delivery</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial-notebooks.html">Tutorial Notebooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial-presentation.html">Tutorial Presentation</a></li>
 </ul>
 </li>
 </ul>
@@ -414,9 +415,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -432,17 +431,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#possible-references">Possible References?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-to-expect-as-a-tutorial-lead">What to expect as a tutorial lead</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#badge">Badge</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -454,37 +442,34 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h1>
-<p><em>Paragraph providing brief overview of this module</em></p>
-<section id="learning-objectives">
-<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
-<p>After completing this module, tutorial leads will:</p>
+<p>In hackweek events, participants get the opportunity to learn and engage with new concepts through <em>tutorials</em>.
+These usually take the form of a 30-60 minute classroom session in which a content expert, the “<em>tutorial lead</em>”,
+leads the audience through a particular computational technique or dataset.</p>
+<p>Usually the central artifact of a tutorial is its Jupyter Notebook. This notebook is actually used in two
+different and equally important contexts:</p>
 <ul class="simple">
-<li><p>create hackweek <a class="reference external" href="https://www.sciencedirect.com/topics/social-sciences/learning-objective">learning objectives</a> using Bloom’s Taxonomy</p></li>
-<li><p>understand basic principles of adult learning</p></li>
-<li><p>incorporate the appropriate level of interactivity into tutorial design</p></li>
-<li><p>apply knowledge of pedagogical design to create tutorials at appropriate level of depth and complexity for the hackweek</p></li>
-<li><p>gain experience in presenting tutorials in an engaging way</p></li>
-<li><p>be familiar with our suite of hackweek <a class="reference internal" href="../technology/index.html"><span class="std std-doc">learning technologies</span></a></p></li>
+<li><p>The <em>synchronous</em> time that the tutorial lead spends with participants while teaching, where the notebook
+serves as an outline and presentation tool.</p></li>
+<li><p>The <em>asynchronous</em> time that participants spend after the tutorial, where the notebook serves as
+a subject reference and code “cookbook”.</p></li>
 </ul>
-</section>
-<section id="possible-references">
-<h2>Possible References?<a class="headerlink" href="#possible-references" title="Link to this heading">#</a></h2>
-<p>Tools for teaching with Jupyter <span id="id1">[<a class="reference internal" href="../bibliography.html#id10" title="Lorena A Barba, Lecia J Barker, Douglas S Blank, Jed Brown, Allen B Downey, Timothy George, Lindsey J Heagy, Kyle T Mandli, Jason K Moore, David Lippert, Kyle E Niemeyer, Ryan R Watkins, Richard H West, Carol Willing, and Michael Zingale. Teaching and Learning with Jupyter. 2019. URL: https://jupyter4edu. github. io/jupyter-edu-book.">2</a>]</span></p>
-<p>Active learning increases performance in STEM <span id="id2">[<a class="reference internal" href="../bibliography.html#id13" title="Scott Freeman, Sarah L. Eddy, Miles McDonough, Michelle K. Smith, Nnadozie Okoroafor, Hannah Jordt, and Mary Pat Wenderoth. Active learning increases student performance in science, engineering, and mathematics. Proceedings of the National Academy of Sciences, 111(23):8410–8415, June 2014. Publisher: Proceedings of the National Academy of Sciences. URL: https://www.pnas.org/doi/10.1073/pnas.1319030111 (visited on 2022-06-24), doi:10.1073/pnas.1319030111.">6</a>]</span></p>
-<p>SWC lessons learned <span id="id3">[<a class="reference internal" href="../bibliography.html#id15" title="Greg Wilson. Software Carpentry: lessons learned. F1000Research, January 2016. URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3976103/ (visited on 2021-04-19), doi:10.12688/f1000research.3-62.v2.">15</a>]</span></p>
+<p>Effective tutorials are designed with this division in mind, using their synchronous time to engage
+and inspire learners by showing them the “tip of the iceberg,” after which participants can dig into
+the notebook’s deeper material.</p>
+<p>In general, synchronous group sessions are good at:</p>
+<ul class="simple">
+<li><p>establishing smaller concepts within a bigger picture</p></li>
+<li><p>modelling thought processes and behaviors</p></li>
+<li><p>fostering peer-to-peer interaction</p></li>
+</ul>
+<p>Written material, on the other hand, is good at:</p>
+<ul class="simple">
+<li><p>expressing processes, proofs, and other logical sequences</p></li>
+<li><p>providing a “recipe book” of cut-and-pastable techniques</p></li>
+<li><p>layering multiple levels of difficulty and complexity next to each other</p></li>
+</ul>
+<p>The rest of this chapter covers the goals, considerations, and best practices regarding tutorial design and delivery to make the most out of the event participants’ time together.</p>
 <a class="reference internal image-reference" href="../_images/tutorials.png"><img alt="Tutorials in action" class="align-center" src="../_images/tutorials.png" style="width: 500px;" /></a>
-</section>
-<section id="what-to-expect-as-a-tutorial-lead">
-<h2>What to expect as a tutorial lead<a class="headerlink" href="#what-to-expect-as-a-tutorial-lead" title="Link to this heading">#</a></h2>
-<p>Hackweeks have traditionally been very dynamic events at which knowledge is exchanged in multiple directions across different levels of career position and backgrounds. We hope you will have an opportunity to learn a lot of new things by engaging in this experience.</p>
-<p>Past tutorial leads have used these events to gain teaching experience and as a way to round out their teaching profile. Like other participants you can also expect to build new contacts in the community, recruit students and generate new project ideas.</p>
-<p>In crafting a tutorial you’ll gain valuable experience with creating reproducible computation examples. And together we’ll collaborate on building digital content that will serve as a public resource with a citable DOI so that all tutorial authors receive credit for the effort!</p>
-</section>
-<section id="badge">
-<h2>Badge<a class="headerlink" href="#badge" title="Link to this heading">#</a></h2>
-<p>Hackweek helpers successfully completing this module will earn the <a class="reference external" href="https://badgr.com/public/badges/vK9cbBhdQFiIV8ovxTj1Fw">Tutorial Developer</a> badge from the UW eScience Institute.</p>
-<p><img alt="badge" src="../_images/tutorial-badge.png" /></p>
-</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -544,23 +529,7 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#possible-references">Possible References?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-to-expect-as-a-tutorial-lead">What to expect as a tutorial lead</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#badge">Badge</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
+                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>
