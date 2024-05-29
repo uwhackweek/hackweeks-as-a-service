@@ -9,7 +9,7 @@ Starting from scratch on any project can feel like a daunting task. To overcome 
 
 
 ```{image} ../images/tutorials-granularity.png
-:alt: TODO
+:alt: A figure illustrating a linear workflow from learning objectives to content outlines to assessment design to timing, iteration and refinement. Each step of the workflow is an image of oat grains that have been milled to a progressively finer grain.
 :width: 100%
 :align: center
 ```
@@ -43,9 +43,32 @@ Although there are many ways to articulate a lesson's goals, we recommend the fo
 Learning goals primarily describe the outcome of the _synchronous time_ spent during tutorial delivery (as opposed to what participants will gain throughout the week when using your material as a reference).
 ```
 
-```{warning}
-TODO: learning goals example
+Here is a set of example learning goals for a 45-minute workshop on API requests:
+
+```{admonition} “API requests with Python” Learning Goals
+- Understand foundational HTTP API concepts
+- Use the Python “requests” library to perform API requests
+- Understand the complexities beyond basic operations and how to learn more
 ```
+
+Continuing this example, here are some examples of how we might assess each goal:
+
+```{admonition} “API requests with Python” Learning Goals (With assessments)
+- Understand foundational HTTP API concepts
+    - _Match HTTP verbs to concrete use cases for a hypothetical API_
+    - _Structure an example query as a URL and also as JSON_
+- Use the Python “requests” library to perform API requests
+    - _Run example python code that performs an API get. Duplicate python code and modify it to GET from another API_
+- Understand the resources available to learn more about APIs
+    - _Activity: Assign each participant to read one of the pages from the [REST cookbook](https://restcookbook.com/). Then, split into breakout groups composed of folks who read different pages. Have them summarize for each other._
+
+```
+
+
+```{warning}
+Note that wile it's important to be able to _describe_ each learning goal in terms of an assessment activity to test it, it's not important we actually _do_ that activity during the synchronous tutorial session. Time is limited, and it's likely we'll be able to _teach_ each of our goals without being able to _test_ them. Not having time for a goal's associated activity doesn't mean the whole topic should be cut from the lesson plan! The main intent behind this assessment guideline is to keep our goals concrete. 
+```
+
 
 ### Content Outline
 
@@ -54,7 +77,6 @@ TODO: learning goals example
 :width: 25%
 :align: left
 ```
-TODO: cite figure: https://www.instagram.com/yamaneko5656/
 
 Using our learning goals as a framing device, we can write an outline describing the intellectual content needed to achieve those desired outcomes. The outline takes the form of a longer bullet list that tersely expresses “everything you need to know” about the topic of the tutorial, roughly in the order it will be covered during synchronous lesson time. Sub-bullets in the list get to increasing levels of detail.
 
@@ -100,6 +122,9 @@ Feeding yourself: a workshop for new college students
 
 ```
 
+_Cat sculpture photo courtesy of artist [Ryoji Bannai
+](https://www.instagram.com/yamaneko5656/)_
+
 ### Interactivity and Assessment
 
 Once the tutorial has been outlined, instructive bullets can be punctuated with bullets describing participant activities. Activities can serve a variety of different purposes:
@@ -136,7 +161,7 @@ It's important to not ask comprehension or mastery questions, like "describe bac
 For non-technical material, several techniques are described in this [active learning strategies guide](https://drive.google.com/file/d/1lJ2Eb773tOx0Oik_G51bcWcwub20Co-4/view) and summarized in this chart:
 
 ```{image} ../images/tutorials-active-learning-strategies.png
-:alt: A chart of active learning strategies [TODO enumerate them]
+:alt: A chart of active learning strategies on a spectrum from "Simple" to "Complex". Starting from the simplest to the most complex: Pause for reflection, Writing (Minute Paper), Self-assessment, Large Group Discussion, Think-Pair-Share, Informal Groups, Triad Groups, Group Evaluatoins, Peer Review, Brainstorming, Case Studies, Hands-on Technology, Interactive Lecture, Active Review Sessions (Games or Simulations), Role playing, Jigsaw Discussion, Inquiry Learning, Experiential Learning (site visits), Forum Theater
 :width: 100%
 :align: center
 ```
@@ -183,14 +208,13 @@ As for the **reference 📖** content, we will remove it from our tutorial's jup
 
 ```
 
-Ultimately, this is a *learning-oriented* framing of our tutorial content that prioritizes content in the context of a greater ecosystem of materials:
+Ultimately, this is a *learning-oriented* framing of our tutorial content that prioritizes content in the context of a greater ecosystem of materials, which builds on the prior work of {cite:p}`Veldof2006-vk`:
 
 ```{image} ../images/tutorials-priority.png
-:alt: A chart expressing content priority [TODO describe in detail]
+:alt: A chart expressing content priority as an inverted pyramid with "everything there is that could be known" in the wide base at the top, "never need to know" below that, "nice to know" below that, and "need to know" below that in the pyramid tip. "Nice to know" is indicated as material addressed elsewhere (subsequent workshops, handouts, reference links, etc) while "need to know" is indicated as what is actually covered in a workshop.
 :width: 100%
 :align: center
 ```
-TODO: cite Veldof, Jerilyn R. Creating the One-Shot Library Workshop: A Step-by-Step Guide. Chicago: American Library Association, 2006.
 
 ### Layering difficulty
 
@@ -216,7 +240,7 @@ A psychological trick that can help when considering what material to flat-out _
 
 In this way, we can treat cut content like left-over ingredients from making a sandwich. When we end up with spare vegetables, we put them in separate tupperware containers, and then stack them in the fridge. Storing and preserving excess ingredients gets us ready to make future sandwiches, and reduces trips to both the grocery store and ER because of food poisoning!
 
-TODO: image attribution: https://unsplash.com/photos/green-and-pink-plastic-container-AEU9UZstCfs
+_Image courtesty of [unsplash](https://unsplash.com/photos/green-and-pink-plastic-container-AEU9UZstCfs)_
 
 ## References
 
