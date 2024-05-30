@@ -21,11 +21,6 @@ parts:
 
     - file: training/technology/index  
       sections:
-        - file: training/projects/project-design.md
-        - file: training/projects/project-implementation.md
-
-    - file: training/technology/index  
-      sections:
         - file: training/technology/data-management
         - file: training/technology/recognition
 
