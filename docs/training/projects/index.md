@@ -1,4 +1,4 @@
-# Introduction
+# Projects
 
 *Paragraph providing brief overview of this module*
 

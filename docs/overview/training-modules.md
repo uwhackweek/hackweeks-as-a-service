@@ -1,4 +1,4 @@
-## Hackweek Organizer Training
+# Resources for Organizers
 
 The modules in this website are designed to prepare organizers of the University of Washington eScience Institute's Hackweek program. We hope to share professional development tools for you to improve your capacity to teach, share ideas, lead project work and advocate for open and reproducible science. We hope the skills acquired here are applicable to other related training you participate in, including those in a Formal Higher Education setting. 
 
