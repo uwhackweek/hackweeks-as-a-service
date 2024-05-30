@@ -26,7 +26,7 @@ We encourage all project leaders to be creative with their ideas when planning o
 
 This table presents examples of what a project scope might look like, what preparation by the project lead is needed, and what teamwork at the hackweek might look like. Most projects will fit somewhere in between these two examples. On the left, the project is less structured so that it can be adapted to where team members would like to take the project based on what they can contribute and want to learn. On the right, the project work is much more structured allowing participants to make quick progress on project goals and/or focused learning experiences. **Most projects will fit somewhere in between, a blend of focused and exploration.**
 
-| | <img src="../images/project-icon-3.svg"  alt="Exploration" width="100px" align="center" > | <img src="../images/project-icon-4.svg"  alt="Focused" width="100px" align="center" > |
+| | <img src="../images/project-icon-3.png"  alt="Exploration" width="100px" align="center" > | <img src="../images/project-icon-4.png"  alt="Focused" width="100px" align="center" > |
 | --- | --- | --- |
 | **Scope** | - Your team explores a variety of aspects with a new data set, tool, or method  | - Your team works to develop a specific software tool or answer a specific research question |
 | **Preparation** | - Project leaders provide example data, code, and tutorial-like content | - Project leaders provide well-defined and measurable goals  |
