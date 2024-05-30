@@ -182,7 +182,7 @@ the exercise might affect how you show up at the hackweek.
 1. Choose 4 different identities that have particular meaning for you when 
 you think about participating in a learning environment, and jot these down 
 in a list.
-1. Take the [image we have provided of a circle](../images/wheel-of-power.jpg).
+1. Take the [image we have provided of a circle](../../images/wheel-of-power.jpg).
 There are four black lines drawn
 on the circle. Write down your identities on these lines, with one word on each
 line. For example, you might write "gender" on one line and "career position" on
@@ -192,7 +192,7 @@ place yourself on the continuum of privilege. The center of the circle
 represents a position of high privilege, and the outer ring represents low
 privilege.
 
-```{image} ../images/wheel-of-power.jpg
+```{image} ../../images/wheel-of-power.jpg
 :alt: Wheel of Power and Privilege
 :class: float-left mr-2 rounded
 :width: 350px

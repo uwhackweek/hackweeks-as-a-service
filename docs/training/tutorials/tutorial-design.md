@@ -8,7 +8,7 @@ This section will focus on designing and editing the intellectual content of you
 Starting from scratch on any project can feel like a daunting task. To overcome "blank page syndrome," we recommend the "backwards design" process in which we start by defining the core outcomes we hope for our audience to experience, and then refine to further detail from there. In the rest of this chapter, we'll go into detail about each stage:
 
 
-```{image} ../images/tutorials-granularity.png
+```{image} ../../images/tutorials-granularity.png
 :alt: A figure illustrating a linear workflow from learning objectives to content outlines to assessment design to timing, iteration and refinement. Each step of the workflow is an image of oat grains that have been milled to a progressively finer grain.
 :width: 100%
 :align: center
@@ -23,7 +23,7 @@ A hackweek tutorial is *learning-oriented* and should guide participants through
 ### Learning Goals
 
 
-```{image} ../images/tutorials-lighthouse.gif
+```{image} ../../images/tutorials-lighthouse.gif
 :alt: A toy lighthouse
 :width: 25%
 :align: right
@@ -72,7 +72,7 @@ Note that while it's important to be able to _describe_ each learning goal in te
 
 ### Content Outline
 
-```{image} ../images/tutorials-outline.png
+```{image} ../../images/tutorials-outline.png
 :alt: A cat sculpture getting successively more refined
 :width: 25%
 :align: left
@@ -160,7 +160,7 @@ It's important to not ask comprehension or mastery questions, like "describe bac
 
 For non-technical material, several techniques are described in this [active learning strategies guide](https://drive.google.com/file/d/1lJ2Eb773tOx0Oik_G51bcWcwub20Co-4/view) and summarized in this chart:
 
-```{image} ../images/tutorials-active-learning-strategies.png
+```{image} ../../images/tutorials-active-learning-strategies.png
 :alt: A chart of active learning strategies on a spectrum from "Simple" to "Complex". Starting from the simplest to the most complex: Pause for reflection, Writing (Minute Paper), Self-assessment, Large Group Discussion, Think-Pair-Share, Informal Groups, Triad Groups, Group Evaluatoins, Peer Review, Brainstorming, Case Studies, Hands-on Technology, Interactive Lecture, Active Review Sessions (Games or Simulations), Role playing, Jigsaw Discussion, Inquiry Learning, Experiential Learning (site visits), Forum Theater
 :width: 100%
 :align: center
@@ -210,7 +210,7 @@ As for the **reference 📖** content, we will remove it from our tutorial's jup
 
 Ultimately, this is a *learning-oriented* framing of our tutorial content that prioritizes content in the context of a greater ecosystem of materials, which builds on the prior work of {cite:p}`Veldof2006-vk`:
 
-```{image} ../images/tutorials-priority.png
+```{image} ../../images/tutorials-priority.png
 :alt: A chart expressing content priority as an inverted pyramid with "everything there is that could be known" in the wide base at the top, "never need to know" below that, "nice to know" below that, and "need to know" below that in the pyramid tip. "Nice to know" is indicated as material addressed elsewhere (subsequent workshops, handouts, reference links, etc) while "need to know" is indicated as what is actually covered in a workshop.
 :width: 100%
 :align: center
@@ -230,7 +230,7 @@ Ultimately, the idea is to *start with simple explanations* that attend to peopl
 
 ### Keeping cut content for later
 
-```{image} ../images/tutorials-left-overs.png
+```{image} ../../images/tutorials-left-overs.png
 :alt: A stock image of tupperware containers in a refrigerator 
 :width: 15em
 :align: right

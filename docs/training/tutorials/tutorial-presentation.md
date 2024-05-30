@@ -10,7 +10,7 @@ Prepare your tutorials well in advance and practice it in front of a small audie
 
 Synchronous tutorial delivery often involves a lot of "lecturing" -- that is, speaking in an authoritative way in front of an audience. Lecturing is a necessary teaching tool, but it's difficult do it engangingly and paced well for an audience of mixed experience levels. Further, too much lecture can strain the audience's attention (a common problem in hackweek settings!).
 
-```{image} ../images/tutorials-stamina.png
+```{image} ../../images/tutorials-stamina.png
 :alt: A humorous graph showing student stamina over time in the form of a cartoon rabbit getting excited, hopping in the air, and then getting tired and laying on the ground.
 :width: 100%
 :align: center
