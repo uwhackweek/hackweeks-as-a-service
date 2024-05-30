@@ -3,34 +3,35 @@ root: intro
 parts:
 - caption: Overview
   chapters:
-    - file: overview
-- caption: Tutorial Design
+    - file: overview/overview
+    - file: overview/taining-modules
+
+- caption: Organizer Training
   chapters:
-    - file: tutorials/index  
+    - file: training/tutorials/index  
       sections: 
-        - file: tutorials/tutorial-design
-        - file: tutorials/tutorial-delivery
-- caption: Project Design
-  chapters:
-  - file: projects/index
-    sections:
-      - file: projects/project-design.md
-      - file: projects/project-implementation.md
-- caption: Technology
-  chapters:
-    - file: technology/index  
+        - file: training/tutorials/tutorial-design
+        - file: training/tutorials/tutorial-delivery
+
+    - file: training/projects/index
       sections:
-        - file: technology/data-management
-        - file: technology/recognition
-- caption: Strategy and Planning
-  chapters:
-    - file: strategy/index  
-- caption: Learning Culture
-  chapters:
-    - file: culture/index 
+        - file: training/projects/project-design.md
+        - file: training/projects/project-implementation.md
+
+
+    - file: training/technology/index  
       sections:
-        - file: culture/psychological-safety.md
+        - file: training/technology/data-management
+        - file: training/technology/recognition
+
+
+    - file: training/strategy/index  
+
+    - file: training/culture/index 
+      sections:
+        - file: training/culture/psychological-safety.md
+
 - caption: Reference
   chapters:
-    - file: bibliography
-    - file: acknowledgements
+    - file: reference/bibliography
+    - file: reference/acknowledgements
