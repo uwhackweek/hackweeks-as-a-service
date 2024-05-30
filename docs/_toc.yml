@@ -11,19 +11,23 @@ parts:
     - file: training/tutorials/index  
       sections: 
         - file: training/tutorials/tutorial-design
-        - file: training/tutorials/tutorial-delivery
+        - file: training/tutorials/tutorial-notebooks
+        - file: training/tutorials/tutorial-presentation
 
     - file: training/projects/index
       sections:
         - file: training/projects/project-design.md
         - file: training/projects/project-implementation.md
 
+    - file: training/technology/index  
+      sections:
+        - file: training/projects/project-design.md
+        - file: training/projects/project-implementation.md
 
     - file: training/technology/index  
       sections:
         - file: training/technology/data-management
         - file: training/technology/recognition
-
 
     - file: training/strategy/index  
 
