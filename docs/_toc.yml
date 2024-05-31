@@ -13,7 +13,7 @@ parts:
         - file: training/tutorials/tutorial-design
         - file: training/tutorials/tutorial-notebooks
         - file: training/tutorials/tutorial-presentation
-    - file: training/projects/project-overview
+    - file: training/projects/index
       sections:
         - file: training/projects/project-before
         - file: training/projects/project-during
