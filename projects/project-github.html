@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Introduction</title>
+    <title>Organizing your project on GitHub</title>
   
   
   
@@ -71,11 +71,11 @@
                 gtag('config', 'G-RP8169MN6Q');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/index';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/project-github';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Project Design" href="project-design.html" />
-    <link rel="prev" title="Tutorial Presentation" href="../tutorials/tutorial-presentation.html" />
+    <link rel="next" title="Introduction" href="../technology/index.html" />
+    <link rel="prev" title="After the hackweek" href="project-after.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -197,9 +197,11 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Project Design</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Introduction</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="project-design.html">Project Design</a></li>
-<li class="toctree-l2"><a class="reference internal" href="project-implementation.html">Project Implementation</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="project-overview.html">Overview</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="project-before.html">Before the hackweek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project-during.html">During the hackweek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project-after.html">After the hackweek</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Organizing your project on GitHub</a></li>
 </ul>
 </li>
 </ul>
@@ -297,7 +299,7 @@
       
       
       
-      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/projects/index.md" target="_blank"
+      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/projects/project-github.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -314,7 +316,7 @@
       
       
       
-      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fprojects/index.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fprojects/project-github.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -344,7 +346,7 @@
       
       
       
-      <li><a href="../_sources/projects/index.md" target="_blank"
+      <li><a href="../_sources/projects/project-github.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -428,7 +430,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Introduction</h1>
+    <h1>Organizing your project on GitHub</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -438,9 +440,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#possible-references">Possible References?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-to-expect-as-a-project-lead">What to expect as a project lead</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-name">Project Name</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-our-github-project-template">Use our GitHub Project Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-new-github-team-within-the-hackweek-organization">Create a new GitHub team within the hackweek organization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#add-the-project-team-to-your-project-repo">Add the project team to your project repo</a></li>
 </ul>
             </nav>
         </div>
@@ -452,30 +455,53 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h1>
-<p><em>Paragraph providing brief overview of this module</em></p>
-<section id="learning-objectives">
-<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
-<p>After completing this module, project leads will:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="organizing-your-project-on-github">
+<h1>Organizing your project on GitHub<a class="headerlink" href="#organizing-your-project-on-github" title="Link to this heading">#</a></h1>
+<p>We encourage all teams to use GitHub to coordinate sharing of ideas, data and code. Additional tools may also be provided by the hackweek organizers, such as a Slack workspace for communication (hackweek organizers can set up a Slack channel for your project team).</p>
+<section id="project-name">
+<h2>Project Name<a class="headerlink" href="#project-name" title="Link to this heading">#</a></h2>
+<p>Before getting started, you’ll need a name for your project. A team exploring snow surface temperatures used the name “hot-pow”, and one looking at ice-ocean interactions was called “floes-are-swell”. Keep it short and memorable, and most of all, have fun!</p>
+</section>
+<section id="use-our-github-project-template">
+<h2>Use our GitHub Project Template<a class="headerlink" href="#use-our-github-project-template" title="Link to this heading">#</a></h2>
+<p>We have created a GitHub template that is pre-populated with directories and a README layout the we find works well with most teams.</p>
+<p>We encourage all teams to create a new GitHub repository within the hackweek organization, even if it is just to point to an already-existing repository or package your team is contributing to for their project.</p>
 <ul class="simple">
-<li><p>understand the various roles that projects can play in supporting hackweek objectives</p></li>
-<li><p>create a description for a project idea that is accessible for hackweek participants</p></li>
-<li><p>practice facilitating small group team dynamics to ensure participants feel like they are contributing</p></li>
-<li><p>be familiar with our suite of project <a class="reference internal" href="../technology/index.html"><span class="std std-doc">learning technologies</span></a></p></li>
+<li><p>Go to: <a class="github reference external" href="https://github.com/uwhackweek/sample_project_repository">uwhackweek/sample_project_repository</a></p></li>
+<li><p>Click the green “Use this template” button on right side of page:</p></li>
 </ul>
+<p><img alt="new-repo-screenshot" src="../_images/project-template.png" /></p>
+<ul class="simple">
+<li><p>Choose “Create a new repository”</p></li>
+<li><p>Name your repository using a short name.</p></li>
+<li><p>We recommend choosing “Public” so other participants can follow progress</p></li>
+<li><p>Add a “topic” to your repository details (click on the gear icon next to the “About” section on your repository page) to help others find your work (e.g. <code class="docutils literal notranslate"><span class="pre">uw-hackweek-snowex2024</span></code>)</p></li>
+</ul>
+<p>Visit the <a class="reference external" href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template">GitHub documentation</a> for more details on creating a repository from a template.</p>
 </section>
-<section id="possible-references">
-<h2>Possible References?<a class="headerlink" href="#possible-references" title="Link to this heading">#</a></h2>
-<p>Evidence that project-based learning is a viable approach <span id="id1">[<a class="reference internal" href="../bibliography.html#id10" title="Mohammed Abdullatif Almulla. The Effectiveness of the Project-Based Learning (PBL) Approach as a Way to Engage Students in Learning. SAGE Open, 10(3):2158244020938702, July 2020. Publisher: SAGE Publications. URL: https://doi.org/10.1177/2158244020938702 (visited on 2024-02-12), doi:10.1177/2158244020938702.">1</a>]</span>.</p>
-<p>Mentorship at a hackathon should be more than just occasional support. It should include taking ownership of the project, setting achievable goals, building social ties, and receiving learning-oriented support <span id="id2">[<a class="reference internal" href="../bibliography.html#id8" title="Alexander Nolte, Linda Bailey Hayden, and James D. Herbsleb. How to Support Newcomers in Scientific Hackathons - An Action Research Study on Expert Mentoring. Proceedings of the ACM on Human-Computer Interaction, 4(CSCW1):025:1–025:23, May 2020. URL: https://doi.org/10.1145/3392830 (visited on 2020-09-10), doi:10.1145/3392830.">13</a>]</span>.</p>
-<p>Evidence that minimal guidance and lack of structure does not lead to positive project outcomes <span id="id3">[<a class="reference internal" href="../bibliography.html#id9" title="Paul A. Kirschner, John Sweller, and Richard E. Clark. Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching. Educational Psychologist, 41(2):75–86, June 2006. URL: http://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1 (visited on 2017-04-24), doi:10.1207/s15326985ep4102_1.">11</a>]</span>.</p>
+<section id="create-a-new-github-team-within-the-hackweek-organization">
+<h2>Create a new GitHub team within the hackweek organization<a class="headerlink" href="#create-a-new-github-team-within-the-hackweek-organization" title="Link to this heading">#</a></h2>
+<p>GitHub teams provide a convenient way for you to set permissions on your project repository for groups of people, rather than having to do this for each individual on your team.</p>
+<ol class="arabic simple">
+<li><p>Go to the “Teams” tab near the top of the GitHub hackweek organization page</p></li>
+<li><p>Click green “New team” button</p></li>
+<li><p>Use your short project name for “Team name”</p></li>
+<li><p>Set the team to visibility “Visible”</p></li>
+<li><p>Click on the “Create Team” button</p></li>
+<li><p>Add all team members by clicking the “Members” tab and the green “Add a member” button</p></li>
+</ol>
 </section>
-<section id="what-to-expect-as-a-project-lead">
-<h2>What to expect as a project lead<a class="headerlink" href="#what-to-expect-as-a-project-lead" title="Link to this heading">#</a></h2>
+<section id="add-the-project-team-to-your-project-repo">
+<h2>Add the project team to your project repo<a class="headerlink" href="#add-the-project-team-to-your-project-repo" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Go to the new repository you just created</p></li>
+<li><p>Click “Settings” tab in upper right corner</p></li>
+<li><p>Select “Manage access” on left side of page</p></li>
+<li><p>Add your team name under the “Manage access” section</p></li>
+<li><p>Select “write” to enable all team members to make commits</p></li>
+</ol>
+<p>Visit the <a class="reference external" href="https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team">GitHub documentation</a> for more details on creating a team.</p>
 </section>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -509,20 +535,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../tutorials/tutorial-presentation.html"
+       href="project-after.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Tutorial Presentation</p>
+        <p class="prev-next-title">After the hackweek</p>
       </div>
     </a>
     <a class="right-next"
-       href="project-design.html"
+       href="../technology/index.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Project Design</p>
+        <p class="prev-next-title">Introduction</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -542,9 +568,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#possible-references">Possible References?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-to-expect-as-a-project-lead">What to expect as a project lead</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-name">Project Name</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-our-github-project-template">Use our GitHub Project Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-new-github-team-within-the-hackweek-organization">Create a new GitHub team within the hackweek organization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#add-the-project-team-to-your-project-repo">Add the project team to your project repo</a></li>
 </ul>
   </nav></div>
 

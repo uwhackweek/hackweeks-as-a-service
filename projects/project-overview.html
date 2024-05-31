@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Project Design</title>
+    <title>Overview</title>
   
   
   
@@ -71,11 +71,11 @@
                 gtag('config', 'G-RP8169MN6Q');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/project-design';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/project-overview';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Project Implementation" href="project-implementation.html" />
-    <link rel="prev" title="Introduction" href="index.html" />
+    <link rel="next" title="Before the hackweek" href="project-before.html" />
+    <link rel="prev" title="Tutorial Presentation" href="../tutorials/tutorial-presentation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -197,9 +197,11 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Project Design</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Introduction</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Project Design</a></li>
-<li class="toctree-l2"><a class="reference internal" href="project-implementation.html">Project Implementation</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Overview</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="project-before.html">Before the hackweek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project-during.html">During the hackweek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project-after.html">After the hackweek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project-github.html">Organizing your project on GitHub</a></li>
 </ul>
 </li>
 </ul>
@@ -297,7 +299,7 @@
       
       
       
-      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/projects/project-design.md" target="_blank"
+      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/edit/main/docs/projects/project-overview.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -314,7 +316,7 @@
       
       
       
-      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fprojects/project-design.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/uwhackweek/hackweeks-as-a-service/issues/new?title=Issue%20on%20page%20%2Fprojects/project-overview.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -344,7 +346,7 @@
       
       
       
-      <li><a href="../_sources/projects/project-design.md" target="_blank"
+      <li><a href="../_sources/projects/project-overview.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -415,7 +417,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -426,11 +430,25 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Project Design</h1>
+    <h1>Overview</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-design">Project Design</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-stages-and-timeline">Project Stages and Timeline</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-the-hackweek-formulate-projects"><span class="xref myst">Before the hackweek</span>: Formulate Projects</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#during-the-hackweek-form-teams-facilitate-teamwork-share-learning"><span class="xref myst">During the hackweek</span>: Form Teams, Facilitate Teamwork, Share Learning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#after-the-hackweek"><span class="xref myst">After the hackweek</span></a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -440,9 +458,72 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="project-design">
-<h1>Project Design<a class="headerlink" href="#project-design" title="Link to this heading">#</a></h1>
-<p><em>Note content <a class="reference external" href="https://book-template.hackweek.io/projects/index.html">here</a> that we may wish to draw on/reproduce/reshape for project leads.</em></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h1>
+<p>During our hackweeks, we invite participants to collaborate in small group project teams (usually 5-7 people). Depending on the size of the hackweek, we usually see between 10-15 project teams form. Embedding project work along with tutorials across the week offers participants multiple ways to deepen their learning around specific data sets, data science methods, and open science practices.</p>
+<p>Why do we dedicate so much of the hackweek to project work? We see project-based learning to be an effective tool for iterative, collaborative engagement with hackweek content <span id="id1">[<a class="reference internal" href="../bibliography.html#id10" title="Mohammed Abdullatif Almulla. The Effectiveness of the Project-Based Learning (PBL) Approach as a Way to Engage Students in Learning. SAGE Open, 10(3):2158244020938702, July 2020. Publisher: SAGE Publications. URL: https://doi.org/10.1177/2158244020938702 (visited on 2024-02-12), doi:10.1177/2158244020938702.">1</a>]</span>, and a forum for peer-learning <span id="id2">[<a class="reference internal" href="../bibliography.html#id17" title="Keith J. Topping. Trends in Peer Learning. Educational Psychology, 25(6):631–645, December 2005. Publisher: Routledge _eprint: https://doi.org/10.1080/01443410500345172. URL: https://doi.org/10.1080/01443410500345172 (visited on 2021-01-15), doi:10.1080/01443410500345172.">12</a>]</span>. Projects can also be a catalyst for the formation of communities of practice that continue to grow after a hackweek has ended.</p>
+<p>Each hackweek’s community of research scientists and domain practitioners generates the project offerings. While the projects are unique from hackweek to hackweek, they typically fall into one of the following categories:</p>
+<ul class="simple">
+<li><p><strong>Advancing a part of a research idea or ongoing effort</strong></p></li>
+<li><p><strong>Deepening tutorial learning with hands-on experience with data sets/tools</strong></p></li>
+<li><p><strong>Developing a new community tool or library</strong></p></li>
+</ul>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/projects-montage.png"><img alt="picture of people interacting during hackweek project work" class="bg-primary mb-1 align-center" src="../_images/projects-montage.png" style="width: 700px;" /></a>
+<section id="project-design">
+<h2>Project Design<a class="headerlink" href="#project-design" title="Link to this heading">#</a></h2>
+<p>On the following pages, you will find more details on how projects are designed. This information is provided to help guide project leaders, but it is also useful for all hackweek participants to be familiar with.</p>
+<p>We encourage all project leaders to be creative with their ideas when planning out the project’s group work and learning opportunities. <strong>The hackweek organizers will help project leaders think through how to best scope their projects to match their desired outcomes for the group work.</strong> In the meantime, project leaders can consider the range of scoping options described in the table below to get a sense of where their ideas may fall.</p>
+<p>This table presents examples of what a project scope might look like, what preparation by the project lead is needed, and what teamwork at the hackweek might look like. Most projects will fit somewhere in between these two examples. On the left, the project is less structured so that it can be adapted to where team members would like to take the project based on what they can contribute and want to learn. On the right, the project work is much more structured allowing participants to make quick progress on project goals and/or focused learning experiences. <strong>Most projects will fit somewhere in between, a blend of focused and exploration.</strong></p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p><img alt="Exploration" src="../_images/project-icon-3.svg" /></p></th>
+<th class="head"><p><img alt="Focused" src="../_images/project-icon-4.svg" /></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Scope</strong></p></td>
+<td><p>- Your team explores a variety of aspects with a new data set, tool, or method</p></td>
+<td><p>- Your team works to develop a specific software tool or answer a specific research question</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Preparation</strong></p></td>
+<td><p>- Project leaders provide example data, code, and tutorial-like content</p></td>
+<td><p>- Project leaders provide well-defined and measurable goals</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Teamwork</strong></p></td>
+<td><p>- Team members can pursue their own specific learning goals within the broad project topic <br> - Peer-learning: team members learn from each other during project work <br> - Project leaders spend more time teaching and guiding team members through the project topic</p></td>
+<td><p>- Team members work on specific tasks to accomplish project goals<br> - Pair programming: team members might code in pairs to solve a problem<br> - Project leaders spend more time coordinating specific tasks and lead design discussions</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="project-stages-and-timeline">
+<h2>Project Stages and Timeline<a class="headerlink" href="#project-stages-and-timeline" title="Link to this heading">#</a></h2>
+<p>Each project will progress through these stages:</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/project-timeline.png"><img alt="flowchart of typical hackweek project timelines" class="bg-primary mb-1 align-center" src="../_images/project-timeline.png" style="width: 800px;" /></a>
+<section id="before-the-hackweek-formulate-projects">
+<h3><a class="reference internal" href="project-before.html"><span class="std std-doc">Before the hackweek</span></a>: Formulate Projects<a class="headerlink" href="#before-the-hackweek-formulate-projects" title="Link to this heading">#</a></h3>
+<p>For many project leaders, planning begins months before the hackweek, shortly after their applications to develop their project idea has been accepted by the hackweek organizers. This time is used to help project leads organize their work into tasks so that team members, with varying backgrounds and skills, can contribute to the project.</p>
+<p>This section covers:</p>
+<ul class="simple">
+<li><p>Project Leaders Kick-off Meeting</p></li>
+<li><p>Project Development &amp; Support</p></li>
+<li><p>Project Facilitation Training</p></li>
+<li><p>Project Development Milestones</p></li>
+</ul>
+</section>
+<section id="during-the-hackweek-form-teams-facilitate-teamwork-share-learning">
+<h3><a class="reference internal" href="project-during.html"><span class="std std-doc">During the hackweek</span></a>: Form Teams, Facilitate Teamwork, Share Learning<a class="headerlink" href="#during-the-hackweek-form-teams-facilitate-teamwork-share-learning" title="Link to this heading">#</a></h3>
+<p>Each day of the hackweek, participants will spend time with hackweek-specific tutorials and with their project teams. For participants to advance their personal goals in a team setting, it requires open communication between the project leader and team members, and identifying team member roles and tasks. A significant part of the first day is geared toward supporting participants with finding the project that best fits their interests, skills, and learning desires. By the end of Day 1, teams have formed and conversations about mapping out the tasks will have begun. During Days 2-4 and part of Day 5, project leads will facilitate team members making progress on project work and their specific learning objectives. The hackweeks concludes with each project team showcasing what they explored, learned, and accomplished together.</p>
+<p>We have provided suggested outlines for daily check-in meetings and tasks that a project leader can guide their team through.</p>
+</section>
+<section id="after-the-hackweek">
+<h3><a class="reference internal" href="project-after.html"><span class="std std-doc">After the hackweek</span></a><a class="headerlink" href="#after-the-hackweek" title="Link to this heading">#</a></h3>
+<p>We hope that project work will build a foundation for future collaboration, where the work performed during the hackweek event and the connections made with other participants set the stage for new work to emerge.</p>
+</section>
+</section>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -476,20 +557,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="index.html"
+       href="../tutorials/tutorial-presentation.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Introduction</p>
+        <p class="prev-next-title">Tutorial Presentation</p>
       </div>
     </a>
     <a class="right-next"
-       href="project-implementation.html"
+       href="project-before.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Project Implementation</p>
+        <p class="prev-next-title">Before the hackweek</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -500,7 +581,26 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-design">Project Design</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-stages-and-timeline">Project Stages and Timeline</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-the-hackweek-formulate-projects"><span class="xref myst">Before the hackweek</span>: Formulate Projects</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#during-the-hackweek-form-teams-facilitate-teamwork-share-learning"><span class="xref myst">During the hackweek</span>: Form Teams, Facilitate Teamwork, Share Learning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#after-the-hackweek"><span class="xref myst">After the hackweek</span></a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
