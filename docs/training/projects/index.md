@@ -11,7 +11,7 @@ Each hackweek’s community of research scientists and domain practitioners gene
 * **Developing a new community tool or library**
 
 
-```{image} ../images/projects-montage.png
+```{image} ../../images/projects-montage.png
 :alt: picture of people interacting during hackweek project work
 :class: bg-primary mb-1
 :width: 700px
@@ -26,7 +26,7 @@ We encourage all project leaders to be creative with their ideas when planning o
 
 This table presents examples of what a project scope might look like, what preparation by the project lead is needed, and what teamwork at the hackweek might look like. Most projects will fit somewhere in between these two examples. On the left, the project is less structured so that it can be adapted to where team members would like to take the project based on what they can contribute and want to learn. On the right, the project work is much more structured allowing participants to make quick progress on project goals and/or focused learning experiences. **Most projects will fit somewhere in between, a blend of focused and exploration.**
 
-| | ![Exploration](../images/project-icon-3.svg) | ![Focused](../images/project-icon-4.svg) |
+| | ![Exploration](../../images/project-icon-3.svg) | ![Focused](../../images/project-icon-4.svg) |
 | --- | --- | --- |
 | **Scope** | - Your team explores a variety of aspects with a new data set, tool, or method  | - Your team works to develop a specific software tool or answer a specific research question |
 | **Preparation** | - Project leaders provide example data, code, and tutorial-like content | - Project leaders provide well-defined and measurable goals  |
@@ -36,7 +36,7 @@ This table presents examples of what a project scope might look like, what prepa
 
 Each project will progress through these stages:
 
-```{image} ../images/project-timeline.png
+```{image} ../../images/project-timeline.png
 :alt: flowchart of typical hackweek project timelines
 :class: bg-primary mb-1
 :width: 800px
