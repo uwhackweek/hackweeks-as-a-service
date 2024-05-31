@@ -3,6 +3,7 @@
 
 title: ""
 author: eScience Institute, University of Washington
+copyright: "2024"
 logo: logo.png
 
 # No notebooks in this book
@@ -22,7 +23,7 @@ repository:
 
 # Bibliography
 bibtex_bibfiles:
-  - references.bib
+  - reference/references.bib
 
 sphinx:
   config:

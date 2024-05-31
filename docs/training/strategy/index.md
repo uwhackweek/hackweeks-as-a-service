@@ -1,4 +1,4 @@
-# Introduction
+# Strategy
 
 *Paragraph providing brief overview of this module*
 

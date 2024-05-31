@@ -16,7 +16,7 @@ We encourage all teams to create a new GitHub repository within the hackweek org
 
 * Click the green "Use this template" button on right side of page:
 
-![new-repo-screenshot](../images/project-template.png)
+![new-repo-screenshot](../../images/project-template.png)
 
 * Choose "Create a new repository"
 * Name your repository using a short name.

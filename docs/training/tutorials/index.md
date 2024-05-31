@@ -1,4 +1,4 @@
-# Introduction
+# Tutorials
 
 In hackweek events, participants get the opportunity to learn and engage with new concepts through *tutorials*. 
 These usually take the form of a 30-60 minute classroom session in which a content expert, the "*tutorial lead*",
@@ -31,7 +31,7 @@ Written material, on the other hand, is good at:
 
 The rest of this chapter covers the goals, considerations, and best practices regarding tutorial design and delivery to make the most out of the event participants' time together.
 
-```{image} ../images/tutorials.png
+```{image} ../../images/tutorials.png
 :alt: Tutorials in action
 :width: 500px
 :align: center

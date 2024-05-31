@@ -29,7 +29,7 @@ We use this YAML markdown template for each team member.
   ```
  Here is an example of how the text you include in this template gets rendered on the website:
 
-  ```{image} ../images/website-bio.jpg
+  ```{image} ../../images/website-bio.jpg
 :alt: example of how to fill out website bio
 :width: 1100px
 :align: center

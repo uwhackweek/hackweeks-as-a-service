@@ -20,7 +20,7 @@ For convenience you can start with a copy of our [template notebook](https://uwh
 
 ## Signposting
 
-```{image} ../images/tutorials-boxes.png
+```{image} ../../images/tutorials-boxes.png
 :alt: A screenshot of a jupyter notebook with several cells decorated with attention-grabbing formatting
 :width: 20em
 :align: right
