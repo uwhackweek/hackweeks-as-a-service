@@ -13,10 +13,12 @@ parts:
         - file: tutorials/tutorial-presentation
 - caption: Project Design
   chapters:
-  - file: projects/index
+  - file: projects/project-overview
     sections:
-      - file: projects/project-design.md
-      - file: projects/project-implementation.md
+      - file: projects/project-before
+      - file: projects/project-during
+      - file: projects/project-after
+      - file: projects/project-github
 - caption: Technology
   chapters:
     - file: technology/index  
@@ -30,7 +32,7 @@ parts:
   chapters:
     - file: culture/index 
       sections:
-        - file: culture/psychological-safety.md
+        - file: culture/psychological-safety
 - caption: Reference
   chapters:
     - file: bibliography
