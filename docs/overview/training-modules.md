@@ -1,0 +1,11 @@
+# Resources for Organizers
+
+The modules in this website are designed to prepare organizers of the University of Washington eScience Institute's Hackweek program. We hope to share professional development tools for you to improve your capacity to teach, share ideas, lead project work and advocate for open and reproducible science. We hope the skills acquired here are applicable to other related training you participate in, including those in a Formal Higher Education setting. 
+
+Our first two modules focus on improving our capacity to train hackweek participants to learn new tools for their research. We'll begin by exploring how to choose appropriate *learning content*, which refers to the topics that we choose to present to learners and the depth and breadth of coverage of that content. We will also consider *pedagogy*, which refers to how we teach material, whether in a lecture, discussion- or project-based format, as well as the methods we employ to interact with learners. In our [Tutorial Design](tutorials/index.md) and [Project Design](projects/index.md) modules we will teach you about designing hackweek learning content, and our recommended pedagogical approaches for hackweek particiapants, within the existing framework of our tutorial and project sessions.  
+
+Next we will focus on [Technology](technology/index.md) where we will teach you about the tools we use to create centralized, web-browser accessible learning materials. You will learn to use automated workflows in GitHub to generate consistent and quality controlled Jupyter Notebooks, and we will share resources for hosting sample datasets.
+
+In our [Strategy and Planning](strategy/index.md) module, we will teach you about the tools we use to manage our time and set clear expectations for the various tasks of the organizing team. By structuring the way we work together we can better honor the limited time each of us has to contribute, and ensure that we still meet our broad goals for the event.
+
+Finally, in our module on [Learning Culture](culture/index.md), we will provide opportunities for all of us to practice ways to support a vibrant and healthy learning environment. We will practice skills in building empathy, listening and navigating complex group dynamics. 
