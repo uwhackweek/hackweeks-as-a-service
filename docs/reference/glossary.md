@@ -26,7 +26,7 @@
   A service platform that allows developers to create, store, manage and share their code using the "git".
 
 [GitHub Actions](https://docs.github.com/en/actions)
-  Continuous integration and continuous delivery (CI/CD) GitHub feature that allows you to automate computational workflows for a GitHub respository.
+  Continuous integration and continuous delivery (CI/CD) GitHub feature that allows you to automate computational workflows for a GitHub repository.
 
 [Hackweek](https://uwhackweek.github.io/hackweeks-as-a-service)
   Participant-driven events that strive to create welcoming spaces to learn new

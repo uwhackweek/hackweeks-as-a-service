@@ -20,19 +20,33 @@ We use a YAML template to render this portion of the website. The arrows below m
 :align: center
 ```
 
-**Notes:**
 ```{warning}
-So that the website correctly interprets the YAML format we recommend using our template and not changing indent or spacing.
+So that the website correctly interprets the YAML format we recommend using our template and not changing indents or spacing.
 ```
 - We encourage everyone to use their GitHub avatar as the source of their personal photograph (e.g. https://avatars.githubusercontent.com/USERNAME)
 - Also provide your GitHub username, together with the full url, for the `link` key under `social` (https://github.com/USERNAME)
-- Acceptable user groups (roles) can be found [here](https://escience.washington.edu/using-data-science/hackweeks/planning/hackweek-roles).
+- Acceptable user_groups (Hackweek "roles") can be found [here](https://escience.washington.edu/using-data-science/hackweeks/planning/hackweek-roles).
 
 ### Uploading to the website
 
-To include your content on the website, follow [these instructions](https://github.com/uwhackweek/jupyterbook-template/blob/main/team/README.md). Because YAML is a simple human-readable text format, you can add your content directly in the GitHub interface. We provide screenshots below for a particular event in 2024:
+To include your content on the website, follow [these instructions](https://github.com/uwhackweek/jupyterbook-template/blob/main/team/README.md) or because YAML is a simple human-readable text format, you can add your content directly in the GitHub interface. We also show screenshots of doing this for a specific event below:
 
-This is a link to the template file for a specific event page https://github.com/uwhackweek/event-page-2024/edit/main/team/template.yaml
+1. Go to https://github.com/uwhackweek/event-page-2024/blob/main/team/template.yaml and copy the contents of the template
+
+![team template](../../images/copy-team-template.png)
+
+1. Follow https://github.com/uwhackweek/event-page-2024/new/main/team to make a new file. Paste the template contents, rename to FIRST-LAST.yaml
+
+![team template](../../images/create-team-entry.png)
+
+1. Commit to a new branch and open a pull request
+
+![team template](../../images/commit-changes.png)
+
+1. Add the 'preview' label to your pull request to make sure your bio looks correct
+
+![add preview](../../images/create-pull-request.png)
+
 
 ## Online Tutorials
 
