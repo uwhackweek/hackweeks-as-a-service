@@ -23,11 +23,10 @@
   projects to manage their software code base.
 
 [GitHub](https://github.com)
-  Provider of Internet hosting for software development and distributed version
-  control using the "git" command line tool.
+  A service platform that allows developers to create, store, manage and share their code using the "git".
 
 [GitHub Actions](https://docs.github.com/en/actions)
-  Continuous integration and continuous delivery (CI/CD) platform that allows you to automate computational workflows for a GitHub respository.
+  Continuous integration and continuous delivery (CI/CD) GitHub feature that allows you to automate computational workflows for a GitHub respository.
 
 [Hackweek](https://uwhackweek.github.io/hackweeks-as-a-service)
   Participant-driven events that strive to create welcoming spaces to learn new

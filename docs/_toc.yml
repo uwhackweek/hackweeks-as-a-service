@@ -32,4 +32,5 @@ parts:
 - caption: Reference
   chapters:
     - file: reference/bibliography
+    - file: reference/glossary
     - file: reference/acknowledgements
