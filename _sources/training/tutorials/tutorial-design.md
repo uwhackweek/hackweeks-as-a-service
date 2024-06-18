@@ -161,7 +161,7 @@ It's important to not ask comprehension or mastery questions, like "describe bac
 For non-technical material, several techniques are described in this [active learning strategies guide](https://drive.google.com/file/d/1lJ2Eb773tOx0Oik_G51bcWcwub20Co-4/view) and summarized in this chart:
 
 ```{image} ../../images/tutorials-active-learning-strategies.png
-:alt: A chart of active learning strategies on a spectrum from "Simple" to "Complex". Starting from the simplest to the most complex: Pause for reflection, Writing (Minute Paper), Self-assessment, Large Group Discussion, Think-Pair-Share, Informal Groups, Triad Groups, Group Evaluatoins, Peer Review, Brainstorming, Case Studies, Hands-on Technology, Interactive Lecture, Active Review Sessions (Games or Simulations), Role playing, Jigsaw Discussion, Inquiry Learning, Experiential Learning (site visits), Forum Theater
+:alt: 'A chart of active learning strategies on a spectrum from "Simple" to "Complex". Starting from the simplest to the most complex: Pause for reflection, Writing (Minute Paper), Self-assessment, Large Group Discussion, Think-Pair-Share, Informal Groups, Triad Groups, Group Evaluatoins, Peer Review, Brainstorming, Case Studies, Hands-on Technology, Interactive Lecture, Active Review Sessions (Games or Simulations), Role playing, Jigsaw Discussion, Inquiry Learning, Experiential Learning (site visits), Forum Theater'
 :width: 100%
 :align: center
 ```

@@ -14,19 +14,19 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link href="../../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
 
   
-  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=384b581d" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=497e6c38" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
-  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
 
     <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../../_static/doctools.js?v=9a2dae69"></script>
@@ -74,8 +74,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'training/technology/data-management';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Recognizing Contributions" href="recognition.html" />
-    <link rel="prev" title="Technology" href="index.html" />
+    <link rel="next" title="Where to go for help during a hackweek" href="help-me.html" />
+    <link rel="prev" title="Jupyter Book" href="jupyter-book.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -85,27 +85,23 @@
 
   
   
-  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
   
   <div id="pst-scroll-pixel-helper"></div>
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -127,8 +123,13 @@
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
     </header>
   
 
@@ -189,33 +190,36 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Organizer Training</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../tutorials/tutorial-design.html">Tutorial Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tutorials/tutorial-notebooks.html">Tutorial Notebooks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tutorials/tutorial-presentation.html">Tutorial Presentation</a></li>
 </ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../projects/index.html">Projects</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../projects/index.html">Projects</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../projects/project-before.html">Before the hackweek</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/project-during.html">During the hackweek</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/project-after.html">After the hackweek</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/project-github.html">Organizing your project on GitHub</a></li>
 </ul>
-</li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Technology</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Data management</a></li>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Technology</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="recognition.html">Recognizing Contributions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jupyter-book.html">Jupyter Book</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Data management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="help-me.html">Where to go for help during a hackweek</a></li>
 </ul>
-</li>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="../strategy/index.html">Strategy</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../culture/index.html">Learning Culture</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../culture/index.html">Learning Culture</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../culture/psychological-safety.html">Psychological Safety</a></li>
 </ul>
-</li>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reference</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../reference/bibliography.html">Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../reference/glossary.html">Glossaries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../reference/acknowledgements.html">Acknowledgements</a></li>
 </ul>
 
@@ -232,7 +236,7 @@
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -241,7 +245,7 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
@@ -429,14 +433,25 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#make-your-tutorial-data-publicly-accessible">Make your tutorial data publicly accessible!</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-data-is-small-10mb">My data is small (&lt;10MB)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-data-is-moderate-10-100-mb">My data is moderate (10 - 100 MB)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-data-is-cumbersome-100-mb">My data is cumbersome (&gt;100 MB)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-resource-considerations">Computational resource considerations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-tutorials">Guidelines for Tutorials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mb">&lt;10MB</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10 - 100 MB</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#github-release-artifacts">GitHub Release artifacts</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-permanence">Data permanence</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-resource-considerations">Computational resource considerations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">&gt;100 MB</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stream-from-urls">Stream from URLs</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#use-zenodo-org">Use Zenodo.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-permanence-considerations">Data permanence considerations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-projects">Guidelines for Projects</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupterhub-data-sharing">JupterHub Data Sharing</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -450,48 +465,95 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="data-management">
 <h1>Data management<a class="headerlink" href="#data-management" title="Link to this heading">#</a></h1>
-<p>A challenging aspect of tutorial development is how to manage dataset dependencies. Ideally, the data you use will be <em>publicly accessible</em> and <em>permanent</em> for reproducibility.</p>
+<p>A challenging aspect of tutorial development is how to manage dataset dependencies. Ideally, the data you use will be <em>publicly accessible</em> and <em>permanent</em> for reproducibility. In this section we present practical guidelines for effective data sharing for Hackweek Tutorials and Projects.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>Remember, a hackweek tutorial is <em>learning-oriented</em> and should guide participants through a step-wise process with a meaningful outcome.</p>
+<p>Remember, a hackweek tutorial is <em>learning-oriented</em> and should guide participants through a step-wise process with a meaningful outcome. If you typically work with large datasets, consider designing your tutorial to work with a small subset (~10 MB) that still enables your learning objectives to be met.</p>
 </div>
-<p>If you typically work with large datasets, consider designing your tutorial to work with a small subset (~10 MB) to achieve your learning objectives. Below are some general guidelines based on past hackweeks:</p>
-<section id="make-your-tutorial-data-publicly-accessible">
-<h2>Make your tutorial data publicly accessible!<a class="headerlink" href="#make-your-tutorial-data-publicly-accessible" title="Link to this heading">#</a></h2>
-<section id="my-data-is-small-10mb">
-<h3>My data is small (&lt;10MB)<a class="headerlink" href="#my-data-is-small-10mb" title="Link to this heading">#</a></h3>
+<section id="computational-resource-considerations">
+<h2>Computational resource considerations<a class="headerlink" href="#computational-resource-considerations" title="Link to this heading">#</a></h2>
+<p>In order for tutorial notebooks to be executable on widely available public computing infrastructure <em>we recommend targeting limited computational requirements such as 2-core CPU, 8 GB of RAM memory, 10 GB of disk space (at the time of writing)</em></p>
+</section>
+<section id="guidelines-for-tutorials">
+<h2>Guidelines for Tutorials<a class="headerlink" href="#guidelines-for-tutorials" title="Link to this heading">#</a></h2>
+<p>Try to use the smallest amount of data possible for your tutorial. If your tutorial starts with downloading data from a remote location, keep in mind that it may take longer than usual if hundreds of participants are accessing the same datasets simultaneously. Below we provide recommendations for common data volumes.</p>
+<section id="mb">
+<h3>&lt;10MB<a class="headerlink" href="#mb" title="Link to this heading">#</a></h3>
 <p>If your tutorial just needs a small image, or tabular data like a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file, go ahead and add it to the repository along with your tutorial code.</p>
 </section>
-<section id="my-data-is-moderate-10-100-mb">
-<h3>My data is moderate (10 - 100 MB)<a class="headerlink" href="#my-data-is-moderate-10-100-mb" title="Link to this heading">#</a></h3>
-<p>You can create a separatel repository on GitHub to publicly host your tutorial dataset. <a class="reference external" href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github">Per GitHub repository limits</a>, <em>individual files are required to be &lt; 100 MB</em>.
-Here is an <a class="reference external" href="https://github.com/snowex-hackweek/tutorial-data">example for images</a>, and here is an <a class="reference external" href="https://github.com/scottyhq/zarrdata">example for n-dimensional arrays</a>.</p>
+<section id="id1">
+<h3>10 - 100 MB<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<p>You can create a separate repository on GitHub to publicly host your tutorial dataset. <a class="reference external" href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github">Per GitHub repository limits</a>, <em>individual files are required to be &lt; 100 MB</em>.</p>
+<ul class="simple">
+<li><p>Here is an <a class="reference external" href="https://github.com/snowex-hackweek/tutorial-data">example for images</a></p></li>
+<li><p>Here is an <a class="reference external" href="https://github.com/scottyhq/zarrdata">example for n-dimensional arrays</a>.</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>If using a subset be sure to capture data provenance, for example by including a script that you used to access the original full-sized dataset from the data provider.</p>
 </div>
-</section>
-<section id="my-data-is-cumbersome-100-mb">
-<h3>My data is cumbersome (&gt;100 MB)<a class="headerlink" href="#my-data-is-cumbersome-100-mb" title="Link to this heading">#</a></h3>
-<p>Increasingly there are ways to load remote data in a streaming fashion, which allows you to avoid download and storage! At a basic level, software can read URLs instead of local file paths, such as at the beginning of <a class="reference external" href="https://snowex-hackweek.github.io/website/tutorials/sar/sentinel1.html#dive-right-in">this tutorial</a>.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>If your tutorial streams data directly from a data provider, check that scheduled server downtime for maintenance isn’t planned during your presentation! Also, be aware that URLs can be changed at any time by the data provider.</p>
+<section id="github-release-artifacts">
+<h4>GitHub Release artifacts<a class="headerlink" href="#github-release-artifacts" title="Link to this heading">#</a></h4>
+<p>Generally it is not advisable to store binary files in GitHub repositories. Event if you make small changes to a file, an entire new copy is saved in the revision history and the size of the repository will quickly get unwieldy.</p>
+<p><a class="reference external" href="https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases">GitHub Releases</a> are a feature of GitHub repositories that archive a snapshot of files in your repository <em>in addition to other auxiliary files</em>. According to official GitHub documentation:</p>
+<blockquote>
+<div><p>You can create a release to package software, along with release notes and links to binary files, for other people to use.</p>
+</div></blockquote>
+<p>At the time of writing, <em>each file included in a release must be under 2 GiB</em>. So storing tutorial data as files attached to a GitHub release of tutorial code can work well to keep code and associated data together.</p>
+<ul class="simple">
+<li><p>Here is an <a class="reference external" href="https://github.com/scottyhq/share-a-raster/releases/tag/v0.0.1">example of attaching a large 100 MB Geotiff to a release artifact</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The GitHub Command Line Interface (CLI) provides a convenient method for downloading release data <a class="reference external" href="https://cli.github.com/manual/gh_release_download">https://cli.github.com/manual/gh_release_download</a></p>
 </div>
 </section>
 </section>
-<section id="data-permanence">
-<h2>Data permanence<a class="headerlink" href="#data-permanence" title="Link to this heading">#</a></h2>
-<p>If you want long-term hosting of a tutorial dataset that receives a citable Digital Object Identifier (DOI), you can use <a class="reference external" href="https://about.zenodo.org">Zenodo.org</a>.</p>
-<ol class="arabic simple">
-<li><p><a class="reference external" href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content">Link your GitHub repository with data Zenodo</a> *subject to GitHub repository size limits</p></li>
-<li><p><a class="reference external" href="https://library.cfa.harvard.edu/data-archiving-and-sharing">Use Zenodo directly</a> *50 GB standard limit</p></li>
-</ol>
-<p><a class="reference external" href="https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html#">Here</a> is an example tutorial that retrieves a dataset from a <a class="reference external" href="https://zenodo.org/record/5504396">Zenodo ‘record’</a></p>
+<section id="id2">
+<h3>&gt;100 MB<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<section id="stream-from-urls">
+<h4>Stream from URLs<a class="headerlink" href="#stream-from-urls" title="Link to this heading">#</a></h4>
+<p>Increasingly there are ways to load remote data in a streaming fashion, which allows you to avoid download and storage altogether! Essential this means using software that can read URLs instead of local file paths, such as at the beginning of <a class="reference external" href="https://snowex-hackweek.github.io/website/tutorials/sar/sentinel1.html#dive-right-in">this tutorial</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Software that can read URLs still ultimately must download data! It will either be stored only in RAM, or as a temporary file on your hard drive, so be aware that you are still constrained by your local computing resources.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Check that scheduled server downtime for maintenance isn’t planned during your presentation! Also, be aware that URLs can be changed at any time by the data provider.</p>
+</div>
+<ul class="simple">
+<li><p>Here is an <a class="reference external" href="https://earthaccess.readthedocs.io/en/latest/tutorials/file-access/">example using the Python earthaccess library</a></p></li>
+<li><p>Libraries like Xarray can <a class="reference external" href="https://docs.xarray.dev/en/stable/user-guide/io.html#cloud-storage-buckets">read data directly from cloud storage</a></p></li>
+</ul>
 </section>
-<section id="computational-resource-considerations">
-<h2>Computational resource considerations<a class="headerlink" href="#computational-resource-considerations" title="Link to this heading">#</a></h2>
-<p>In order for tutorial notebooks to be executable on different machines, <em>we recommend targeting limited computational requirements such as 2-core CPU, 8 GB of RAM memory, 10 GB of disk space (at the time of writing)</em></p>
+<section id="use-zenodo-org">
+<h4>Use <a class="reference external" href="http://Zenodo.org">Zenodo.org</a><a class="headerlink" href="#use-zenodo-org" title="Link to this heading">#</a></h4>
+<p>Another approach is to upload your data on Zenodo, which at the time of writing has a standard 50 GB limit (<a class="reference external" href="https://library.cfa.harvard.edu/data-archiving-and-sharing">https://library.cfa.harvard.edu/data-archiving-and-sharing</a>).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a class="github reference external" href="https://github.com/fatiando/pooch">fatiando/pooch</a> is a nice Python utility to fetch data from Zenodo</p>
+</div>
+</section>
+</section>
+</section>
+<section id="data-permanence-considerations">
+<h2>Data permanence considerations<a class="headerlink" href="#data-permanence-considerations" title="Link to this heading">#</a></h2>
+<p>Be aware that GitHub repositories can be deleted at any time by repository owners. For guaranteed long-term (10+years) hosting of a tutorial dataset that receives a citable Digital Object Identifier (DOI) you can use <a class="reference external" href="https://about.zenodo.org">Zenodo.org</a>. You can easily <a class="reference external" href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content">link a GitHub repository with Zenodo</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html#">Here</a> is an example tutorial that retrieves a dataset from a <a class="reference external" href="https://zenodo.org/record/5504396">Zenodo ‘record’</a></p></li>
+</ul>
+</section>
+<section id="guidelines-for-projects">
+<h2>Guidelines for Projects<a class="headerlink" href="#guidelines-for-projects" title="Link to this heading">#</a></h2>
+<section id="jupterhub-data-sharing">
+<h3>JupterHub Data Sharing<a class="headerlink" href="#jupterhub-data-sharing" title="Link to this heading">#</a></h3>
+<p>During a hackweek, teams often want to share data with each other for collaborative analysis. In contrast to tutorial datasets which are usually hand-picked, project data is dynamic and changing over time. By using a JupyterHub during a hackweek, participants can take advantage of networked storage drives and pre-configured Cloud Object Storage.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>JupyterHubs do not always have the same configuration, but we encourage you to review this guide from 2i2c which explains options for JupyterHub storage (<a class="reference external" href="https://docs.2i2c.org/user/topics/data/">https://docs.2i2c.org/user/topics/data/</a>)</p>
+</div>
+</section>
 </section>
 </section>
 
@@ -522,24 +584,24 @@ Here is an <a class="reference external" href="https://github.com/snowex-hackwee
               
               
               
-                <footer class="prev-next-footer">
+                <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="index.html"
+       href="jupyter-book.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Technology</p>
+        <p class="prev-next-title">Jupyter Book</p>
       </div>
     </a>
     <a class="right-next"
-       href="recognition.html"
+       href="help-me.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Recognizing Contributions</p>
+        <p class="prev-next-title">Where to go for help during a hackweek</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -559,14 +621,25 @@ Here is an <a class="reference external" href="https://github.com/snowex-hackwee
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#make-your-tutorial-data-publicly-accessible">Make your tutorial data publicly accessible!</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-data-is-small-10mb">My data is small (&lt;10MB)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-data-is-moderate-10-100-mb">My data is moderate (10 - 100 MB)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#my-data-is-cumbersome-100-mb">My data is cumbersome (&gt;100 MB)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-resource-considerations">Computational resource considerations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-tutorials">Guidelines for Tutorials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mb">&lt;10MB</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10 - 100 MB</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#github-release-artifacts">GitHub Release artifacts</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-permanence">Data permanence</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-resource-considerations">Computational resource considerations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">&gt;100 MB</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#stream-from-urls">Stream from URLs</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#use-zenodo-org">Use Zenodo.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-permanence-considerations">Data permanence considerations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-projects">Guidelines for Projects</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupterhub-data-sharing">JupterHub Data Sharing</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
@@ -615,8 +688,8 @@ By eScience Institute, University of Washington
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
-<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+  <script src="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
 
   <footer class="bd-footer">
   </footer>
