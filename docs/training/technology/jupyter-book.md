@@ -17,7 +17,7 @@ Because we want the website to always be functional, we suggest a Pull Request w
 
 ### Single page edits
 
-If you are making edits to text on a specific page, Jupyer Book websites have a very convenient "Suggest Edit" feature that connects you to the correct source file in a linked GitHub respository. Below you can see a side-by-side image of the website view and the source page view:
+If you are making edits to text on a specific page, Jupyer Book websites have a very convenient "Suggest Edit" feature that connects you to the correct source file in a linked GitHub repository. Below you can see a side-by-side image of the website view and the source page view:
 
 ![suggest edit](../../images/suggest-edit-side-by-side.png)
 

@@ -25,7 +25,7 @@ If using a subset be sure to capture data provenance, for example by including a
 
 #### GitHub Release artifacts
 
-Generally it is not advisable to store binary files in GitHub repositories. Event if you make small changes to a file, an entire new copy is saved in the revision history and the size of the repository will quickly get unwieldly.
+Generally it is not advisable to store binary files in GitHub repositories. Event if you make small changes to a file, an entire new copy is saved in the revision history and the size of the repository will quickly get unwieldy.
 
 [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) are a feature of GitHub repositories that archive a snapshot of files in your repository *in addition to other auxiliary files*. According to official GitHub documentation:
 
@@ -71,7 +71,7 @@ Be aware that GitHub repositories can be deleted at any time by repository owner
 
 ### JupterHub Data Sharing
 
-During a hackweek, teams often want to share data with eachother for collaborative analysis. In contrast to tutorial datasets which are usually hand-picked, project data is dynamic and changing over time. By using a JupyterHub during a hackweek, participants can take advantage of networked storage drives and pre-configured Cloud Object Storage.
+During a hackweek, teams often want to share data with each other for collaborative analysis. In contrast to tutorial datasets which are usually hand-picked, project data is dynamic and changing over time. By using a JupyterHub during a hackweek, participants can take advantage of networked storage drives and pre-configured Cloud Object Storage.
 
 ```{note}
 JupyterHubs do not always have the same configuration, but we encourage you to review this guide from 2i2c which explains options for JupyterHub storage (https://docs.2i2c.org/user/topics/data/)
