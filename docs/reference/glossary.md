@@ -23,7 +23,7 @@
   projects to manage their software code base.
 
 [GitHub](https://github.com)
-  A service platform that allows developers to create, store, manage and share their code using the "git".
+  A service platform that allows developers to create, store, manage and share their code using the `git` command.
 
 [GitHub Actions](https://github.com/features/actions)
   Continuous integration and continuous delivery (CI/CD) GitHub feature that allows you to automate computational workflows for a GitHub repository.
@@ -46,9 +46,7 @@
   publication-quality books and documents from computational material.
 
 [JupyterHub](https://jupyterhub.readthedocs.io)
-  A core open source tool from the Jupyter community, JupyterHub allows you to
-  deploy an application that provides remote data science environments to
-  multiple users. It can be deployed in the cloud, or on your own hardware.
+  JupyterHub allows you to deploy an application that provides remote data science environments (typically Jupyter Lab) to multiple users. It can be deployed with a cloud service provider, or on your own hardware.
 
 [JupyterLab](https://jupyterlab.readthedocs.io)
   JupyterLab is the next-generation web-based user interface for Project Jupyter

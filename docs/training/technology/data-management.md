@@ -11,6 +11,8 @@ In order for tutorial notebooks to be executable on widely available public comp
 
 ## Guidelines for Tutorials
 
+Try to use the smallest amount of data possible for your tutorial. If your tutorial starts with downloading data from a remote location, keep in mind that it may take longer than usual if hundreds of participants are accessing the same datasets simultaneously. Below we provide recommendations for common data volumes.
+
 ### <10MB
 If your tutorial just needs a small image, or tabular data like a `.csv` file, go ahead and add it to the repository along with your tutorial code.
 
