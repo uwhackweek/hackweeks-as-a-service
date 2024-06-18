@@ -25,8 +25,11 @@
 [GitHub](https://github.com)
   A service platform that allows developers to create, store, manage and share their code using the "git".
 
-[GitHub Actions](https://docs.github.com/en/actions)
+[GitHub Actions](https://github.com/features/actions)
   Continuous integration and continuous delivery (CI/CD) GitHub feature that allows you to automate computational workflows for a GitHub repository.
+
+[GitHub Pages](https://pages.github.com)
+  GitHub feature that allows you to host a website connected to a repository or organization
 
 [Hackweek](https://uwhackweek.github.io/hackweeks-as-a-service)
   Participant-driven events that strive to create welcoming spaces to learn new
