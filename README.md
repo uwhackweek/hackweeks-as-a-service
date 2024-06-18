@@ -18,8 +18,7 @@ jb build docs
 
 ## Contact
 
-* [Anthony Arendt](mailto:arendta@uw.edu)
-* [Scott Henderson](mailto:scottyh@uw.edu)
+* [email eScience](mailto:escience-hackweeks@uw.edu)
 
 ## License
 
