@@ -16,10 +16,16 @@ We encourage all teams to create a new GitHub repository within the hackweek org
 
 * Click the green "Use this template" button on right side of page:
 
-![new-repo-screenshot](../../images/project-template.png)
+![use-this-template-screenshot](../../images/project-template.png)
 
-* Choose "Create a new repository"
-* Name your repository using a short name.
+* Choose "Create a new repository" from the drop down menu
+
+![create-new-repo-screenshot](../../images/project-template2.png)
+
+* Select the GitHub organization for your hackweek from the "Owner" dropdown menu, and give your new project repository a name.
+
+![repo-owner-and-name-screenshot](../../images/project-template3.png)
+
 * We recommend choosing "Public" so other participants can follow progress
 * Add a "topic" to your repository details (click on the gear icon next to the "About" section on your repository page) to help others find your work (e.g. `uw-hackweek-snowex2024`)
 
