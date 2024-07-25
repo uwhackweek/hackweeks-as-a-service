@@ -18,11 +18,11 @@ We encourage all teams to create a new GitHub repository within the hackweek org
 
 ![use-this-template-screenshot](../../images/project-template.png)
 
-* Choose "Create a new repository" from the drop down menu
+* Choose "Create a new repository" from the drop-down menu
 
 ![create-new-repo-screenshot](../../images/project-template2.png)
 
-* Select the GitHub organization for your hackweek from the "Owner" dropdown menu, and give your new project repository a name.
+* Select the GitHub organization for your hackweek from the "Owner" drop-down menu, and give your new project repository a name.
 
 ![repo-owner-and-name-screenshot](../../images/project-template3.png)
 
