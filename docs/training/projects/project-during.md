@@ -44,11 +44,11 @@ Next, let's have a 10 - 15 minute conversation (depending on team size) about th
 Now that the team has had a chance to get to know each other and talk about your process and systems, it is time to begin identifying tasks. 
 
 ```{admonition} CREATING A TASKBOARD
-* List the tasks that will need to be done (starting with any that the project leader may have already identified)
-* All team members are encouraged to contribute here. All ideas and perspectives are needed.
-* Identify any clusters of common tasks or tasks that must be completed sequentially
-* Team members volunteer for tasks that match their personal goals and interests, identify opportunities for working in pairs or small groups
-* Identify if any tasks require skills or knowledge that the current team does not yet have (the project team helper may be able to connect you with someone to provide those skills or knowledge)
+All team members are encouraged to contribute here. All ideas and perspectives are needed.
+* List the tasks that will need to be done (starting with any that the project leader may have already identified).
+* Identify any clusters of common tasks or tasks that must be completed sequentially.
+* Team members volunteer for tasks that match their personal goals and interests, identify opportunities for working in pairs or small groups.
+* Identify if any tasks require skills or knowledge that the current team does not yet have (the project team helper may be able to connect you with someone to provide those skills or knowledge).
 ```
 
 ```{image} ../../images/project-taskboard.png
