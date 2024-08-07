@@ -159,11 +159,6 @@ with my position?
 up in the room?
 :::
 
-## Hackweek Examples
-
-We have prepared two videos that simulate typical scenarios occurring 
-at a hackweek. (This section is still in development.)
-
 ## Group Activity
 
 We invite you to reflect on your own identity and how this has shaped 
