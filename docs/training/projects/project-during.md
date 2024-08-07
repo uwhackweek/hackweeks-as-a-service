@@ -37,8 +37,6 @@ Next, let's have a 10 - 15 minute conversation (depending on team size) about th
 * How will we recognize / attribute effort?
 ```
 
-(need some facilitation approach to ensure everyone is heard. 1-2-4 all?)
-
 ### Step 3: Brainstorming Tasks
 
 Now that the team has had a chance to get to know each other and talk about your process and systems, it is time to begin identifying tasks. 
