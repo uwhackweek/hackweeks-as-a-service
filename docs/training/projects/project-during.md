@@ -77,7 +77,7 @@ It's common for teams to dive into the project work too early. Do you know the n
 * All team members check back in at the end of the day, review progress towards tasks, anything preventing progress, and planned next steps
 * Project leaders may also want to share with the whole hackweek group: How the project is coming along, what are the objectives and tasks identified by the team today, and what other skills might your team need to be successful?
 
-## Daily Team Standups
+## Days 1-5: Standups
 
 A "standup" meeting model may be useful for your team to check in at the beginning and end of each day of the hackweek. During these short meetings, each team member is given a minute or so to briefly share 1) progress they have made on their tasks, 2) anything preventing progress, and 3) what they plan on working on next.
 
