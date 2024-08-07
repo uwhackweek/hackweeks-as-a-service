@@ -79,7 +79,9 @@ It's common for teams to dive into the project work too early. Do you know the n
 
 ## Daily Team Standups
 
-A "stand up" meeting model may be useful for your team to check in at the beginning and end of each day of the hackweek. During these short meetings, each team member is given a minute or so to briefly share 1) progress they have made on their tasks, 2) anything preventing progress, and 3) what they plan on working on next. 
+A "standup" meeting model may be useful for your team to check in at the beginning and end of each day of the hackweek. During these short meetings, each team member is given a minute or so to briefly share 1) progress they have made on their tasks, 2) anything preventing progress, and 3) what they plan on working on next.
+
+The goal of these "standups" is to make sure everyone has the resources and support they need to achieve their hackweek goals - it can be hard to ask for help when you're working with a new team!
 
 * Begin each day with a team meeting to discuss:
     * Progress made on the previous day
