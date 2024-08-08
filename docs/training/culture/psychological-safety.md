@@ -168,12 +168,16 @@ with power and privilege {cite:p}`morgan_describing_1996`. We'll work with
 a version of such a wheel that locates high privilege in the center 
 transitioning to lower privilege towards the outer edge of the circle.
 
+Typically the center of such a circle is associated with greater power, 
+and the outer edges associated with marginalization (see example 
+[wheel of power and privilege](https://usq.pressbooks.pub/app/uploads/sites/53/2022/05/Power.jpg)).
+
 :::{admonition} Activity Instructions
 :class: tip
 The purpose of this activity is to locate yourself on your own wheel of power 
 and privilege. We will not ask you to share your wheel with others. Instead, 
-we'll invite you to discuss in small groups general ways your experience of 
-the exercise might affect how you show up at the hackweek. 
+we'll invite you to reflect on how your levels of privilege might affect 
+how you show up at the hackweek.
 1. Choose 4 different identities that have particular meaning for you when 
 you think about participating in a learning environment, and jot these down 
 in a list.
@@ -194,10 +198,10 @@ privilege.
 ```
 
 **Prompts for Discussion**
-* Typically the center of such a circle is associated with greater power, 
-and the outer edges associated with marginalization (see example 
-[wheel of power and privilege](https://usq.pressbooks.pub/app/uploads/sites/53/2022/05/Power.jpg)). 
-Does this ring true for your example?
+* What came up for you during this exercise?
+* What did you notice?
+* What insights did you have?
+
 :::
 
 ## Suggested "hacks" to build awareness 
@@ -211,5 +215,5 @@ What can I be doing to learn more?
 * How does my identity compare / contrast with others around me? 
 * What are the opportunities and potential challenges of the assembly 
 of identities in the room? What dynamics might need specific attention from me?
-* Are there any portions of my identity that feel powerful? Can I use this power 
+* Are there any portions of my identity that afford me power? Can I use this power 
 to help foster psychological safety for others?
