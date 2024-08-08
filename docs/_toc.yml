@@ -25,9 +25,6 @@ parts:
         - file: training/technology/jupyter-book
         - file: training/technology/data-management
         - file: training/technology/help-me
-
-    - file: training/strategy/index
-
     - file: training/culture/index
       sections:
         - file: training/culture/psychological-safety.md
