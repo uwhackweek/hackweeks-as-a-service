@@ -1,5 +1,11 @@
 # Projects
 
+```{image} ../../images/Project_Lead.png
+:alt: icon for project lead role 
+:width: 150px
+:align: left
+```
+
 During our hackweeks, we invite participants to collaborate in small group project teams (usually 5-7 people). Depending on the size of the hackweek, we usually see between 10-15 project teams form. Embedding project work along with tutorials across the week offers participants multiple ways to deepen their learning around specific data sets, data science methods, and open science practices.
 
 Why do we dedicate so much of the hackweek to project work? We see project-based learning to be an effective tool for iterative, collaborative engagement with hackweek content {cite:p}`almulla_effectiveness_2020`, and a forum for peer-learning {cite:p}`topping_trends_2005`. Projects can also be a catalyst for the formation of communities of practice that continue to grow after a hackweek has ended.
