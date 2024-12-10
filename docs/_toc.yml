@@ -5,7 +5,9 @@ parts:
   chapters:
     - file: overview/overview
     - file: overview/training-modules
-
+      sections:
+        - file: overview/hackweek-roles
+        - file: overview/eScience-Staff-Roles
 - caption: Organizer Training
   chapters:
     - file: training/tutorials/index
