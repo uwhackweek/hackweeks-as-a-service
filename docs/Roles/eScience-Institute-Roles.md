@@ -52,3 +52,6 @@ The Education Consultant has experience with designing curriculum and creating p
 - Offer tutorials during the hackweek to teach participants about strategies for teamwork and collaboration.
 - Provide content editing with a pedagogical lens for tutorial leads as they develop written content.
 
+--------
+
+
