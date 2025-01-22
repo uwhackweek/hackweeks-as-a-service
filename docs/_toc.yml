@@ -5,16 +5,15 @@ parts:
   chapters:
     - file: overview/overview
     - file: overview/training-modules
-
 - caption: Hackweek Roles
-    - file: roles/Community-Lead
-    - file: roles/Project-Lead
-    - file: roles/Project-Consultant
-    - file: roles/Technical-Roles
-    - file: roles/Tutorial-Lead
-    - file: roles/Collaboration-Architect
-    - file: roles/eScience-Institute-Roles
-
+  chapters:
+    - file: roles/community-lead
+    - file: roles/project-lead
+    - file: roles/project-consultant
+    - file: roles/technical-roles
+    - file: roles/tutorial-lead
+    - file: roles/collaboration-architect
+    - file: roles/escience-institute-roles
 - caption: Organizer Training
   chapters:
     - file: training/tutorials/index
@@ -37,7 +36,6 @@ parts:
     - file: training/culture/index
       sections:
         - file: training/culture/psychological-safety.md
-
 - caption: Reference
   chapters:
     - file: reference/bibliography
