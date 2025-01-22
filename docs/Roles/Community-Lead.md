@@ -1,8 +1,4 @@
-```{image} ../../images/Community_Lead.png
-:alt: Community Lead logo.
-:width: 100%
-:align: left
-```
+![Community Lead](../images/community-lead.svg)
 ## Community Lead
 The Community Lead guides the activities of community members engaged in hackweek organization and execution. This is typically the person who contacted eScience requesting a hackweek.
 

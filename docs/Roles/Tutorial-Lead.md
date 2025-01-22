@@ -1,8 +1,5 @@
-```{image} ../../images/Tutorial_Lead.png
-:alt: Tutorial Lead logo.
-:width: 100%
-:align: left
-```
+![Tutorial Lead](../images/tutorial-lead.svg)
+
 ## Tutorial Lead
 Tutorial Leads use their knowledge of data science tools and methods to create online learning materials and teach tutorials during the hackweek.
 

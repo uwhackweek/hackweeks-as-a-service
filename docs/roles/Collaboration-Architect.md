@@ -1,8 +1,5 @@
-```{image} ../../images/Collaboration_Architect.png
-:alt: Collaboration Architect logo.
-:width: 100%
-:align: left
-```
+![Collaboration Architect](../images/collaboration-architect.svg) 
+
 ## Collaboration Architect
 The Collaboration Architect is experienced in developing community-building strategies that amplify inclusion, co-mentoring, and collaboration. They identify the barriers that inhibit engagement and contribution, and they develop structured interactions that enhance the participant’s learning experience.
 

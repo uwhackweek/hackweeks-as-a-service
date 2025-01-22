@@ -1,8 +1,4 @@
-```{image} ../../images/eScience_Roles.png
-:alt: eScience Institute logo.
-:width: 100%
-:align: left
-```
+![eScience Roles](../images/escience-roles.svg)
 ## eScience Institute Roles
 The roles outlined below are unique to the eScience Institute and perform specific tasks related to the hackweek events hosted by the University of Washington. For organizers looking to host their own hackweek events, these roles have been included below to provide insight into some of the support roles a group may wish to consider if running their own event.
 

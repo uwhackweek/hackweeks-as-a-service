@@ -1,8 +1,4 @@
-```{image} ../../images/Project_Consultant.png
-:alt: Project Consultant logo.
-:width: 100%
-:align: left
-```
+![Project Consultant](../images/project-consultant.svg)
 ## Project Consultant
 The Project Consultant has a big-picture view of the possible scope of projects for the hackweek community, and helps participants get clear on project ideas and objectives.
 

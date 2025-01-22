@@ -1,3 +1,4 @@
+![Project Lead](../images/project-lead.svg)
 ## Project Lead
 Project Leads have an interest in guiding small teams in their progress toward hackweek project goals. Usually the project lead is the person who pitches a project idea.
 

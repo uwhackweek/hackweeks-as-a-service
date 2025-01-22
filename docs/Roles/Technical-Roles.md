@@ -1,8 +1,4 @@
-```{image} ../../images/Technical_Helper.png
-:alt: Technical Helper and Technical Lead logo.
-:width: 100%
-:align: left
-```
+![Technical Lead](../images/technical-helper.svg)
 ## Technical Lead
 The Technology Lead is experienced with the computational platforms that support hackweek collaboration and learning.
 
