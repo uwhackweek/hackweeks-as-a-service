@@ -1,13 +1,13 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="../../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Organizing your project on GitHub</title>
   
   
@@ -28,35 +28,32 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=497e6c38" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/sphinx_highlight.js"></script>
-    <script src="../../_static/clipboard.min.js"></script>
-    <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../../_static/design-tabs.js"></script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-RP8169MN6Q"></script>
     <script>
                 window.dataLayer = window.dataLayer || [];
@@ -65,7 +62,15 @@
                 gtag('config', 'G-RP8169MN6Q');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RP8169MN6Q');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'training/projects/project-github';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -205,10 +210,6 @@
 <li class="toctree-l2"><a class="reference internal" href="../technology/jupyter-book.html">Jupyter Book</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../technology/data-management.html">Data management</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../technology/help-me.html">Where to go for help during a hackweek</a></li>
-</ul>
-</details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../culture/index.html">Learning Culture</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../culture/psychological-safety.html">Psychological Safety</a></li>
 </ul>
 </details></li>
 </ul>
@@ -444,15 +445,15 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="tex2jax_ignore mathjax_ignore section" id="organizing-your-project-on-github">
-<h1>Organizing your project on GitHub<a class="headerlink" href="#organizing-your-project-on-github" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="organizing-your-project-on-github">
+<h1>Organizing your project on GitHub<a class="headerlink" href="#organizing-your-project-on-github" title="Link to this heading">#</a></h1>
 <p>We encourage all teams to use GitHub to coordinate sharing of ideas, data and code. Additional tools may also be provided by the hackweek organizers, such as a Slack workspace for communication (hackweek organizers can set up a Slack channel for your project team).</p>
-<div class="section" id="project-name">
-<h2>Project Name<a class="headerlink" href="#project-name" title="Permalink to this heading">#</a></h2>
+<section id="project-name">
+<h2>Project Name<a class="headerlink" href="#project-name" title="Link to this heading">#</a></h2>
 <p>Before getting started, you’ll need a name for your project. A team exploring snow surface temperatures used the name “hot-pow”, and one looking at ice-ocean interactions was called “floes-are-swell”. Keep it short and memorable, and most of all, have fun!</p>
-</div>
-<div class="section" id="use-our-github-project-template">
-<h2>Use our GitHub Project Template<a class="headerlink" href="#use-our-github-project-template" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="use-our-github-project-template">
+<h2>Use our GitHub Project Template<a class="headerlink" href="#use-our-github-project-template" title="Link to this heading">#</a></h2>
 <p>We have created a GitHub template that is pre-populated with directories and a README layout the we find works well with most teams.</p>
 <p>We encourage all teams to create a new GitHub repository within the hackweek organization, even if it is just to point to an already-existing repository or package your team is contributing to for their project.</p>
 <ul class="simple">
@@ -473,9 +474,9 @@ document.write(`
 <li><p>Add a “topic” to your repository details (click on the gear icon next to the “About” section on your repository page) to help others find your work (e.g. <code class="docutils literal notranslate"><span class="pre">uw-hackweek-snowex2024</span></code>)</p></li>
 </ul>
 <p>Visit the <a class="reference external" href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template">GitHub documentation</a> for more details on creating a repository from a template.</p>
-</div>
-<div class="section" id="create-a-new-github-team-within-the-hackweek-organization">
-<h2>Create a new GitHub team within the hackweek organization<a class="headerlink" href="#create-a-new-github-team-within-the-hackweek-organization" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="create-a-new-github-team-within-the-hackweek-organization">
+<h2>Create a new GitHub team within the hackweek organization<a class="headerlink" href="#create-a-new-github-team-within-the-hackweek-organization" title="Link to this heading">#</a></h2>
 <p>GitHub teams provide a convenient way for you to set permissions on your project repository for groups of people, rather than having to do this for each individual on your team.</p>
 <ol class="arabic simple">
 <li><p>Go to the “Teams” tab near the top of the GitHub hackweek organization page</p></li>
@@ -485,9 +486,9 @@ document.write(`
 <li><p>Click on the “Create Team” button</p></li>
 <li><p>Add all team members by clicking the “Members” tab and the green “Add a member” button</p></li>
 </ol>
-</div>
-<div class="section" id="add-the-project-team-to-your-project-repo">
-<h2>Add the project team to your project repo<a class="headerlink" href="#add-the-project-team-to-your-project-repo" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="add-the-project-team-to-your-project-repo">
+<h2>Add the project team to your project repo<a class="headerlink" href="#add-the-project-team-to-your-project-repo" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Go to the new repository you just created</p></li>
 <li><p>Click “Settings” tab in upper right corner</p></li>
@@ -496,8 +497,8 @@ document.write(`
 <li><p>Select “write” to enable all team members to make commits</p></li>
 </ol>
 <p>Visit the <a class="reference external" href="https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team">GitHub documentation</a> for more details on creating a team.</p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {

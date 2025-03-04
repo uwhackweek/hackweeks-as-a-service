@@ -1,13 +1,13 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="../../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Data management</title>
   
   
@@ -28,35 +28,32 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=497e6c38" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/sphinx_highlight.js"></script>
-    <script src="../../_static/clipboard.min.js"></script>
-    <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../../_static/design-tabs.js"></script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-RP8169MN6Q"></script>
     <script>
                 window.dataLayer = window.dataLayer || [];
@@ -65,7 +62,15 @@
                 gtag('config', 'G-RP8169MN6Q');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RP8169MN6Q');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'training/technology/data-management';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -205,10 +210,6 @@
 <li class="toctree-l2"><a class="reference internal" href="jupyter-book.html">Jupyter Book</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Data management</a></li>
 <li class="toctree-l2"><a class="reference internal" href="help-me.html">Where to go for help during a hackweek</a></li>
-</ul>
-</details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../culture/index.html">Learning Culture</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../culture/psychological-safety.html">Psychological Safety</a></li>
 </ul>
 </details></li>
 </ul>
@@ -459,26 +460,26 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="tex2jax_ignore mathjax_ignore section" id="data-management">
-<h1>Data management<a class="headerlink" href="#data-management" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-management">
+<h1>Data management<a class="headerlink" href="#data-management" title="Link to this heading">#</a></h1>
 <p>A challenging aspect of tutorial development is how to manage dataset dependencies. Ideally, the data you use will be <em>publicly accessible</em> and <em>permanent</em> for reproducibility. In this section we present practical guidelines for effective data sharing for Hackweek Tutorials and Projects.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Remember, a hackweek tutorial is <em>learning-oriented</em> and should guide participants through a step-wise process with a meaningful outcome. If you typically work with large datasets, consider designing your tutorial to work with a small subset (~10 MB) that still enables your learning objectives to be met.</p>
 </div>
-<div class="section" id="computational-resource-considerations">
-<h2>Computational resource considerations<a class="headerlink" href="#computational-resource-considerations" title="Permalink to this heading">#</a></h2>
+<section id="computational-resource-considerations">
+<h2>Computational resource considerations<a class="headerlink" href="#computational-resource-considerations" title="Link to this heading">#</a></h2>
 <p>In order for tutorial notebooks to be executable on widely available public computing infrastructure <em>we recommend targeting limited computational requirements such as 2-core CPU, 8 GB of RAM memory, 10 GB of disk space (at the time of writing)</em></p>
-</div>
-<div class="section" id="guidelines-for-tutorials">
-<h2>Guidelines for Tutorials<a class="headerlink" href="#guidelines-for-tutorials" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="guidelines-for-tutorials">
+<h2>Guidelines for Tutorials<a class="headerlink" href="#guidelines-for-tutorials" title="Link to this heading">#</a></h2>
 <p>Try to use the smallest amount of data possible for your tutorial. If your tutorial starts with downloading data from a remote location, keep in mind that it may take longer than usual if hundreds of participants are accessing the same datasets simultaneously. Below we provide recommendations for common data volumes.</p>
-<div class="section" id="mb">
-<h3>&lt;10MB<a class="headerlink" href="#mb" title="Permalink to this heading">#</a></h3>
+<section id="mb">
+<h3>&lt;10MB<a class="headerlink" href="#mb" title="Link to this heading">#</a></h3>
 <p>If your tutorial just needs a small image, or tabular data like a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file, go ahead and add it to the repository along with your tutorial code.</p>
-</div>
-<div class="section" id="id1">
-<h3>10 - 100 MB<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+</section>
+<section id="id1">
+<h3>10 - 100 MB<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
 <p>You can create a separate repository on GitHub to publicly host your tutorial dataset. <a class="reference external" href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github">Per GitHub repository limits</a>, <em>individual files are required to be &lt; 100 MB</em>.</p>
 <ul class="simple">
 <li><p>Here is an <a class="reference external" href="https://github.com/snowex-hackweek/tutorial-data">example for images</a></p></li>
@@ -488,8 +489,8 @@ document.write(`
 <p class="admonition-title">Note</p>
 <p>If using a subset be sure to capture data provenance, for example by including a script that you used to access the original full-sized dataset from the data provider.</p>
 </div>
-<div class="section" id="github-release-artifacts">
-<h4>GitHub Release artifacts<a class="headerlink" href="#github-release-artifacts" title="Permalink to this heading">#</a></h4>
+<section id="github-release-artifacts">
+<h4>GitHub Release artifacts<a class="headerlink" href="#github-release-artifacts" title="Link to this heading">#</a></h4>
 <p>Generally it is not advisable to store binary files in GitHub repositories. Event if you make small changes to a file, an entire new copy is saved in the revision history and the size of the repository will quickly get unwieldy.</p>
 <p><a class="reference external" href="https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases">GitHub Releases</a> are a feature of GitHub repositories that archive a snapshot of files in your repository <em>in addition to other auxiliary files</em>. According to official GitHub documentation:</p>
 <blockquote>
@@ -503,12 +504,12 @@ document.write(`
 <p class="admonition-title">Note</p>
 <p>The GitHub Command Line Interface (CLI) provides a convenient method for downloading release data <a class="reference external" href="https://cli.github.com/manual/gh_release_download">https://cli.github.com/manual/gh_release_download</a></p>
 </div>
-</div>
-</div>
-<div class="section" id="id2">
-<h3>&gt;100 MB<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
-<div class="section" id="stream-from-urls">
-<h4>Stream from URLs<a class="headerlink" href="#stream-from-urls" title="Permalink to this heading">#</a></h4>
+</section>
+</section>
+<section id="id2">
+<h3>&gt;100 MB<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<section id="stream-from-urls">
+<h4>Stream from URLs<a class="headerlink" href="#stream-from-urls" title="Link to this heading">#</a></h4>
 <p>Increasingly there are ways to load remote data in a streaming fashion, which allows you to avoid download and storage altogether! Essential this means using software that can read URLs instead of local file paths, such as at the beginning of <a class="reference external" href="https://snowex-hackweek.github.io/website/tutorials/sar/sentinel1.html#dive-right-in">this tutorial</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -522,36 +523,36 @@ document.write(`
 <li><p>Here is an <a class="reference external" href="https://earthaccess.readthedocs.io/en/latest/tutorials/file-access/">example using the Python earthaccess library</a></p></li>
 <li><p>Libraries like Xarray can <a class="reference external" href="https://docs.xarray.dev/en/stable/user-guide/io.html#cloud-storage-buckets">read data directly from cloud storage</a></p></li>
 </ul>
-</div>
-<div class="section" id="use-zenodo-org">
-<h4>Use <a class="reference external" href="http://Zenodo.org">Zenodo.org</a><a class="headerlink" href="#use-zenodo-org" title="Permalink to this heading">#</a></h4>
+</section>
+<section id="use-zenodo-org">
+<h4>Use <a class="reference external" href="http://Zenodo.org">Zenodo.org</a><a class="headerlink" href="#use-zenodo-org" title="Link to this heading">#</a></h4>
 <p>Another approach is to upload your data on Zenodo, which at the time of writing has a standard 50 GB limit (<a class="reference external" href="https://library.cfa.harvard.edu/data-archiving-and-sharing">https://library.cfa.harvard.edu/data-archiving-and-sharing</a>).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><a class="github reference external" href="https://github.com/fatiando/pooch">fatiando/pooch</a> is a nice Python utility to fetch data from Zenodo</p>
 </div>
-</div>
-</div>
-</div>
-<div class="section" id="data-permanence-considerations">
-<h2>Data permanence considerations<a class="headerlink" href="#data-permanence-considerations" title="Permalink to this heading">#</a></h2>
+</section>
+</section>
+</section>
+<section id="data-permanence-considerations">
+<h2>Data permanence considerations<a class="headerlink" href="#data-permanence-considerations" title="Link to this heading">#</a></h2>
 <p>Be aware that GitHub repositories can be deleted at any time by repository owners. For guaranteed long-term (10+years) hosting of a tutorial dataset that receives a citable Digital Object Identifier (DOI) you can use <a class="reference external" href="https://about.zenodo.org">Zenodo.org</a>. You can easily <a class="reference external" href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content">link a GitHub repository with Zenodo</a></p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://snowex-hackweek.github.io/website/tutorials/thermal-ir/thermal-ir-tutorial.html#">Here</a> is an example tutorial that retrieves a dataset from a <a class="reference external" href="https://zenodo.org/record/5504396">Zenodo ‘record’</a></p></li>
 </ul>
-</div>
-<div class="section" id="guidelines-for-projects">
-<h2>Guidelines for Projects<a class="headerlink" href="#guidelines-for-projects" title="Permalink to this heading">#</a></h2>
-<div class="section" id="jupterhub-data-sharing">
-<h3>JupterHub Data Sharing<a class="headerlink" href="#jupterhub-data-sharing" title="Permalink to this heading">#</a></h3>
+</section>
+<section id="guidelines-for-projects">
+<h2>Guidelines for Projects<a class="headerlink" href="#guidelines-for-projects" title="Link to this heading">#</a></h2>
+<section id="jupterhub-data-sharing">
+<h3>JupterHub Data Sharing<a class="headerlink" href="#jupterhub-data-sharing" title="Link to this heading">#</a></h3>
 <p>During a hackweek, teams often want to share data with each other for collaborative analysis. In contrast to tutorial datasets which are usually hand-picked, project data is dynamic and changing over time. By using a JupyterHub during a hackweek, participants can take advantage of networked storage drives and pre-configured Cloud Object Storage.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>JupyterHubs do not always have the same configuration, but we encourage you to review this guide from 2i2c which explains options for JupyterHub storage (<a class="reference external" href="https://docs.2i2c.org/user/topics/data/">https://docs.2i2c.org/user/topics/data/</a>)</p>
 </div>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
